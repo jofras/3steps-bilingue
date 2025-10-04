@@ -1,0 +1,28 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [
+    "static/chunks/df8c1_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d32ac886._.js",
+    "static/chunks/df8c1_next_dist_compiled_react-dom_bc77d36d._.js",
+    "static/chunks/df8c1_next_dist_compiled_next-devtools_index_ccc0e1f0.js",
+    "static/chunks/df8c1_next_dist_compiled_ba77596d._.js",
+    "static/chunks/df8c1_next_dist_client_bc2d3d22._.js",
+    "static/chunks/df8c1_next_dist_597ece66._.js",
+    "static/chunks/df8c1_@swc_helpers_cjs_9d6e5099._.js",
+    "static/chunks/3steps-bilingue_a0ff3932._.js",
+    "static/chunks/turbopack-3steps-bilingue_1302633c._.js"
+  ],
+  "ampFirstPages": []
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+
+];
