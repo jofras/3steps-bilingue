@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
 
 export default function Why3Steps() {
-  const t = useTranslations('why3steps');
+  const t = useTranslations('about.why3steps');
 
   return (
     <SectionBlock title={t('title')} bg="white">

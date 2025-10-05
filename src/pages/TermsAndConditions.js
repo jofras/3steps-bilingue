@@ -1,31 +1,37 @@
 // src/pages/TermsAndConditions.js
+
+"use client";
+
+import { useTranslations } from 'next-intl';
 import SectionBlock from "../components/SectionBlock";
 
 export default function TermsAndConditions() {
+  const t = useTranslations('legal.terms');
+
   return (
-    <SectionBlock title="Terms & Conditions" bg="white">
+    <SectionBlock title={t('title')} bg="white">
       <div className="max-w-3xl mx-auto px-4 space-y-8">
         <div className="space-y-2">
           <p className="text-textdark text-sm leading-relaxed">
-            These General Terms and Conditions (GTC) apply to all registrations, bookings, and services made via our website or other means. For minors, the consent of a legal guardian is required.
+            {t('paragraph1')}
           </p>
           <p className="text-textdark text-sm leading-relaxed">
-            The prices on the website are binding, and by registering, you agree to pay the full amount. If payment fails, you will receive an invoice to be paid within 14 days.
+            {t('paragraph2')}
           </p>
           <p className="text-textdark text-sm leading-relaxed">
-            Registration is done online, and a binding contract is only concluded once you have received an explicit confirmation of participation from 3 Steps Athletics.
+            {t('paragraph3')}
           </p>
           <p className="text-textdark text-sm leading-relaxed">
-            Cancellations made up to 4 weeks before the event are free of charge. Within 2 weeks of the start, 50% of the fee is due, and less than 24 hours before, 100% is due.
+            {t('paragraph4')}
           </p>
           <p className="text-textdark text-sm leading-relaxed">
-            3 Steps Athletics accepts no liability for injury, theft, loss, or damage to personal belongings during the event. Any claims for damages are excluded.
+            {t('paragraph5')}
           </p>
           <p className="text-textdark text-sm leading-relaxed">
-            By registering, you grant permission for photos and videos of the participant to be used for advertising purposes.
+            {t('paragraph6')}
           </p>
           <p className="text-textdark text-sm leading-relaxed">
-            The governing law is Swiss law, and the non-exclusive jurisdiction is the courts of Zurich.
+            {t('paragraph7')}
           </p>
         </div>
       </div>

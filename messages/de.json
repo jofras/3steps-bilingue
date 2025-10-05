@@ -1,108 +1,220 @@
 {
-  "navigation": {
-    "home": "Startseite",
-    "about": "Über Uns",
-    "purpose": "Unser Zweck",
-    "whoweare": "Wer Wir Sind",
-    "why3steps": "Warum 3 Steps",
-    "sports": "Sportarten",
-    "programs": "Programme",
-    "multimedia": "Multimedia",
-    "visuals": "Visuelles",
-    "news": "Nachrichten",
-    "partners": "Partner",
-    "contact": "Kontakt",
-    "signup": "Anmelden"
-  },
-  "footer": {
-    "copyright": "© {year} 3Steps Athletics. Alle Rechte vorbehalten.",
-    "legalNotice": "Rechtliche Hinweise",
-    "team": "Team",
-    "mission": "Mission",
-    "partners": "Partner",
-    "contact": "Kontakt"
-  },
-  "events": {
-    "title": "Kommende Veranstaltungen",
-    "categories": {
-      "all": "Alle",
-      "camps": "Camps",
-      "trainings": "Trainings",
-      "summerLeague": "Sommerliga"
+    "navigation": {
+        "home": "Startseite",
+        "about": "Über Uns",
+        "purpose": "Unser Zweck",
+        "whoweare": "Wer Wir Sind",
+        "why3steps": "Warum 3 Steps",
+        "sports": "Sportarten",
+        "programs": "Programme",
+        "multimedia": "Multimedia",
+        "visuals": "Visuelles",
+        "news": "Nachrichten",
+        "partners": "Partner",
+        "contact": "Kontakt",
+        "signup": "Anmelden"
     },
-    "table": {
-      "title": "Titel",
-      "date": "Datum",
-      "time": "Zeit",
-      "place": "Ort",
-      "ages": "Alter",
-      "price": "Preis"
+    "footer": {
+        "copyright": "© {year} 3Steps Athletics. Alle Rechte vorbehalten.",
+        "legalNotice": "Rechtliche Hinweise",
+        "team": "Team",
+        "mission": "Mission",
+        "partners": "Partner",
+        "contact": "Kontakt"
     },
-    "noEvents": "Momentan sind keine Veranstaltungen geplant.",
-    "signupButton": "Zur Anmeldeseite"
-  },
-  "home": {
-    "hero": {
-      "title": "Werde besser in dem, was du liebst",
-      "description": "3 Steps Athletics bietet Training und Events in verschiedenen Sportarten an, um dir zu helfen, dich in der Sportart zu verbessern, die du liebst. Das Ziel ist es, harte Arbeit mit der Liebe zu kombinieren, die wir für den Sport teilen."
+    "events": {
+        "title": "Kommende Veranstaltungen",
+        "categories": {
+            "all": "Alle",
+            "camps": "Camps",
+            "trainings": "Trainings",
+            "summerLeague": "Sommerliga"
+        },
+        "table": {
+            "title": "Titel",
+            "date": "Datum",
+            "time": "Zeit",
+            "place": "Ort",
+            "ages": "Alter",
+            "price": "Preis"
+        },
+        "noEvents": "Momentan sind keine Veranstaltungen geplant.",
+        "signupButton": "Zur Anmeldeseite"
     },
-    "follow": {
-      "title": "Folge Uns",
-      "description": "Erhalte das Neueste von unseren sozialen Medien – Events, Trainingstipps und Blicke hinter die Kulissen.",
-      "trainingDay": "Trainingstag-Highlights",
-      "behindScenes": "Hinter den Kulissen",
-      "gameMoments": "Spielmomente",
-      "tips": "Tipps & Tricks"
+    "about": {
+        "purpose": {
+            "title": "Unser Zweck",
+            "section1": {
+                "heading": "Unser Antrieb bei 3 Steps Athletics",
+                "paragraph1": "Wir bei 3 Steps Athletics sind selbst junge, motivierte und aktive Sportler. Wir werden von unserer Leidenschaft für den Sport angetrieben und genau diese Begeisterung wollen wir an unsere Teilnehmer weitergeben. Unser Ziel ist es, Menschen, insbesondere Kinder und Jugendliche, für den Sport zu begeistern und ihnen zu helfen, in der Sportart, die sie lieben, besser zu werden.",
+                "paragraph2": "Der Trick besteht darin, harte Arbeit mit Leidenschaft zu verbinden. So entwickeln wir uns nicht nur als Athleten, sondern auch als Menschen weiter und erreichen Dinge, die zuvor undenkbar schienen. Wir wollen die beiden kombinieren, um das ganzheitlichste und effektivste Trainingserlebnis zu schaffen.",
+                "paragraph3": "In einer Zeit, in der die digitale Welt unser Leben zunehmend beeinflusst, ist es wichtiger denn je, Kinder und Jugendliche für Bewegung und Sport zu begeistern. Heutzutage bewegen sich junge Menschen weniger als je zuvor. Anstatt stundenlang vor ihren Handys zu sitzen, wollen wir sie motivieren, Sport zu treiben, eine echte Freude daran zu entwickeln und den inneren Willen, das Beste aus sich in ihrer Disziplin herauszuholen.",
+                "paragraph4": "Unsere Trainingseinheiten fördern nicht nur die sportliche Entwicklung, sondern stärken auch die Gemeinschaft. Sport vereint. Nelson Mandela fasste dies ebenfalls zusammen:",
+                "quote": "\"Sport hat die Kraft, die Welt zu verändern. Er hat die Kraft zu inspirieren, er hat die Kraft, Menschen auf eine Weise zu vereinen, wie es nur wenig anderes tut.\""
+            },
+            "section2": {
+                "heading": "Was uns besonders macht",
+                "paragraph1": "Unser junges Alter und unsere eigene aktive Sporterfahrung geben uns eine direkte Verbindung zu den Teilnehmern. Wir verstehen ihre Perspektive, sprechen ihre Sprache und wissen, wie wir sie motivieren können. Da wir selbst aktiv sind, können wir jede Übung korrekt und verständlich demonstrieren, was für den Lernprozess entscheidend ist. Schliesslich lernen Kinder und Jugendliche nicht nur durch Handeln, sondern auch visuell durch Sehen.",
+                "paragraph2": "Unser Trainingskonzept basiert auf einem einfachen, aber effektiven Prinzip: Wir stellen uns immer zuerst die folgenden Fragen:",
+                "list1": "Welche Fähigkeiten (Skills) sollen trainiert werden?",
+                "list2": "Wie können sie gelernt und verbessert werden?",
+                "list3": "Welchen Effekt haben diese Fähigkeiten in Spielen oder Wettkämpfen?",
+                "paragraph3": "Erst wenn wir diese Fragen klar beantworten können, integrieren wir ein Element in unser Programm. Jede Übung, jede Methode ist eine bewusste Entscheidung und hat eine spezifische Anwendung in der jeweiligen Sportart. Wir fragen uns immer, ob diese Übung uns selbst voranbringen und uns zu einem kompletteren Spieler machen würde.",
+                "paragraph4": "Unser Ansatz wird von ständiger Reflexion und Verbesserung angetrieben. Wir glauben an das Prinzip, dass „Wandel die einzige Konstante im Leben ist“, wie der griechische Philosoph Heraklit einst sagte.",
+                "paragraph5": "Deshalb bleiben wir offen für neue Ideen, testen innovative Trainingsmethoden und passen unser Programm ständig an, um unseren Teilnehmern den bestmöglichen Service zu bieten.",
+                "paragraph6": "Unser Antrieb: die Gesellschaft mit der Kraft des Sports zu stärken und insbesondere Kinder und Jugendliche zu unterstützen.",
+                "closingStatement": "Jung. Dynamisch. Innovativ. Das ist 3 Steps Athletics."
+            }
+        },
+        "whoweare": {
+            "title": "Wer Wir Sind",
+            "introParagraph": "Um den Sport und die junge Generation zu fördern, bieten wir unsere Programme während der Saisonpause an. Auf diese Weise helfen wir den „Stars von morgen“, ihren Traum zu verwirklichen. Wir sind ein junges Team, alle mit Coaching-Erfahrung und spielen selbst aktiv Eishockey. Deshalb wissen wir, wie wir mit den Teilnehmern umgehen müssen und was es braucht, um ein Profi zu werden. Wir freuen uns darauf, euch persönlich kennenzulernen!",
+            "kevin": {
+                "role1": "Gründer von 3 Steps Athletics & Leitender Eishockey-Trainer",
+                "role2": "Aktiver Spieler für das Ohio University D1 Eishockey-Team",
+                "quote": "Ich begann mit 5 Jahren in der Organisation der Lions mit dem Eishockey. Mit Ausnahme von 2 Saisons, von denen ich eine für den EHC Kloten spielte und eine wegen meiner Gesundheit aussetzen musste, spielte ich alle diese Jahre bis zum Ende der Saison 23/24 als Löwe. Im Jahr 2022 gründete ich 3 Steps Hockey und bin seitdem aktiv als Trainer tätig. Ich habe es gegründet, um meine Liebe zum Sport zu teilen und Teilnehmern zu helfen, sich durch einen abgerundeten und ganzheitlichen Trainingsansatz darin zu verbessern."
+            }
+        },
+        "why3steps": {
+            "title": "Warum 3 Steps?",
+            "intro": {
+                "brand": "3 Steps",
+                "text": "steht für Ganzheitlichkeit. Viele Dinge werden oft mit 3 Dingen zusammengefasst, und so ist 3 Steps symbolisch dafür, dass wir versuchen, alle Aspekte zu berücksichtigen, die Menschen und Sportler und damit ihre Leistung im Sport beeinflussen."
+            },
+            "complexity": {
+                "paragraph1": "Das Leben ist komplex und wird von vielen verschiedenen Faktoren beeinflusst, und so ist es auch beim Sport. Genauso wie im Leben viele verschiedene Faktoren zu Erfolg oder Misserfolg beitragen, ist es auch im Sport. Die Leistung eines Athleten wird von vielen verschiedenen Variablen beeinflusst, und mit 3 Steps versuchen wir, all diese Aspekte in unser Programm zu integrieren.",
+                "paragraph2": "Sport kann auch grob in 3 Kategorien eingeteilt werden:"
+            },
+            "categories": {
+                "intro": "Sport kann auch grob in 3 Kategorien eingeteilt werden:",
+                "ability": "Sportartspezifische Fähigkeit",
+                "physique": "Körper",
+                "mind": "Geist",
+                "subdivision": "Diese Kategorien können dann wieder in 3 weitere Kategorien unterteilt werden und dann diese Kategorien wieder. Dies zeigt, dass Sport ein nie endender Lern- und Entwicklungsprozess ist. Man ist nie fertig, weder als Person noch als Sportler."
+            },
+            "approach": {
+                "paragraph1": "Inmitten dieser Komplexität ist es entscheidend, einen klaren Kopf zu bewahren und sich auf das Wesentliche zu konzentrieren. Genau hier setzt unser Training an:",
+                "paragraph2": "Wir bieten Struktur und verfolgen einen gezielten und dennoch ganzheitlichen Ansatz. Unser Ziel ist es, ein Training anzubieten, das sowohl umfassend als auch effektiv ist, sich auf das konzentriert, was wirklich zählt, und auf unsere Fähigkeiten abgestimmt ist, unter Berücksichtigung des Umfangs jedes Trainings."
+            }
+        }
+    },
+    "programs": {
+        "hero": {
+            "title": "Unsere Programme",
+            "subtitle": "Hockeyprogramme — für jeden jungen Sportler",
+            "imageAlt": "Junge Sportler beim Sport"
+        },
+        "intro": {
+            "title": "Jeden Sportler stärken",
+            "paragraph1": "Um den größtmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
+            "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
+            "skills": {
+                "shooting": "Schießen",
+                "stickhandling": "Stockführung",
+                "skating": "Schlittschuhlaufen"
+            },
+            "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
+            "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "formTitle": "Google Form Kontakt",
+        "loading": "Lädt..."
+    },
+    "legal": {
+        "impressum": {
+            "title": "Rechtliche Hinweise",
+            "contactAddress": {
+                "title": "Kontaktadresse",
+                "authorizedPerson": "Vertretungsberechtigte(s) Person(en):"
+            },
+            "disclaimer": {
+                "title": "Haftungsausschluss",
+                "paragraph1": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+                "paragraph2": "Als Diensteanbieter sind wir gemäss der allgemeinen Gesetzgebung für eigene Inhalte auf diesen Seiten verantwortlich. Als Diensteanbieter sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach der allgemeinen Gesetzgebung bleiben davon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+                "paragraph3": "Unsere Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstösse überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+                "paragraph4": "Die auf diesen Seiten erstellten Inhalte und Werke unterliegen dem Urheberrecht der Schweiz. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung ausserhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+            }
+        },
+        "privacy": {
+            "title": "Datenschutzerklärung",
+            "paragraph1": "Verantwortliche Stelle für den Datenschutz ist 3 Steps Athletics mit Sitz Im Hüttengraben 6, 8700 Küsnacht. Sie können uns per E-Mail unter info@3stepsathletics.ch kontaktieren.",
+            "paragraph2": "Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den Datenschutzbestimmungen. Wir weisen darauf hin, dass die Datenübertragung im Internet Sicherheitslücken aufweisen kann und ein lückenloser Schutz vor dem Zugriff Dritter nicht möglich ist. Personenbezogene Daten, wie Name, Adresse oder E-Mail, werden, soweit möglich, auf freiwilliger Basis erhoben. Wir werden Ihre Daten ohne Ihre Zustimmung nicht an Dritte weitergeben."
+        },
+        "terms": {
+            "title": "AGB – Allgemeine Geschäftsbedingungen",
+            "paragraph1": "Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Anmeldungen, Buchungen und Leistungen, die über unsere Website oder andere Wege erfolgen. Für Minderjährige ist die Zustimmung eines gesetzlichen Vertreters erforderlich.",
+            "paragraph2": "Die auf der Website genannten Preise sind verbindlich, und mit der Anmeldung verpflichten Sie sich zur Zahlung des vollen Betrags. Sollte die Zahlung fehlschlagen, erhalten Sie eine Rechnung, die innerhalb von 14 Tagen zu begleichen ist.",
+            "paragraph3": "Die Anmeldung erfolgt online, und ein verbindlicher Vertrag kommt erst zustande, wenn Sie eine explizite Teilnahmebestätigung von 3 Steps Athletics erhalten haben.",
+            "paragraph4": "Stornierungen bis 4 Wochen vor der Veranstaltung sind kostenlos. Innerhalb von 2 Wochen vor Beginn sind 50% der Gebühr fällig, und weniger als 24 Stunden vorher sind 100% fällig.",
+            "paragraph5": "3 Steps Athletics übernimmt keine Haftung für Verletzungen, Diebstahl, Verlust oder Beschädigung von persönlichen Gegenständen während der Veranstaltung. Jegliche Schadenersatzansprüche sind ausgeschlossen.",
+            "paragraph6": "Mit der Anmeldung erteilen Sie die Genehmigung, dass Fotos und Videos des Teilnehmers für Werbezwecke verwendet werden dürfen.",
+            "paragraph7": "Es gilt Schweizer Recht, und nicht ausschliesslicher Gerichtsstand sind die Gerichte in Zürich."
+        }
+    },
+    "home": {
+        "hero": {
+            "mainTitle": "Werde dein bestes Ich",
+            "signUpButton": "Jetzt Anmelden"
+        },
+        "intro": {
+            "title": "Werde besser in dem, was du liebst",
+            "paragraph": "3 Steps Athletics bietet Trainings und Events in verschiedenen Sportarten an, um dir zu helfen, dich in dem Sport zu verbessern, den du liebst. Das Ziel ist es, harte Arbeit mit der Liebe zu kombinieren, die wir für den Sport teilen."
+        },
+        "follow": {
+            "title": "Folge Uns",
+            "subtitle": "Erhalte die neuesten Informationen von unseren sozialen Medien – Events, Trainingstipps und Blicke hinter die Kulissen."
+        },
+        "partners": {
+            "title": "Unsere Partner",
+            "subtitle": "Wir sind dankbar, euch als Partner zu haben.",
+            "button": "Partner werden"
+        }
+    },
+    "multimedia": {
+        "hero": {
+            "title": "Unsere Reise",
+            "subtitle": "Erlebe die unvergesslichen Momente, die 3 Steps Athletics geprägt haben, noch einmal"
+        },
+        "photos": {
+            "title": "Fotogalerie",
+            "subtitle": "Einfangen des Geistes, der Hingabe und der Freude, die unsere Sportgemeinschaft auszeichnen"
+        },
+        "videos": {
+            "title": "Video-Highlights",
+            "subtitle": "Sieh unsere Athleten in Aktion und erlebe die Leidenschaft, die uns antreibt"
+        },
+        "news": {
+            "title": "Neueste Nachrichten",
+            "subtitle": "Bleib auf dem Laufenden über die neuesten Ereignisse und Erfolge bei 3 Steps Athletics",
+            "readMore": "Mehr Lesen →",
+            "noNews": "Derzeit sind keine Nachrichtenartikel verfügbar."
+        }
+    },
+    "article": {
+        "notFound": "Beitrag nicht gefunden.",
+        "defaultAuthor": "3Steps Team"
+    },
+    "signup": {
+        "title": "Anmelden",
+        "formTitle": "Anmelde-Google-Formular",
+        "loading": "Lädt…"
     },
     "partners": {
-      "title": "Unsere Partner",
-      "description": "Wir sind dankbar, euch als Partner zu haben."
+        "title": "Unsere Partner",
+        "subtitle": "Wir sind dankbar, euch als Partner zu haben.",
+        "button": "Partner werden"
+    },
+    "sports": {
+        "hero": {
+            "title": "Unsere Sportarten",
+            "subtitle": "Wir konzentrieren uns auf das, was im Sport am wichtigsten ist",
+            "imageAlt": "Junge Sportler beim Sport"
+        },
+        "intro": {
+            "title": "Jeden Sportler stärken",
+            "paragraph": "3 Steps Athletics möchte möglichst vielen Menschen, insbesondere Kindern, die Möglichkeit geben, den Sport, den sie lieben, auszuüben und ihre Fähigkeiten kontinuierlich weiterzuentwickeln. Dabei verbinden wir Leidenschaft und harte Arbeit mit Expertise."
+        }
     }
-  },
-  "why3steps": {
-    "title": "Warum 3 Steps?",
-    "intro": {
-      "brand": "3 Steps",
-      "text": "steht für Ganzheitlichkeit. Viele Dinge werden oft mit 3 Dingen zusammengefasst, und so ist 3 Steps symbolisch dafür, dass wir versuchen, alle Aspekte zu berücksichtigen, die Menschen und Sportler und damit ihre Leistung im Sport beeinflussen."
-    },
-    "complexity": {
-      "paragraph1": "Das Leben ist komplex und wird von vielen verschiedenen Faktoren beeinflusst, und so ist es auch beim Sport. Genauso wie im Leben viele verschiedene Faktoren zu Erfolg oder Misserfolg beitragen, ist es auch im Sport. Die Leistung eines Athleten wird von vielen verschiedenen Variablen beeinflusst, und mit 3 Steps versuchen wir, all diese Aspekte in unser Programm zu integrieren.",
-      "paragraph2": "Sport kann auch grob in 3 Kategorien eingeteilt werden:"
-    },
-    "categories": {
-      "intro": "Sport kann auch grob in 3 Kategorien eingeteilt werden:",
-      "ability": "Sportartspezifische Fähigkeit",
-      "physique": "Körper",
-      "mind": "Geist",
-      "subdivision": "Diese Kategorien können dann wieder in 3 weitere Kategorien unterteilt werden und dann diese Kategorien wieder. Dies zeigt, dass Sport ein nie endender Lern- und Entwicklungsprozess ist. Man ist nie fertig, weder als Person noch als Sportler."
-    },
-    "approach": {
-      "paragraph1": "Inmitten dieser Komplexität ist es entscheidend, einen klaren Kopf zu bewahren und sich auf das Wesentliche zu konzentrieren. Genau hier setzt unser Training an:",
-      "paragraph2": "Wir bieten Struktur und verfolgen einen gezielten und dennoch ganzheitlichen Ansatz. Unser Ziel ist es, ein Training anzubieten, das sowohl umfassend als auch effektiv ist, sich auf das konzentriert, was wirklich zählt, und auf unsere Fähigkeiten abgestimmt ist, unter Berücksichtigung des Umfangs jedes Trainings."
-    }
-  },
-  "programs": {
-    "hero": {
-      "title": "Unsere Programme",
-      "subtitle": "Hockeyprogramme — für jeden jungen Sportler",
-      "imageAlt": "Junge Sportler beim Sport"
-    },
-    "intro": {
-      "title": "Jeden Sportler stärken",
-      "paragraph1": "Um den größtmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
-      "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
-      "skills": {
-        "shooting": "Schießen",
-        "stickhandling": "Stockführung",
-        "skating": "Schlittschuhlaufen"
-      },
-      "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
-      "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
-    }
-  },
-  "contact": {
-    "title": "Kontakt",
-    "formTitle": "Google Form Kontakt",
-    "loading": "Lädt..."
-  }
 }

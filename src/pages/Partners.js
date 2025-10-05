@@ -1,5 +1,8 @@
 // src/pages/Partners.js
 
+"use client"
+
+import { useTranslations } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
 import Image from 'next/image'; // 💡 NEW: Import the Next.js Image component
 
@@ -17,24 +20,25 @@ const partners = [
 ];
 
 export default function Partners() {
+  const t = useTranslations('partners');
+  
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 -mt-4 md:mt-8">
       <SectionBlock
-        title="Our Partners"
+        title={t('title')} // Refactored title
         bg="white"
         cta={
-          // 💡 OPTIONAL FIX: Change <a> to <Link> for internal Next.js navigation (better prefetching)
-          <a // You can keep <a> here since it's used for the external-looking CTA
-            href="/contact"
+          <Link
+            href="/contact" // Use Next.js Link
             className="bg-primary text-white px-4 py-2 rounded font-bold hover:bg-blue-700 transition"
           >
-            Become a Partner
-          </a>
+            {t('button')} {/* Refactored button text */}
+          </Link>
         }
         padding="px-8 md:px-8"
       >
         <p className="mb-8">
-          We are grateful to have you as partners.
+          {t('subtitle')} {/* Refactored subtitle */}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 place-items-center mb-8">
           {partners.map((partner, i) => (
@@ -45,12 +49,11 @@ export default function Partners() {
               rel="noopener noreferrer"
               className="w-48 h-28 flex items-center justify-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition"
             >
-              <Image // 💡 FIX: Replaced <img> with <Image />
+              <Image 
                 src={partner.logo}
                 alt={`${partner.name} logo`}
-                // 💡 Required dimensions (w-48 is 192px, h-28 is 112px)
-                width={192} 
-                height={112} 
+                width={192}
+                height={112}
                 className="h-full max-h-16 w-auto object-contain"
               />
             </a>

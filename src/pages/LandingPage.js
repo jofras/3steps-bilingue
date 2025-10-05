@@ -2,6 +2,7 @@
 
 "use client"; // 🛑 REQUIRED because of Slider, Link, and useEffect/useState (if used)
 
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import Image from 'next/image'; // 💡 NEW: Use for all images
 import Link from 'next/link';   // 💡 NEW: Use for routing
@@ -43,6 +44,8 @@ const followPosts = [
 
 
 export default function LandingPage() {
+  const t = useTranslations('home');
+
   return (
     <div className="w-full min-h-screen flex flex-col">
       
@@ -53,13 +56,13 @@ export default function LandingPage() {
           {/* Left Side: Text and Button */}
           <div className="w-full md:w-1/2 flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-indigo-800 text-white p-6 md:p-12">
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-center md:text-left leading-tight">
-              Become <span className="whitespace-nowrap">your best</span>
+              {t('hero.mainTitle')}
             </h1>
             <Link
-              href="/signup" // 💡 FIX: Changed 'to' to 'href'
+              href="/signup" 
               className="mt-4 md:mt-8 bg-accent text-white px-6 py-2 text-base md:px-12 md:py-4 md:text-xl font-bold shadow-lg hover:bg-green-600 transition-transform hover:scale-105 rounded-full"
             >
-              Sign Up Now
+              {t('hero.signUpButton')}
             </Link>
           </div>
           
@@ -96,11 +99,9 @@ export default function LandingPage() {
 
       {/* Intro Section */}
       <div className="w-full max-w-3xl mx-auto text-center -mt-24 md:mt-12 px-4">
-        <h2 className="font-heading text-3xl md:text-4xl text-gray-800">Get better at what you love</h2>
+        <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t('intro.title')}</h2>
         <p className="text-gray-600 text-base md:text-lg mt-3">
-          3 Steps Athletics offers training and events in various sports to help you improve in the
-          sport you love to do. The goal is to combine hard work with the love we share for the
-          sport.
+          {t('intro.paragraph')}
         </p>
       </div>
 
@@ -123,9 +124,9 @@ export default function LandingPage() {
 
       {/* Follow Us Section (Fixed Image tags) */}
       <div className="w-full max-w-5xl mx-auto text-center mt-16 md:mt-20 px-4">
-        <h2 className="font-heading text-3xl md:text-4xl text-gray-800">Follow Us</h2>
+        <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t('follow.title')}</h2>
         <p className="text-gray-600 text-base md:text-lg mt-3">
-          Get the latest from our social media – events, training tips, and behind-the-scenes.
+          {t('follow.subtitle')}
         </p>
 
         <Slider
@@ -162,9 +163,9 @@ export default function LandingPage() {
 
       {/* Our Partners Section (Fixed Image tags) */}
       <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4">
-        <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-4">Our Partners</h2>
+        <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-4">{t('partners.title')}</h2>
         <p className="text-gray-600 text-base md:text-lg mb-8">
-          We are grateful to have you as partners.
+          {t('partners.subtitle')}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 place-items-center">
           {partnersData.map((partner, i) => (
@@ -191,7 +192,7 @@ export default function LandingPage() {
             href="/contact" // 💡 FIX: Changed 'to' to 'href'
             className="inline-block bg-primary text-white px-6 py-2 rounded font-bold hover:bg-blue-700 transition"
           >
-            Become a Partner
+            {t('partners.button')}
           </Link>
         </div>
       </div>
