@@ -1,5 +1,73 @@
-/* stylelint-disable */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@400;600&display=swap');
+/* src/app/globals.css */
+
+/* Your existing Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ------------------------------------------------ */
+/* ADDED SLICK CAROUSEL CUSTOM STYLES BELOW:        */
+/* ------------------------------------------------ */
+
+.slider-container .slick-list,
+.slider-container .slick-track {
+  height: 100% !important;
+}
+
+.slide-wrapper {
+  height: 60vh !important;
+}
+
+@media (min-width: 768px) {
+  .slide-wrapper {
+    height: 85vh !important;
+  }
+}
+
+.slider-container .slick-slide > div {
+  height: 100%;
+}
+
+/* Specific styling for the Follow Us slider to prevent cut-off */
+.follow-us-slider .slick-list {
+    margin: 0 -20px; /* Adjust this value. This negative margin counteracts padding applied by slick-slide */
+}
+.follow-us-slider .slick-slide > div {
+    padding: 0 20px; /* Add padding to create space between slides */
+}
+
+/* for something in Impressum.js it */
+.disclaimer-title {
+  margin-top: 1.2rem !important;
+}
+
+/* ------------------------------------------------ */
+/* ADDED SWIPER CUSTOM STYLES BELOW:                */
+/* ------------------------------------------------ */
+
+.photo-swiper .swiper-pagination-bullet {
+  background-color: #0E68F2 !important;
+  opacity: 0.3;
+}
+.photo-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.video-swiper .swiper-pagination-bullet {
+  background-color: #0E68F2 !important;
+  opacity: 0.3;
+}
+.video-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0E68F2 !important;
+}
+@media (max-width: 767px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    font-size: 1.5rem !important; /* Adjust size as needed */
+    width: 1.5rem !important; /* Adjust width as needed */
+    height: 1.5rem !important; /* Adjust height as needed */
+  }
+}

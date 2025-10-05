@@ -1,6 +1,9 @@
-// Partners.js
+// src/pages/Partners.js
 
 import SectionBlock from '../components/SectionBlock';
+import Image from 'next/image'; // 💡 NEW: Import the Next.js Image component
+
+// --- Logo Imports (These are fine as is) ---
 import bkLogo from '../images/partners/bk.svg.png';
 import nikeLogo from '../images/partners/nike.svg.png';
 import nvidiaLogo from '../images/partners/nvidia.svg.png';
@@ -20,7 +23,8 @@ export default function Partners() {
         title="Our Partners"
         bg="white"
         cta={
-          <a
+          // 💡 OPTIONAL FIX: Change <a> to <Link> for internal Next.js navigation (better prefetching)
+          <a // You can keep <a> here since it's used for the external-looking CTA
             href="/contact"
             className="bg-primary text-white px-4 py-2 rounded font-bold hover:bg-blue-700 transition"
           >
@@ -41,9 +45,12 @@ export default function Partners() {
               rel="noopener noreferrer"
               className="w-48 h-28 flex items-center justify-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition"
             >
-              <img
+              <Image // 💡 FIX: Replaced <img> with <Image />
                 src={partner.logo}
                 alt={`${partner.name} logo`}
+                // 💡 Required dimensions (w-48 is 192px, h-28 is 112px)
+                width={192} 
+                height={112} 
                 className="h-full max-h-16 w-auto object-contain"
               />
             </a>

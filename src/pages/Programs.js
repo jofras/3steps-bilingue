@@ -1,14 +1,23 @@
-// Programs.js
+// src/pages/Programs.js
 
+import Image from 'next/image'; // 💡 NEW: Import the Next.js Image component
 import soccer4 from '../images/soccer4.jpg'; // using as generic hero
-import { EventSection } from '../components/EventSection';
+import { EventSection } from '../components/EventSection'; // NOTE: Ensure EventSection is Next.js compatible
 
 export default function Programs() {
     return (
         <div className="w-full min-h-screen flex flex-col">
             {/* Hero Section */}
             <div className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center bg-gray-300">
-                <img src={soccer4} alt="Young athletes playing sports" className="absolute inset-0 w-full h-full object-cover object-center" />
+                <Image // 💡 FIX: Replaced <img> with <Image />
+                    src={soccer4}
+                    alt="Young athletes playing sports"
+                    // 💡 Required dimensions (use large numbers to cover the whole viewport)
+                    width={1600} 
+                    height={1200}
+                    priority // Load this hero image early
+                    className="absolute inset-0 w-full h-full object-cover object-center" 
+                />
                 <div className="relative z-10 flex flex-col items-center justify-center w-full h-full bg-black/40">
                     <h1 className="font-heading text-5xl md:text-6xl text-white text-center drop-shadow-lg">Our Programs</h1>
                     <p className="text-white text-lg md:text-2xl mt-4 text-center">Hockey programs – for every young athlete</p>
@@ -16,6 +25,7 @@ export default function Programs() {
             </div>
 
             {/* Intro Section */}
+            {/* ... (rest of the component is fine) ... */}
             <div className="w-full max-w-3xl mx-auto text-center mt-12 px-4">
                 <h2 className="font-heading text-3xl md:text-4xl font text-gray-800">Empowering every athlete</h2>
                 <p className="text-gray-600 text-base md:text-lg mt-3">

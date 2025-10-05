@@ -1,23 +1,28 @@
 self.__BUILD_MANIFEST = {
+  "/_error": [
+    "./static/chunks/pages/_error.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
-    "/About",
     "/Contact",
-    "/ContactIP",
-    "/EventSection",
+    "/Impressum",
     "/LandingPage",
-    "/LegalNotice",
     "/Multimedia",
     "/News",
     "/NewsArticle",
+    "/OurPurpose",
     "/Partners",
+    "/PrivacyPolicy",
     "/Programs",
     "/Signup",
     "/SportsPage",
+    "/TermsAndConditions",
+    "/WhoWeAre",
+    "/Why3Steps",
     "/_app",
     "/_error"
   ]

@@ -1,6 +1,4 @@
-// Signup.js
-
-// Maybe have separate sheets per sport - but talk to Kevin about that
+// src/pages/Signup.js
 
 export default function SignupPage() {
   return (

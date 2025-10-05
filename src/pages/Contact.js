@@ -1,6 +1,4 @@
-// Signup.js
-
-// Maybe have separate sheets per sport - but talk to Kevin about that
+// src/pages/Contact.js
 
 export default function ContactPage() {
   return (
@@ -12,12 +10,17 @@ export default function ContactPage() {
       <div className="bg-white rounded-lg shadow p-6">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScXLF2D_35xkR3Olhpw49KU6q0S3ulteASOo6p9qWX0kuR9Hw/viewform?embedded=true"
-          width="100%"
-          height="1326 md:1226"
+          // --- FIX APPLIED HERE ---
+          // Use '100%' for width, and set the height using a fixed px value 
+          // or a large Tailwind height utility (like h-screen or a custom value) 
+          // in the className if you have one, or just a large fixed pixel value.
+          width="100%" 
+          height="1326" // Changed to a simple number/string for compatibility
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
-          className="rounded"
+          // Tailwind classes are fine here:
+          className="rounded w-full h-[1326px] md:h-[1226px]" 
           title="Contact Google Form"
         >
           Loading…

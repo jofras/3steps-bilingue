@@ -1,7 +1,7 @@
-// News.js
+// src/pages/News.js
 
 import SectionBlock from '../components/SectionBlock';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'; // 💡 FIX: Use Next.js Link
 import { newsItems } from '../data/newsItems';
 
 export default function News() {
@@ -11,7 +11,10 @@ export default function News() {
         <div className="space-y-6">
           {newsItems.map((post, i) => (
             <div key={i} className="p-4 rounded shadow bg-background">
-              <Link to={`/multimedia/news/${post.slug}`} className="font-heading text-xl text-primary hover:underline">
+              <Link 
+                href={`/multimedia/news/${post.slug}`} // 💡 FIX: Use 'href' instead of 'to'
+                className="font-heading text-xl text-primary hover:underline"
+              >
                 {post.title}
               </Link>
               <div className="text-sm text-gray-500 mb-2">{post.date}</div>

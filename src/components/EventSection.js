@@ -1,9 +1,12 @@
-// EventSection.js
+// src/components/EventSection.js
+
+"use client"; // 🛑 REQUIRED because of useState hook
 
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link'; // 💡 FIX: Use Next.js Link
 
 const dummyEvents = [
+  // ... (dummyEvents array remains the same) ...
   {
     type: 'camp',
     title: 'Winter Skills Camp',
@@ -40,12 +43,12 @@ const dummyEvents = [
     ages: '14–18',
     price: 'CHF 40',
   },
-  // No summer league events for now
 ];
 
 const categories = ['All', 'Camps', 'Trainings', 'Summer League'];
 
-export function EventSection() {
+// Export as a named component (export function)
+export function EventSection() { 
   const [filter, setFilter] = useState('All');
 
   const filteredEvents = dummyEvents.filter(event => {
@@ -114,7 +117,7 @@ export function EventSection() {
       {/* Signup Button */}
       <div className="flex justify-center mt-10">
         <Link
-          to="/signup"
+          href="/signup" // 💡 FIX: Use 'href' instead of 'to'
           className="bg-accent text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-600 transition"
         >
           Go to Signup Page

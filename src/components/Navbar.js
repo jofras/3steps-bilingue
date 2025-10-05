@@ -1,9 +1,12 @@
+// src/components/Navbar.js
+
 "use client";
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link'; // Changed from 'react-router-dom'
-import { usePathname } from 'next/navigation'; // New hook for getting the current path
-import mainIcon from '../assets/main_icon_cropped.png';
+import Link from 'next/link';
+import Image from 'next/image'; // 💡 NEW: Import Next.js Image component
+import { usePathname } from 'next/navigation';
+import mainIcon from '../assets/main_icon_cropped.png'; // Local image object
 
 const navItems = [
   // { label: 'Sports', to: '/sports' },
@@ -27,7 +30,6 @@ export default function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [dropdownTimeout, setDropdownTimeout] = useState(null);
   
-  // Changed from useLocation()
   const pathname = usePathname(); 
 
   useEffect(() => {
@@ -59,11 +61,19 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 left-0 z-50 bg-white shadow-nav transition-all duration-300 font-body">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4 md:py-5">
+        
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2"> {/* Changed 'to' to 'href' */}
-          {/* NOTE: Assets must be in the 'public' folder and referenced as '/main_icon_cropped.png' */}
-          <img src={mainIcon.src || mainIcon} alt="3Steps Athletics Logo" className="h-12 md:h-16 object-contain" />
+        <Link href="/" className="flex items-center gap-2">
+          <Image // 💡 FIX: Use Image component instead of <img>
+            src={mainIcon} 
+            alt="3Steps Athletics Logo" 
+            width={64}  // Appropriate size for h-12/h-16 class (e.g., 64px)
+            height={64} 
+            priority // Load the logo early
+            className="h-12 md:h-16 w-auto object-contain" 
+          />
         </Link>
+        
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-6 items-center">
           {navItems.map((item, idx) => (
@@ -98,14 +108,17 @@ export default function Navbar() {
             )
           ))}
         </div>
+        
         {/* Hamburger for mobile */}
+        {/* ... (Hamburger button is fine) ... */}
         <button className="md:hidden flex flex-col items-center gap-[4px]" onClick={() => setMenuOpen(!menuOpen)} aria-label="Open menu">
           <span className="w-6 h-1 bg-primary rounded transition-all duration-200"></span>
           <span className="w-6 h-1 bg-primary rounded transition-all duration-200"></span>
           <span className="w-6 h-1 bg-primary rounded transition-all duration-200"></span>
         </button>
       </div>
-      {/* Mobile Menu */}
+      
+      {/* Mobile Menu (Fine as is) */}
       {menuOpen && (
         <div className="md:hidden bg-white shadow-nav px-4 py-2 space-y-2 animate-fade-in-down">
           {navItems.map((item) => (

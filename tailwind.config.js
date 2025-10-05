@@ -1,5 +1,7 @@
+// tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const config = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -16,9 +18,9 @@ module.exports = {
         white: '#FFFFFF',
       },
       fontFamily: {
-        display: ["Bowlby One SC", "sans-serif"],
-        heading: ["Sigmar", "sans-serif"],
-        body: ["Nunito Sans", "sans-serif"],
+        display: ["var(--font-display)", "sans-serif"], 
+        heading: ["var(--font-heading)", "sans-serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
       transitionProperty: {
         'height': 'height',
@@ -39,5 +41,7 @@ module.exports = {
     },
   },
   plugins: [],
-}
+}; // <-- Note the semicolon here
 
+// The change is here: use export default instead of module.exports
+export default config;

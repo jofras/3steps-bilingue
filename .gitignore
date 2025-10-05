@@ -1,1 +1,38 @@
-node_modules
+# ----------------------------------------------------------------------
+# Next.js Build Artifacts and Cache
+# ----------------------------------------------------------------------
+.next/
+out/
+.vercel/
+
+# ----------------------------------------------------------------------
+# Dependencies and Node Files
+# ----------------------------------------------------------------------
+/node_modules
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+/npm-debug.log*
+
+# ----------------------------------------------------------------------
+# Environment Variables (SENSITIVE)
+# ----------------------------------------------------------------------
+# This is CRITICAL. Never commit your secrets.
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# ----------------------------------------------------------------------
+# Local Development Files
+# ----------------------------------------------------------------------
+# VS Code files
+.vscode/
+
+# IDE/Editor cache files
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Temporary files (e.g., test coverage)
+/coverage

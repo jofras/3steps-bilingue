@@ -1,11 +1,16 @@
+// src/components/Footer.js
+
 "use client";
 
-import React from 'react';
-import Link from 'next/link'; // Changed from 'react-router-dom'
+import Link from 'next/link';
+import Image from 'next/image'; // 💡 NEW: Import Next.js Image component
 import { Twitter, Instagram, Facebook, Linkedin } from 'lucide-react';
-import mainIcon from '../assets/main_icon_cropped.png';
+import mainIcon from '../assets/main_icon_cropped.png'; // Local image object
 
 export default function Footer() {
+  // NOTE: We change the legal notice link to match the new route group structure: /legal/impressum
+  const currentYear = new Date().getFullYear(); 
+
   return (
     <footer className="bg-white border-t border-gray-200 py-6 mt-12">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
@@ -14,11 +19,18 @@ export default function Footer() {
         <div className="w-full flex justify-between items-center md:justify-start md:gap-2">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            {/* NOTE: Assets must be in the 'public' folder and referenced as '/main_icon_cropped.png' */}
-            <img src={mainIcon.src || mainIcon} alt="3Steps Athletics Logo" className="h-8 md:h-10 object-contain" />
+            <Image // 💡 FIX: Use Image component
+                src={mainIcon} 
+                alt="3Steps Athletics Logo" 
+                // Set explicit width/height based on the h-8/h-10 class (e.g., 40px)
+                width={40} 
+                height={40} 
+                className="h-8 md:h-10 w-auto object-contain"
+            />
           </div>
 
           {/* Social media icons (mobile: right-aligned, desktop: hidden here) */}
+          {/* ... (Social links are fine) ... */}
           <div className="flex gap-x-4 md:hidden">
             <a href="https://instagram.com/yourorg" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="w-5 h-5 text-primary hover:text-pink-500 transition-colors" />
@@ -32,10 +44,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Nav links (mobile: centered below, desktop: inline with logo) */}
+        {/* Nav links */}
         <div className="w-full md:flex md:items-center md:justify-end md:gap-x-8">
           <div className="flex flex-wrap justify-center gap-x-6 text-textdark text-sm md:justify-end">
-            {/* Changed 'to' to 'href' */}
+            {/* The routes below are CORRECTLY using the Next.js Link component with href */}
             <Link href="/about/whoweare" className="hover:text-primary transition-colors">Team</Link>
             <Link href="/about/why-3-steps" className="hover:text-primary transition-colors">Mission</Link>
             <Link href="/partners" className="hover:text-primary transition-colors">Partners</Link>
@@ -59,9 +71,10 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="text-center text-xs text-gray-500 mt-4 px-4">
-        &copy; {new Date().getFullYear()} 3Steps Athletics. All rights reserved.{' '}
+        &copy; {currentYear} 3Steps Athletics. All rights reserved.{' '}
         <Link
-          href="/legalnotice" // Changed 'to' to 'href'
+          // 💡 IMPORTANT: Point to the new route group default page
+          href="/legal/impressum" 
           className="underline hover:text-primary transition-colors"
         >
           Legal Notice

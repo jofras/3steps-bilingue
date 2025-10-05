@@ -1,10 +1,11 @@
-// NewsArticle.js
+// src/pages/NewsArticle.js (Renamed for modularity)
 
-import { useParams } from 'react-router-dom';
+// 🛑 REMOVE: import { useParams } from 'react-router-dom';
 import { newsItems } from '../data/newsItems';
 
-export default function NewsArticle() {
-  const { slug } = useParams();
+// Component now accepts 'slug' directly as a prop, rather than using a hook.
+// In the final Next.js route file, this prop will come from the route params.
+export default function NewsArticleContent({ slug }) { 
   const post = newsItems.find(p => p.slug === slug);
 
   if (!post) {

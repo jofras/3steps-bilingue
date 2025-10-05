@@ -1,9 +1,10 @@
 {
   "pages": {},
   "app": {
-    "[project]/3steps-bilingue/src/app/_not-found/page": [
-      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    "[project]/src/app/_not-found/page": [
+      "static/media/f141b5b7abe57afc-s.p.0de3c900.woff2",
+      "static/media/d899dd96df0479a2-s.p.db1d7750.woff2",
+      "static/media/39d3a37ce3178c4a-s.p.12ed6e66.woff2"
     ]
   },
   "appUsingSizeAdjust": true,

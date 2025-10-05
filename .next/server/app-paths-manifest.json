@@ -1,3 +1,6 @@
 {
+  "/about/whoweare/page": "app/about/whoweare/page.js",
+  "/about/why-3-steps/page": "app/about/why-3-steps/page.js",
+  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js"
 }
