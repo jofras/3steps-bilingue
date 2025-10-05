@@ -1,0 +1,108 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "purpose": "Unser Zweck",
+    "whoweare": "Wer Wir Sind",
+    "why3steps": "Warum 3 Steps",
+    "sports": "Sportarten",
+    "programs": "Programme",
+    "multimedia": "Multimedia",
+    "visuals": "Visuelles",
+    "news": "Nachrichten",
+    "partners": "Partner",
+    "contact": "Kontakt",
+    "signup": "Anmelden"
+  },
+  "footer": {
+    "copyright": "© {year} 3Steps Athletics. Alle Rechte vorbehalten.",
+    "legalNotice": "Rechtliche Hinweise",
+    "team": "Team",
+    "mission": "Mission",
+    "partners": "Partner",
+    "contact": "Kontakt"
+  },
+  "events": {
+    "title": "Kommende Veranstaltungen",
+    "categories": {
+      "all": "Alle",
+      "camps": "Camps",
+      "trainings": "Trainings",
+      "summerLeague": "Sommerliga"
+    },
+    "table": {
+      "title": "Titel",
+      "date": "Datum",
+      "time": "Zeit",
+      "place": "Ort",
+      "ages": "Alter",
+      "price": "Preis"
+    },
+    "noEvents": "Momentan sind keine Veranstaltungen geplant.",
+    "signupButton": "Zur Anmeldeseite"
+  },
+  "home": {
+    "hero": {
+      "title": "Werde besser in dem, was du liebst",
+      "description": "3 Steps Athletics bietet Training und Events in verschiedenen Sportarten an, um dir zu helfen, dich in der Sportart zu verbessern, die du liebst. Das Ziel ist es, harte Arbeit mit der Liebe zu kombinieren, die wir für den Sport teilen."
+    },
+    "follow": {
+      "title": "Folge Uns",
+      "description": "Erhalte das Neueste von unseren sozialen Medien – Events, Trainingstipps und Blicke hinter die Kulissen.",
+      "trainingDay": "Trainingstag-Highlights",
+      "behindScenes": "Hinter den Kulissen",
+      "gameMoments": "Spielmomente",
+      "tips": "Tipps & Tricks"
+    },
+    "partners": {
+      "title": "Unsere Partner",
+      "description": "Wir sind dankbar, euch als Partner zu haben."
+    }
+  },
+  "why3steps": {
+    "title": "Warum 3 Steps?",
+    "intro": {
+      "brand": "3 Steps",
+      "text": "steht für Ganzheitlichkeit. Viele Dinge werden oft mit 3 Dingen zusammengefasst, und so ist 3 Steps symbolisch dafür, dass wir versuchen, alle Aspekte zu berücksichtigen, die Menschen und Sportler und damit ihre Leistung im Sport beeinflussen."
+    },
+    "complexity": {
+      "paragraph1": "Das Leben ist komplex und wird von vielen verschiedenen Faktoren beeinflusst, und so ist es auch beim Sport. Genauso wie im Leben viele verschiedene Faktoren zu Erfolg oder Misserfolg beitragen, ist es auch im Sport. Die Leistung eines Athleten wird von vielen verschiedenen Variablen beeinflusst, und mit 3 Steps versuchen wir, all diese Aspekte in unser Programm zu integrieren.",
+      "paragraph2": "Sport kann auch grob in 3 Kategorien eingeteilt werden:"
+    },
+    "categories": {
+      "intro": "Sport kann auch grob in 3 Kategorien eingeteilt werden:",
+      "ability": "Sportartspezifische Fähigkeit",
+      "physique": "Körper",
+      "mind": "Geist",
+      "subdivision": "Diese Kategorien können dann wieder in 3 weitere Kategorien unterteilt werden und dann diese Kategorien wieder. Dies zeigt, dass Sport ein nie endender Lern- und Entwicklungsprozess ist. Man ist nie fertig, weder als Person noch als Sportler."
+    },
+    "approach": {
+      "paragraph1": "Inmitten dieser Komplexität ist es entscheidend, einen klaren Kopf zu bewahren und sich auf das Wesentliche zu konzentrieren. Genau hier setzt unser Training an:",
+      "paragraph2": "Wir bieten Struktur und verfolgen einen gezielten und dennoch ganzheitlichen Ansatz. Unser Ziel ist es, ein Training anzubieten, das sowohl umfassend als auch effektiv ist, sich auf das konzentriert, was wirklich zählt, und auf unsere Fähigkeiten abgestimmt ist, unter Berücksichtigung des Umfangs jedes Trainings."
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Unsere Programme",
+      "subtitle": "Hockeyprogramme — für jeden jungen Sportler",
+      "imageAlt": "Junge Sportler beim Sport"
+    },
+    "intro": {
+      "title": "Jeden Sportler stärken",
+      "paragraph1": "Um den größtmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
+      "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
+      "skills": {
+        "shooting": "Schießen",
+        "stickhandling": "Stockführung",
+        "skating": "Schlittschuhlaufen"
+      },
+      "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
+      "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "formTitle": "Google Form Kontakt",
+    "loading": "Lädt..."
+  }
+}

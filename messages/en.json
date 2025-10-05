@@ -1,0 +1,108 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "purpose": "Our Purpose",
+    "whoweare": "Who We Are",
+    "why3steps": "Why 3 Steps",
+    "sports": "Sports",
+    "programs": "Programs",
+    "multimedia": "Multimedia",
+    "visuals": "Visuals",
+    "news": "News",
+    "partners": "Partners",
+    "contact": "Contact",
+    "signup": "Sign Up"
+  },
+  "footer": {
+    "copyright": "© {year} 3Steps Athletics. All rights reserved.",
+    "legalNotice": "Legal Notice",
+    "team": "Team",
+    "mission": "Mission",
+    "partners": "Partners",
+    "contact": "Contact"
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "categories": {
+      "all": "All",
+      "camps": "Camps",
+      "trainings": "Trainings",
+      "summerLeague": "Summer League"
+    },
+    "table": {
+      "title": "Title",
+      "date": "Date",
+      "time": "Time",
+      "place": "Place",
+      "ages": "Ages",
+      "price": "Price"
+    },
+    "noEvents": "No events scheduled at the moment.",
+    "signupButton": "Go to Signup Page"
+  },
+  "home": {
+    "hero": {
+      "title": "Get better at what you love",
+      "description": "3 Steps Athletics offers training and events in various sports to help you improve in the sport you love to do. The goal is to combine hard work with the love we share for the sport."
+    },
+    "follow": {
+      "title": "Follow Us",
+      "description": "Get the latest from our social media – events, training tips, and behind-the-scenes.",
+      "trainingDay": "Training Day Highlights",
+      "behindScenes": "Behind the Scenes",
+      "gameMoments": "Game Moments",
+      "tips": "Tips & Tricks"
+    },
+    "partners": {
+      "title": "Our Partners",
+      "description": "We are grateful to have you as partners."
+    }
+  },
+  "why3steps": {
+    "title": "Why 3 Steps?",
+    "intro": {
+      "brand": "3 Steps",
+      "text": "stands for wholeness. Many things are often summarized with 3 things and so 3 Steps is symbolic of the fact that we try to take into account all aspects that influence people and athletes and thus their performance in sport."
+    },
+    "complexity": {
+      "paragraph1": "Life is complex and is influenced by many different factors and so is sport. Just as in life, many different factors contribute to success or failure, so it is in sport. An athlete's performance is influenced by many different variables, and with 3 Steps we try to integrate all these aspects into our program.",
+      "paragraph2": "Sport can also be roughly divided into 3 categories:"
+    },
+    "categories": {
+      "intro": "Sport can also be roughly divided into 3 categories:",
+      "ability": "Sport-specific ability",
+      "physique": "Physique",
+      "mind": "Mind",
+      "subdivision": "These categories can then be divided again into 3 further categories and then those categories again. This shows that sport is a never-ending learning and development process. You are never finished, neither as a person nor as an athlete."
+    },
+    "approach": {
+      "paragraph1": "In the midst of this complexity, it is crucial to keep a clear head and focus on the essentials. This is exactly where our training comes in:",
+      "paragraph2": "We provide structure and take a targeted yet holistic approach. Our goal is to offer training that is both comprehensive and effective, focused on what really matters and is aligned with our capabilities, considering the scope of each training."
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Our Programs",
+      "subtitle": "Hockey programs — for every young athlete",
+      "imageAlt": "Young athletes playing sports"
+    },
+    "intro": {
+      "title": "Empowering every athlete",
+      "paragraph1": "In order to achieve the greatest possible training effect, we train very intensively during our programs, but still with joy. Each player is treated individually. The focus is on the individual and we consistently work on personal skills.",
+      "focusIntro": "We mainly focus on technical skills:",
+      "skills": {
+        "shooting": "Shooting",
+        "stickhandling": "Stickhandling",
+        "skating": "Skating"
+      },
+      "paragraph2": "These three core areas symbolize our 3 steps in training. Through targeted exercises, we improve not only technique but also understanding of the game and game intelligence.",
+      "paragraph3": "Our aim is to improve the players in a playful way, with enthusiasm, but also with the necessary toughness, so that they can successfully apply what they have learned in competition."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "formTitle": "Contact Google Form",
+    "loading": "Loading..."
+  }
+}

@@ -1,10 +1,16 @@
 // src/pages/Contact.js
 
+"use client";
+
+import { useTranslations } from 'next-intl';
+
 export default function ContactPage() {
+  const t = useTranslations('contact');
+  
   return (
     <div className="max-w-3xl mx-auto py-8 md:py-16 px-4">
       <h1 className="font-heading text-4xl text-primary mb-6 text-center">
-        Contact Us
+        {t('contact.title')}
       </h1>
 
       <div className="bg-white rounded-lg shadow p-6">
@@ -21,9 +27,9 @@ export default function ContactPage() {
           marginWidth="0"
           // Tailwind classes are fine here:
           className="rounded w-full h-[1326px] md:h-[1226px]" 
-          title="Contact Google Form"
+          title={t('contact.formTitle')}
         >
-          Loading…
+          {t('contact.loading')}
         </iframe>
       </div>
     </div>

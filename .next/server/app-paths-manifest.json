@@ -1,6 +1,16 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/purpose/page": "app/about/purpose/page.js",
   "/about/whoweare/page": "app/about/whoweare/page.js",
   "/about/why-3-steps/page": "app/about/why-3-steps/page.js",
   "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js"
+  "/legal/impressum/page": "app/legal/impressum/page.js",
+  "/legal/privacy/page": "app/legal/privacy/page.js",
+  "/legal/terms/page": "app/legal/terms/page.js",
+  "/multimedia/page": "app/multimedia/page.js",
+  "/news/page": "app/news/page.js",
+  "/page": "app/page.js",
+  "/partners/page": "app/partners/page.js",
+  "/programs/page": "app/programs/page.js",
+  "/signup/page": "app/signup/page.js"
 }
