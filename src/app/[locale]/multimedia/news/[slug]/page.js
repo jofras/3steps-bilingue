@@ -1,6 +1,6 @@
-// src/app/multimedia/news/[slug]/page.js
+// src/app/[locale]/multimedia/news/[slug]/page.js
 
-import NewsArticleContent from '../../../../../pages/NewsArticle';
+import NewsArticleContent from '../../../../../pageComponents/NewsArticle';
 import { newsItems } from '../../../../../data/newsItems'; // You need this for metadata
 
 // (Optional but highly recommended) Next.js function for static generation

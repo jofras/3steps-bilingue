@@ -1,20 +1,3 @@
 {
-  "/[locale]/about/page": "app/[locale]/about/page.js",
-  "/[locale]/about/purpose/page": "app/[locale]/about/purpose/page.js",
-  "/[locale]/about/whoweare/page": "app/[locale]/about/whoweare/page.js",
-  "/[locale]/about/why-3-steps/page": "app/[locale]/about/why-3-steps/page.js",
-  "/[locale]/contact/page": "app/[locale]/contact/page.js",
-  "/[locale]/legal/impressum/page": "app/[locale]/legal/impressum/page.js",
-  "/[locale]/legal/page": "app/[locale]/legal/page.js",
-  "/[locale]/legal/privacy/page": "app/[locale]/legal/privacy/page.js",
-  "/[locale]/legal/terms/page": "app/[locale]/legal/terms/page.js",
-  "/[locale]/multimedia/news/[slug]/page": "app/[locale]/multimedia/news/[slug]/page.js",
-  "/[locale]/multimedia/page": "app/[locale]/multimedia/page.js",
-  "/[locale]/news/page": "app/[locale]/news/page.js",
-  "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/partners/page": "app/[locale]/partners/page.js",
-  "/[locale]/programs/page": "app/[locale]/programs/page.js",
-  "/[locale]/signup/page": "app/[locale]/signup/page.js",
-  "/[locale]/sports/page": "app/[locale]/sports/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/[locale]/page": "app/[locale]/page.js"
 }

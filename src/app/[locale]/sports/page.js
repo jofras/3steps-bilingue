@@ -1,6 +1,6 @@
-// src/app/sports/page.js
+// src/app/[locale]/sports/page.js
 
-import SportsPage from '../../../pages/SportsPage';
+import SportsPage from '../../../pageComponents/SportsPage';
 
 export default function SportsRoute() {
   return <SportsPage />;

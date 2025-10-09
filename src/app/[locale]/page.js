@@ -1,6 +1,5 @@
 // src/app/[locale]/page.js
-import { useTranslations } from 'next-intl';
-import LandingPage from '../../pages/LandingPage';
+import LandingPage from '../../pageComponents/LandingPage';
 
 export default function Home() {
   return <LandingPage />;
