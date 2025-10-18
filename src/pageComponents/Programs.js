@@ -4,7 +4,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import soccer4 from '../images/soccer4.jpg';
+import shootout from "../images/2023/IMG_5638.jpeg";
 import { EventSection } from '../components/EventSection';
 
 export default function Programs() {
@@ -12,10 +12,10 @@ export default function Programs() {
 
     return (
         <div className="w-full min-h-screen flex flex-col">
-            {/* Hero Section */}
+            {/* hero section */}
             <div className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center bg-gray-300">
                 <Image
-                    src={soccer4}
+                    src={shootout}
                     alt={t('hero.imageAlt')}
                     width={1600}
                     height={1200}
@@ -32,7 +32,7 @@ export default function Programs() {
                 </div>
             </div>
 
-            {/* Intro Section */}
+            {/* intro section */}
             <div className="w-full max-w-3xl mx-auto text-center mt-12 px-4">
                 <h2 className="font-heading text-3xl md:text-4xl font text-gray-800">
                     {t('intro.title')}
@@ -56,7 +56,7 @@ export default function Programs() {
                 </p>
             </div>
 
-            {/* Events section */}
+            {/* events section */}
             <EventSection />
         </div>
     );

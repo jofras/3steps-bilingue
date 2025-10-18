@@ -69,6 +69,7 @@
         "whoweare": {
             "title": "Who We Are",
             "introParagraph": "To promote sport and the younger generation, we offer our programs during the season break. In this way we help the “stars of tomorrow” to realize their dream. We are a young team, all with coaching experience and actively play ice hockey ourselves. That's why we know how to treat the participants and what it takes to become a professional. We look forward to getting to know you personally!",
+            "ageDisplay": "{age} years old",
             "kevin": {
                 "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
                 "role2": "Active player for Ohio University D1 Ice Hockey Team",
@@ -124,10 +125,12 @@
     },
     "legal": {
         "impressum": {
-            "title": "Legal Notice",
+            "title": "Impressum",
             "contactAddress": {
                 "title": "Contact Address",
-                "authorizedPerson": "Authorized person(s) responsible:"
+                "phone": "Phone",
+                "authorizedPerson": "Authorized person(s) responsible",
+                "professionalTitle": "Managing Director"
             },
             "disclaimer": {
                 "title": "Disclaimer",
@@ -139,27 +142,27 @@
         },
         "privacy": {
             "title": "Privacy Policy",
-            "paragraph1": "The responsible body for data protection is 3 Steps Athletics, located at Im Hüttengraben 6, 8700 Küsnacht. You can contact us by email at info@3stepsathletics.ch.",
-            "paragraph2": "We treat your personal data confidentially and in accordance with data protection regulations. We want to point out that data transmission over the Internet may have security vulnerabilities, and complete protection from third-party access is not possible. Personal data, such as name, address, or email, is collected on a voluntary basis as much as possible. We will not pass on your data to third parties without your consent."
+            "paragraph1": "The responsible body within the meaning of data protection laws, in particular the EU General Data Protection Regulation (GDPR), is: 3 Steps Athletics, Im Hüttengraben 6, 8700 Küsnacht, E-Mail: info@3stepsathletics.ch, WebSite: www.3stepsathletics.ch",
+            "paragraph2": "Based on Article 13 of the Swiss Federal Constitution and the federal data protection provisions (Data Protection Act, DSG), every person is entitled to protection of their privacy and protection against misuse of their personal data. The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy. We would like to point out that data transmission over the Internet (e.g., when communicating by email) may be subject to security vulnerabilities. It is not possible to completely protect data from access by third parties. By using this website, you consent to the collection, processing, and use of data as described below. Personal data, in particular name, address, or email address, is collected on a voluntary basis as far as possible. Your data will not be passed on to third parties without your consent."
         },
         "terms": {
             "title": "Terms & Conditions",
-            "paragraph1": "These General Terms and Conditions (GTC) apply to all registrations, bookings, and services made via our website or other means. For minors, the consent of a legal guardian is required.",
-            "paragraph2": "The prices on the website are binding, and by registering, you agree to pay the full amount. If payment fails, you will receive an invoice to be paid within 14 days.",
-            "paragraph3": "Registration is done online, and a binding contract is only concluded once you have received an explicit confirmation of participation from 3 Steps Athletics.",
-            "paragraph4": "Cancellations made up to 4 weeks before the event are free of charge. Within 2 weeks of the start, 50% of the fee is due, and less than 24 hours before, 100% is due.",
+            "paragraph1": "These General Terms and Conditions (GTC) of 3 Steps Athletics apply to all registrations, bookings, and services made or completed via this website or by other means. For underage participants, the consent of a parent or legal guardian is required. Participation in our events is only possible with valid health and accident insurance. For minors, the consent of a parent or legal guardian is required.",
+            "paragraph2": "The prices stated on the website are binding. By registering, you agree to pay the full amount shown. Payment is made using the payment methods offered by 3 Steps Athletics. If the payment fails, you will receive an invoice, which must be paid within 14 days by bank transfer, TWINT, or cash.",
+            "paragraph3": "Registration for our events takes place online via the registration form on our website. After submitting the form, you will automatically receive a confirmation of receipt by email. This does not yet constitute a binding commitment to participate. A binding contract is only concluded once you have received an explicit confirmation of participation from 3 Steps Athletics. The number of participants per event is limited. You are only entitled to participate once you have received the final confirmation.",
+            "paragraph4": "Cancellation of participation is possible under the following conditions: Up to 4 weeks before the start of the event: Cancellation is free of charge. Up to 2 weeks before the start of the event: 50% of the original participation fee is due. Less than 2 weeks before the start of the event: 75% of the original participation fee is due. Less than 24 hours before the start of the event: 100% of the participation fee is due. No refund will be given.",
             "paragraph5": "3 Steps Athletics accepts no liability for injury, theft, loss, or damage to personal belongings during the event. Any claims for damages are excluded.",
-            "paragraph6": "By registering, you grant permission for photos and videos of the participant to be used for advertising purposes.",
-            "paragraph7": "The governing law is Swiss law, and the non-exclusive jurisdiction is the courts of Zurich."
+            "paragraph6": "By registering, you, or in the case of minors, their legal representative, grant 3 Steps Athletics permission to use photos and videos of the participant for advertising purposes (e.g. website, flyers, social media).",
+            "paragraph7": "These General Terms and Conditions and any disputes arising in connection with these General Terms and Conditions or for the purchase and use of the Products or otherwise, shall be governed by Swiss law. The United Nations Convention on Contracts for the International Sale of Goods is hereby excluded from application to these Terms and Conditions. Each party hereby submits to the non-exclusive jurisdiction of the courts of Zurich in respect of all disputes arising out of or in connection with this contract. The German version of these Terms and Conditions is the authoritative version for your booking."
         }
     },
     "home": {
         "hero": {
-            "mainTitle": "Become your best",
+            "mainTitle": "BECOME YOUR BEST",
             "signUpButton": "Sign Up Now"
         },
         "intro": {
-            "title": "Get better at what you love",
+            "title": "GET BETTER AT WHAT YOU LOVE",
             "paragraph": "3 Steps Athletics offers training and events in various sports to help you improve in the sport you love to do. The goal is to combine hard work with the love we share for the sport."
         },
         "follow": {
@@ -168,14 +171,14 @@
         },
         "partners": {
             "title": "Our Partners",
-            "subtitle": "We are grateful to have you as partners.",
+            "subtitle": "We are grateful to have you as your partners.",
             "button": "Become a Partner"
         }
     },
     "multimedia": {
         "hero": {
             "title": "Our Journey",
-            "subtitle": "Relive the unforgettable moments that shaped 3 Steps Athletics"
+            "subtitle": "Let's take a journey through time together and relive the unforgettable moments that shaped 3 Steps Athletics."
         },
         "photos": {
             "title": "Photo Gallery",
@@ -203,7 +206,7 @@
     },
     "partners": {
         "title": "Our Partners",
-        "subtitle": "We are grateful to have you as partners.",
+        "subtitle": "We are grateful to have you as your partners.",
         "button": "Become a Partner"
     },
     "sports": {

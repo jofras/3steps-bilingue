@@ -1,16 +1,18 @@
-// src/app/about/layout.js (The navigation menu)
+// src/app/[locale]/about/layout.js (about navigation menu)
 
-"use client"; // Must be a Client Component to use usePathname
+"use client"; 
 
 import Link from 'next/link';
 import { usePathname, useParams } from 'next/navigation';
+import { useTranslations } from 'use-intl';
 
 export default function AboutLayout({ children }) {
   const pathname = usePathname();
-  const params = useParams(); // 💡 Get params
-  const locale = params.locale; // 💡 Get the current locale ('en', 'de', etc.)
-  // Function to determine if a link is active
+  const params = useParams(); 
+  const locale = params.locale; 
   const isActive = (path) => pathname.includes(path);
+
+  const t = useTranslations('about')
 
   const linkClass = (path) =>
     `text-sm md:text-lg font-medium transition-colors ${isActive(path) ? 'text-primary' : 'text-textdark hover:text-primary'
@@ -23,23 +25,22 @@ export default function AboutLayout({ children }) {
           href={`/${locale}/about/whoweare`}
           className={linkClass('/whoweare')}
         >
-          Who We Are
+          {t('whoweare.title')}
         </Link>
         <Link
           href={`/${locale}/about/purpose`} 
           className={linkClass('/purpose')}
         >
-          Our Purpose
+          {t('purpose.title')}
         </Link>
         <Link
           href={`/${locale}/about/why-3-steps`} 
           className={linkClass('/why-3-steps')}
         >
-          Why 3 Steps?
+          {t('why3steps.title')}
         </Link>
       </nav>
 
-      {/* Renders the specific sub-page content (e.g., purpose/page.js) */}
       {children}
     </div>
   );

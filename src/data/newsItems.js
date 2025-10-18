@@ -1,3 +1,5 @@
+// ADD NEWS ARTICLES HERE
+
 export const newsItems = [
     {
       slug: 'summer-camp-recap',

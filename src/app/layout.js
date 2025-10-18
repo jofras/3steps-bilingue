@@ -11,7 +11,7 @@ export const metadata = {
   },
 };
 
-// Root layout - NO locale logic here
+// no locale logic here
 export default function RootLayout({ children }) {
-  return children; // Just pass through the children
+  return children;
 }

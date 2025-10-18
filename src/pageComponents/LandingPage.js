@@ -1,207 +1,274 @@
-// src/pages/LandingPage.js
+"use client";
 
-"use client"; // 🛑 REQUIRED because of Slider, Link, and useEffect/useState (if used)
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+import Link from "next/link";
 
-import { useTranslations } from 'next-intl';
-import { useState } from 'react';
-import Image from 'next/image'; // 💡 NEW: Use for all images
-import Link from 'next/link';   // 💡 NEW: Use for routing
-import Slider from "react-slick"; // KEEP: Slick Carousel is fine, but mandates "use client"
+// --- Swiper Imports ---
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, A11y, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-// --- Image Imports (Keep these, but they are now image objects) ---
-import hockey3 from '../images/hockey3.jpg';
-import floorball1 from '../images/floorball1.jpg';
-import soccer3 from '../images/soccer3.jpg';
-import soccer4 from '../images/soccer4.jpg'; 
-import bkLogo from '../images/partners/bk.svg.png';
-import nikeLogo from '../images/partners/nike.svg.png';
-import nvidiaLogo from '../images/partners/nvidia.svg.png';
-import underarmourLogo from '../images/partners/underarmour.svg.png';
 
-const heroImages = [soccer4, soccer3, floorball1, hockey3];
+// LOCAL IMAGE IMPORTS
+
+// hockey
+import kidsSmiling from "../images/2025/IMG_9344.jpeg"
+import everybodySmiling from "../images/2025/IMG_9358.jpeg"
+import dominos from "../images/2025/IMG_9361.jpeg"
+import tireflip from "../images/2025_2/IMG_0386.jpeg"
+import speed from "../images/2025_2/IMG_0404.jpeg"
+import shot from "../images/2025/IMG_9340.jpeg"
+import highFive from "../images/2025/IMG_9347.jpeg"
+import attentive from "../images/2025/IMG_9332.jpeg"
+import boardBattle from "../images/2025/IMG_9354.jpeg"
+import postedUp from "../images/2025/IMG_9297.jpeg"
+
+// floorball
+import floorball1 from "../images/random_floorball_pics/floorball1.jpg"
+import floorball2 from "../images/random_floorball_pics/floorball2.jpg"
+
+import slapshootLogo from "../images/partners/slapshoot.png"
+
+const heroImages = [shot, highFive, attentive, tireflip, floorball2];
 
 const sports = [
-  // NOTE: You will need to create Next.js routes for these paths (e.g., src/app/hockey/page.js)
-  { name: 'Hockey', path: '/sports/hockey', img: hockey3 },
-  { name: 'Floorball', path: '/sports/floorball', img: floorball1 }
+  { name: "Hockey", path: "/sports/hockey", img: speed },
+  { name: "Floorball", path: "/sports/floorball", img: floorball1 },
 ];
 
-// Partner data is fine
 const partnersData = [
-    { name: 'BK', logo: bkLogo, url: 'https://www.bk.com' },
-    { name: 'Nike', logo: nikeLogo, url: 'https://www.nike.com' },
-    { name: 'Nvidia', logo: nvidiaLogo, url: 'https://www.nvidia.com' },
-    { name: 'Under Armour', logo: underarmourLogo, url: 'https://www.underarmour.com' },
+  { name: "Slapshoot Photo Company", logo: slapshootLogo, url: "https://slapshoot-photocompany.jimdosite.com/" },
 ];
 
-// Placeholder data for Follow Us section
 const followPosts = [
-    { id: '1', title: 'Training Day Highlights', img: 'https://via.placeholder.com/300x200.png?text=Post+1', url: 'https://instagram.com/yourhandle', },
-    { id: '2', title: 'Behind the Scenes', img: 'https://via.placeholder.com/300x200.png?text=Post+2', url: 'https://twitter.com/yourhandle', },
-    { id: '3', title: 'Game Moments', img: 'https://via.placeholder.com/300x200.png?text=Post+3', url: 'https://facebook.com/yourpage', },
-    { id: '4', title: 'Tips & Tricks', img: 'https://via.placeholder.com/300x200.png?text=Post+4', url: 'https://instagram.com/yourhandle', },
+  {
+    id: "1",
+    title: "Training Day Highlights",
+    img: kidsSmiling,
+    url: "https://www.instagram.com/3stepsathletics/",
+  },
+  {
+    id: "2",
+    title: "Evolution",
+    img: dominos,
+    url: "https://www.instagram.com/3stepsathletics/",
+  },
+  {
+    id: "3",
+    title: "Best Camp Ever!!!",
+    img: everybodySmiling,
+    url: "https://www.instagram.com/3stepsathletics/",
+  },
+  {
+    id: "4",
+    title: "Heating Up!",
+    img: boardBattle,
+    url: "https://www.instagram.com/3stepsathletics/",
+  },
+  {
+    id: "5",
+    title: "Locked In",
+    img: postedUp,
+    url: "https://www.instagram.com/3stepsathletics/",
+  },
 ];
 
-
+// main landing page
 export default function LandingPage() {
-  const t = useTranslations('home');
+  const t = useTranslations("home");
 
   return (
-    <div className="w-full min-h-screen flex flex-col">
-      
-      {/* Hero Section */}
-      <div className="relative w-full min-h-screen md:min-h-0 md:h-[85vh] overflow-hidden">
-        <div className="absolute inset-0 flex flex-col md:flex-row w-full h-full z-10">
-          
-          {/* Left Side: Text and Button */}
-          <div className="w-full md:w-1/2 flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-indigo-800 text-white p-6 md:p-12">
-            <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-center md:text-left leading-tight">
-              {t('hero.mainTitle')}
-            </h1>
-            <Link
-              href="/signup" 
-              className="mt-4 md:mt-8 bg-accent text-white px-6 py-2 text-base md:px-12 md:py-4 md:text-xl font-bold shadow-lg hover:bg-green-600 transition-transform hover:scale-105 rounded-full"
-            >
-              {t('hero.signUpButton')}
-            </Link>
-          </div>
-          
-          {/* Right Side: Slideshow (Image component used inside slider) */}
-          <div className="w-full md:w-1/2 h-[50vh] md:h-full">
-            <Slider
-              autoplay
-              infinite
-              speed={1000}
-              autoplaySpeed={3000}
-              fade
-              arrows={false}
-              className="w-full h-full slider-container"
-            >
-              {heroImages.map((img, i) => (
-                <div key={i} className="w-full h-full slide-wrapper">
-                  <div className="w-full h-full">
-                    <Image // 💡 FIX: Using Next.js Image component
-                      src={img}
-                      alt={`Slide ${i}`}
-                      // Set fixed large dimensions and use object-cover to make it responsive
-                      width={1000} 
-                      height={1000}
-                      priority={i === 0} // Load the first image early
-                      className="w-full h-full object-cover object-center"
-                    />
-                  </div>
-                </div>
-              ))}
-            </Slider>
+    <>
+      {/* Custom styles for Swiper pagination bullets */}
+      <style jsx global>{`
+        .swiper-pagination-bullet {
+          background-color: #ffffff;
+          opacity: 0.7;
+          transition: all 0.2s ease-in-out;
+        }
+        .swiper-pagination-bullet-active {
+          background-color: #4ade80; /* accent color */
+          opacity: 1;
+          transform: scale(1.2);
+        }
+        .swiper-button-next, .swiper-button-prev {
+          color: #ffffff;
+          background-color: rgba(0, 0, 0, 0.3);
+          border-radius: 50%;
+          width: 16px;
+          height: 16px;
+        }
+        .swiper-button-next::after, .swiper-button-prev::after {
+          font-size: 6px;
+          font-weight: bold;
+        }
+      `}</style>
+
+      <div className="w-full min-h-screen flex flex-col">
+        {/* hero section */}
+        <div className="relative w-full min-h-screen md:h-[85vh] overflow-hidden">
+          <div className="absolute inset-0 flex flex-col md:flex-row w-full h-full z-10">
+            {/* left side */}
+            <div className="w-full md:w-1/2 flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-indigo-800 text-white p-6 md:p-12">
+              <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-center md:text-left leading-tight">
+                {t("hero.mainTitle")}
+              </h1>
+              <Link
+                href="/signup"
+                className="mt-6 md:mt-8 bg-accent text-white px-8 py-3 md:px-12 md:py-4 md:text-xl font-bold shadow-lg hover:bg-green-600 transition-transform hover:scale-105 rounded-full"
+              >
+                {t("hero.signUpButton")}
+              </Link>
+            </div>
+
+            {/* right side (hero slider) */}
+            <div className="w-full md:w-1/2 h-[50vh] md:h-full">
+              <Swiper
+                modules={[Autoplay, A11y]}
+                autoplay={{ delay: 3500, disableOnInteraction: false }}
+                loop={true}
+                className="w-full h-full"
+              >
+                {heroImages.map((imgSrc, i) => (
+                  <SwiperSlide key={i}>
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={imgSrc}
+                        alt={`Hero image ${i + 1}`}
+                        fill
+                        priority={i === 0}
+                        className="object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Intro Section */}
-      <div className="w-full max-w-3xl mx-auto text-center -mt-24 md:mt-12 px-4">
-        <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t('intro.title')}</h2>
-        <p className="text-gray-600 text-base md:text-lg mt-3">
-          {t('intro.paragraph')}
-        </p>
-      </div>
+        {/* intro section */}
+        <div className="w-full max-w-3xl mx-auto text-center -mt-24 md:mt-12 px-4">
+          <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t("intro.title")}</h2>
+          <p className="text-gray-600 text-base md:text-lg mt-3">{t("intro.paragraph")}</p>
+        </div>
 
-      {/* Sport Cards (Uncommented and fixed) 
-      <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
-        {sports.map((sport) => (
-          <Link href={sport.path} key={sport.name} className="bg-white rounded-xl shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 w-64 flex flex-col items-center p-4 cursor-pointer">
-            <Image 
-              src={sport.img} 
-              alt={sport.name} 
-              width={256} // Approximate width in px
-              height={128} // Approximate height in px
-              className="w-full h-32 object-cover rounded-md mb-3" 
-            />
-            <span className="font-heading text-xl font-bold text-primary mb-1">{sport.name}</span>
-          </Link>
-        ))}
-      </div> */}
+        {/* sports cards */}
+        <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
+          {sports.map((sport) => (
+            <Link
+              href={sport.path}
+              key={sport.name}
+              className="bg-white rounded-xl shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 w-64 flex flex-col items-center p-4 cursor-pointer"
+            >
+              <Image
+                src={sport.img}
+                alt={sport.name}
+                width={256}
+                height={128}
+                className="w-full h-32 object-cover rounded-md mb-3"
+              />
+              <span className="font-heading text-xl font-bold text-primary mb-1">
+                {sport.name}
+              </span>
+            </Link>
+          ))}
+        </div>
 
+        {/* follow us */}
+        <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4">
+          <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t("follow.title")}</h2>
+          <p className="text-gray-600 text-base md:text-lg mt-3">{t("follow.subtitle")}</p>
 
-      {/* Follow Us Section (Fixed Image tags) */}
-      <div className="w-full max-w-5xl mx-auto text-center mt-16 md:mt-20 px-4">
-        <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t('follow.title')}</h2>
-        <p className="text-gray-600 text-base md:text-lg mt-3">
-          {t('follow.subtitle')}
-        </p>
+          <div className="mt-8">
+            <Swiper
+              modules={[Navigation, A11y, Autoplay]}
+              spaceBetween={16}
+              slidesPerView={1.5}
+              centeredSlides={true}
+              loop={true}
+              navigation
+              autoplay={{ delay: 4000, disableOnInteraction: true }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2.5,
+                  centeredSlides: true,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  centeredSlides: false,
+                },
+              }}
+              className="py-2"
+            >
+              {followPosts.map((post) => (
+                <SwiperSlide key={post.id}>
+                  <a
+                    href={post.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block rounded-lg overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 group"
+                  >
+                    <div className="relative w-full aspect-square">
+                      <Image
+                        src={post.img}
+                        alt={post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 25vw"
+                      />
+                    </div>
+                    <div className="p-3 text-left">
+                      <h3 className="text-sm font-semibold text-gray-700 truncate">{post.title}</h3>
+                    </div>
+                  </a>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </div>
 
-        <Slider
-          // ... (Slider settings remain the same) ...
-          slidesToShow={4}
-          // ...
-          centerMode={true} 
-          centerPadding={'20px'} 
-          className="mt-8 follow-us-slider" 
-        >
-          {followPosts.map((post) => (
-            <div key={post.id} className="px-2">
+        {/* partners section */}
+        <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4 py-8">
+          <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-4">
+            {t("partners.title")}
+          </h2>
+          <p className="text-gray-600 text-base md:text-lg mb-8">{t("partners.subtitle")}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 place-items-center">
+            {partnersData.map((partner, i) => (
               <a
-                href={post.url}
+                key={i}
+                href={partner.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block rounded-lg overflow-hidden shadow-md bg-white hover:shadow-lg transition"
+                className="w-48 h-28 flex items-center justify-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition"
               >
-                <Image // 💡 FIX: Using Next.js Image component for external source
-                  src={post.img} 
-                  alt={post.title} 
-                  width={300} // Defined width
-                  height={200} // Defined height
-                  className="w-full h-40 object-cover" 
+                <Image
+                  src={partner.logo}
+                  alt={`${partner.name} logo`}
+                  width={192}
+                  height={112}
+                  className="h-full max-h-16 w-auto object-contain"
                 />
-                <div className="p-3 text-left">
-                  <h3 className="text-sm font-semibold text-gray-700">{post.title}</h3>
-                </div>
               </a>
-            </div>
-          ))}
-        </Slider>
-      </div>
+            ))}
+          </div>
 
-      {/* Our Partners Section (Fixed Image tags) */}
-      <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4">
-        <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-4">{t('partners.title')}</h2>
-        <p className="text-gray-600 text-base md:text-lg mb-8">
-          {t('partners.subtitle')}
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 place-items-center">
-          {partnersData.map((partner, i) => (
-            <a
-              key={i}
-              href={partner.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-48 h-28 flex items-center justify-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition"
+          <div className="mt-10 md:mt-6">
+            <Link
+              href="/contact"
+              className="inline-block bg-primary text-white px-6 py-2 rounded font-bold hover:bg-blue-700 transition"
             >
-              <Image // 💡 FIX: Using Next.js Image component for local logos
-                src={partner.logo}
-                alt={`${partner.name} logo`}
-                width={192} // w-48 is 192px
-                height={112} // h-28 is 112px
-                className="h-full max-h-16 w-auto object-contain"
-              />
-            </a>
-          ))}
-        </div>
-
-        <div className="mt-10 md:mt-6">
-          <Link
-            href="/contact" // 💡 FIX: Changed 'to' to 'href'
-            className="inline-block bg-primary text-white px-6 py-2 rounded font-bold hover:bg-blue-700 transition"
-          >
-            {t('partners.button')}
-          </Link>
+              {t("partners.button")}
+            </Link>
+          </div>
         </div>
       </div>
-
-      {/* 💡 FIX: Next.js uses <style jsx> only for styled-jsx, which is now deprecated. 
-         For global styles, use globals.css or modules. If you need inline styles, use the 'style' prop. 
-         These styles are better placed in globals.css if they must be global. */}
-      {/* For now, we'll keep the styles but remove the 'style jsx' tag to avoid errors */}
-      
-    </div>
+    </>
   );
 }
+

@@ -1,73 +1,46 @@
-/* src/app/globals.css */
-
-/* Your existing Tailwind directives */
+/* keep tailwind directives at top */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* ------------------------------------------------ */
-/* ADDED SLICK CAROUSEL CUSTOM STYLES BELOW:        */
-/* ------------------------------------------------ */
+/* hero slider height consistency (potentially unused) */
 
-.slider-container .slick-list,
-.slider-container .slick-track {
-  height: 100% !important;
-}
-
-.slide-wrapper {
-  height: 60vh !important;
+.hero-slider {
+  height: 60vh;
 }
 
 @media (min-width: 768px) {
-  .slide-wrapper {
-    height: 85vh !important;
+  .hero-slider {
+    height: 85vh;
   }
 }
 
-.slider-container .slick-slide > div {
-  height: 100%;
+/* follow-us slider layout (also potentially unused) */
+
+.follow-us-slider {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-/* Specific styling for the Follow Us slider to prevent cut-off */
-.follow-us-slider .slick-list {
-    margin: 0 -20px; /* Adjust this value. This negative margin counteracts padding applied by slick-slide */
-}
-.follow-us-slider .slick-slide > div {
-    padding: 0 20px; /* Add padding to create space between slides */
+.follow-us-slider .embla__container {
+  display: flex;
+  gap: 1rem; /* space between slides */
 }
 
-/* for something in Impressum.js it */
+.follow-us-slider .embla__slide {
+  flex: 0 0 auto;
+  width: 70%; /* adjust for visible centered slides */
+}
+
+@media (min-width: 768px) {
+  .follow-us-slider .embla__slide {
+    width: 25%;
+  }
+}
+
+/* partner + utility classes */
+
 .disclaimer-title {
   margin-top: 1.2rem !important;
-}
-
-/* ------------------------------------------------ */
-/* ADDED SWIPER CUSTOM STYLES BELOW:                */
-/* ------------------------------------------------ */
-
-.photo-swiper .swiper-pagination-bullet {
-  background-color: #0E68F2 !important;
-  opacity: 0.3;
-}
-.photo-swiper .swiper-pagination-bullet-active {
-  opacity: 1;
-}
-.video-swiper .swiper-pagination-bullet {
-  background-color: #0E68F2 !important;
-  opacity: 0.3;
-}
-.video-swiper .swiper-pagination-bullet-active {
-  opacity: 1;
-}
-.swiper-button-next,
-.swiper-button-prev {
-  color: #0E68F2 !important;
-}
-@media (max-width: 767px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    font-size: 1.5rem !important; /* Adjust size as needed */
-    width: 1.5rem !important; /* Adjust width as needed */
-    height: 1.5rem !important; /* Adjust height as needed */
-  }
 }

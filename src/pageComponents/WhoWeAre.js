@@ -4,7 +4,7 @@
 
 import { useTranslations } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
-import kevinImage from '../images/kevin2.jpg';
+import kevinImage from '../images/people/kevin.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
 
 export default function WhoWeAre() {
@@ -19,16 +19,15 @@ export default function WhoWeAre() {
             </div>
             <TeamMemberCard
                 imageSrc={kevinImage}
-                name="Kevin Kasper" // Proper noun/name (not translated)
-                age={21} // Data (not translated)
+                name="Kevin Kasper" 
+                age={t('ageDisplay', { age: 21 })} // pass "years old" translation here
                 roles={[
-                    // Roles should be translated
                     t('kevin.role1'),
                     t('kevin.role2'),
                 ]}
-                quote={t('kevin.quote')} // Quote should be translated
+                quote={t('kevin.quote')} 
             />
-            {/* Add more team members here as needed */}
+            {/* add more team members here */}
         </SectionBlock>
     );
 }

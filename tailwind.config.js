@@ -9,7 +9,7 @@ const config = {
     extend: {
       colors: {
         primary: '#0E68F2', // royal blue
-        altprimary: '#78f9a7ff', // light green for headers
+        altprimary: '#78f9a7ff', // light green for headers (unused)
         accent: '#22C55E', // green-500
         background: '#F3F4F6', // gray-100 (logo: 8d8d8d)
         textdark: '#1F2937', // gray-800
@@ -41,7 +41,6 @@ const config = {
     },
   },
   plugins: [],
-}; // <-- Note the semicolon here
+}; 
 
-// The change is here: use export default instead of module.exports
 export default config;

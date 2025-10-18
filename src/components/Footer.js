@@ -17,9 +17,9 @@ export default function Footer() {
     <footer className="bg-white border-t border-gray-200 py-6 mt-12">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         
-        {/* Top row for mobile: logo + social */}
+        {/* top row for mobile: logo + socials */}
         <div className="w-full flex justify-between items-center md:justify-start md:gap-2">
-          {/* Logo */}
+          {/* logo */}
           <div className="flex items-center gap-2">
             <Image
               src={mainIcon}
@@ -30,21 +30,21 @@ export default function Footer() {
             />
           </div>
 
-          {/* Social media icons (mobile only) */}
+          {/* social media icons (mobile only) */}
           <div className="flex gap-x-4 md:hidden">
-            <a href="https://instagram.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/3stepsathletics/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="w-5 h-5 text-primary hover:text-pink-500 transition-colors" />
             </a>
-            <a href="https://facebook.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://facebook.com/3stepsathletics" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook className="w-5 h-5 text-primary hover:text-blue-700 transition-colors" />
             </a>
-            <a href="https://linkedin.com/yourorg" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+            <a href="https://linkedin.com/3stepsathletics" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
               <Linkedin className="w-5 h-5 text-primary hover:text-blue-500 transition-colors" />
             </a>
           </div>
         </div>
 
-        {/* Nav links */}
+        {/* nav links */}
         <div className="w-full md:flex md:items-center md:justify-end md:gap-x-8">
           <div className="flex flex-wrap justify-center gap-x-6 text-textdark text-sm md:justify-end">
             <Link href={`/${locale}/about/whoweare`} className="hover:text-primary transition-colors">
@@ -61,7 +61,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          {/* Social Media Icons (desktop only) */}
+          {/* social media icons (desktop only) */}
           <div className="hidden md:flex justify-end gap-x-6 mt-4 md:mt-0">
             <a href="https://instagram.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="w-5 h-5 text-primary hover:text-pink-500 transition-colors" />
@@ -69,14 +69,14 @@ export default function Footer() {
             <a href="https://facebook.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook className="w-5 h-5 text-primary hover:text-blue-700 transition-colors" />
             </a>
-            <a href="https://linkedin.com/yourorg" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+            <a href="https://linkedin.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
               <Linkedin className="w-5 h-5 text-primary hover:text-blue-500 transition-colors" />
             </a>
           </div>
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* copyright */}
       <div className="text-center text-xs text-gray-500 mt-4 px-4">
         {t('copyright', { year: currentYear })}{' '}
         <Link

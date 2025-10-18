@@ -1,17 +1,16 @@
 // src/app/[locale]/multimedia/news/[slug]/page.js
 
 import NewsArticleContent from '../../../../../pageComponents/NewsArticle';
-import { newsItems } from '../../../../../data/newsItems'; // You need this for metadata
+import { newsItems } from '../../../../../data/newsItems'; 
 
-// (Optional but highly recommended) Next.js function for static generation
-// This tells Next.js which slugs to build at compile time.
+// which slugs to build at compile time
 export async function generateStaticParams() {
   return newsItems.map((post) => ({
     slug: post.slug,
   }));
 }
 
-// (Optional but recommended) Next.js function for dynamic metadata (SEO)
+// dynamic metadata (for SEO)
 export async function generateMetadata({ params }) {
   const post = newsItems.find((p) => p.slug === params.slug);
 
@@ -26,8 +25,8 @@ export async function generateMetadata({ params }) {
 }
 
 
-// The main page component that receives 'params' from Next.js
+// main news page component
 export default function NewsArticleRoute({ params }) {
-  // Pass the slug from the URL params to the UI component
+  // pass slug from URL params to UI component
   return <NewsArticleContent slug={params.slug} />;
 }

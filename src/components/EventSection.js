@@ -6,47 +6,75 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 
+// ADD NEW EVENTS HERE
 const dummyEvents = [
   {
     type: 'camp',
-    title: 'Winter Skills Camp',
-    date: '2025-12-10',
-    time: '09:00–16:00',
-    place: 'Ice Arena Zurich',
-    ages: '10–14',
-    price: 'CHF 120',
+    title: 'Auffahrt Camp',
+    date: '2026-05-14',
+    time: 'See signup',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 295',
   },
   {
     type: 'camp',
-    title: 'Holiday Intensive Camp',
-    date: '2026-01-02',
-    time: '10:00–15:00',
-    place: 'Bern Training Center',
-    ages: '12–16',
-    price: 'CHF 135',
+    title: 'Pfingsten Camp',
+    date: '2026-01-23',
+    time: 'See signup',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 230',
   },
   {
     type: 'training',
-    title: 'Weekly Stickhandling Class',
-    date: 'Every Monday',
-    time: '17:00–18:30',
-    place: 'Lausanne Ice Rink',
-    ages: '8–12',
-    price: 'CHF 25',
+    title: 'Stickhandling Clinic',
+    date: '2026-06-06',
+    time: '13:00-14:00',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 50',
   },
   {
     type: 'training',
-    title: 'Elite Shooting Sessions',
-    date: 'Fridays in February',
-    time: '18:00–19:30',
-    place: 'Geneva Hockey Dome',
-    ages: '14–18',
-    price: 'CHF 40',
+    title: 'Sniper School',
+    date: '2026-06-13',
+    time: '09:15-10:15',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 50',
+  },
+  {
+    type: 'training',
+    title: 'Breakout Practice',
+    date: '2026-06-20',
+    time: '10:45-11:45',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 50',
+  },
+  {
+    type: 'training',
+    title: 'Powerskating (Edgework)',
+    date: '2026-06-27',
+    time: '10:45-11:45',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 50',
+  },
+  {
+    type: 'training',
+    title: 'Coach\'s Challenge',
+    date: '2026-07-04',
+    time: '10:45-11:45',
+    place: 'Wetzikon Ice Rink',
+    ages: 'Juniors & Prospects',
+    price: 'CHF 50',
   },
 ];
 
 export function EventSection() { 
-  const [filter, setFilter] = useState('All');
+  const [filter, setFilter] = useState('all');
   const t = useTranslations('events');
   const locale = useLocale();
 
@@ -62,7 +90,7 @@ export function EventSection() {
     if (filter === 'camps') return event.type === 'camp';
     if (filter === 'trainings') return event.type === 'training';
     if (filter === 'summerLeague') return event.type === 'summer-league';
-    return false;
+    return true;
   });
 
   return (
@@ -71,7 +99,7 @@ export function EventSection() {
         {t('title')}
       </h2>
 
-      {/* Filter Tabs */}
+      {/* filter tabs */}
       <div className="flex justify-center gap-4 flex-wrap mb-6">
         {categories.map(cat => (
           <button
@@ -88,7 +116,7 @@ export function EventSection() {
         ))}
       </div>
 
-      {/* Table or Empty Message */}
+      {/* table or empty message */}
       {filteredEvents.length > 0 ? (
         <div className="overflow-x-auto">
           <table className="min-w-full bg-white shadow-sm rounded-lg overflow-hidden">
@@ -122,7 +150,7 @@ export function EventSection() {
         </div>
       )}
 
-      {/* Signup Button */}
+      {/* signup button */}
       <div className="flex justify-center mt-10">
         <Link
           href={`/${locale}/signup`}

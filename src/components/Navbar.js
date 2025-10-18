@@ -20,7 +20,7 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
 
-  // Navigation items with translation keys
+  // nav items with translation keys
   const navItems = [
     { 
       labelKey: 'programs', 
@@ -73,16 +73,16 @@ export default function Navbar() {
   };
 
   const switchLocale = (newLocale) => {
-    // Remove current locale from pathname and replace with new locale
     const pathWithoutLocale = pathname.replace(`/${locale}`, '');
     router.push(`/${newLocale}${pathWithoutLocale || ''}`);
+    router.refresh(); // probably not needed anymore
   };
 
   return (
     <nav className="fixed w-full top-0 left-0 z-50 bg-white shadow-nav transition-all duration-300 font-body">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4 md:py-5">
         
-        {/* Logo */}
+        {/* logo */}
         <Link href={`/${locale}`} className="flex items-center gap-2">
           <Image
             src={mainIcon}
@@ -94,7 +94,7 @@ export default function Navbar() {
           />
         </Link>
         
-        {/* Desktop Nav */}
+        {/* desktop nav */}
         <div className="hidden md:flex gap-6 items-center">
           {navItems.map((item) => (
             item.dropdown ? (
@@ -133,7 +133,7 @@ export default function Navbar() {
             )
           ))}
 
-          {/* Language Switcher */}
+          {/* language switcher */}
           <button
             onClick={() => switchLocale(locale === 'en' ? 'de' : 'en')}
             className="ml-2 px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 text-sm font-medium text-textdark transition-colors duration-200"
@@ -143,7 +143,7 @@ export default function Navbar() {
           </button>
         </div>
         
-        {/* Hamburger for mobile */}
+        {/* mobile hamburger */}
         <button 
           className="md:hidden flex flex-col items-center gap-[4px]" 
           onClick={() => setMenuOpen(!menuOpen)} 
@@ -155,7 +155,7 @@ export default function Navbar() {
         </button>
       </div>
       
-      {/* Mobile Menu */}
+      {/* mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-white shadow-nav px-4 py-2 space-y-2 animate-fade-in-down">
           {navItems.map((item) => (
@@ -190,12 +190,12 @@ export default function Navbar() {
             )
           ))}
 
-          {/* Language Switcher (Mobile) */}
+          {/* language switcher (mobile) */}
           <button
             onClick={() => switchLocale(locale === 'en' ? 'de' : 'en')}
             className="w-full text-left font-medium text-textdark hover:text-primary transition-colors duration-200 py-2"
           >
-            {locale === 'en' ? '🇩🇪 Deutsch' : '🇬🇧 English'}
+            {locale === 'en' ? '🇩🇪 DE' : '🇬🇧 EN'}
           </button>
         </div>
       )}

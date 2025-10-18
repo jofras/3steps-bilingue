@@ -2,6 +2,7 @@
 
 import { redirect } from 'next/navigation';
 
-export default function LegalDefaultPage({ params : locale }) {
+export default function LegalDefaultPage({ params }) {
+  const { locale } = params;
   redirect(`/${locale}/legal/impressum`);
 }

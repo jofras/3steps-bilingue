@@ -1,6 +1,6 @@
 // src/pages/Multimedia.js
 
-"use client"; // Required for Swiper and client-side interactions
+"use client"; // bc of swiper
 
 import { useTranslations } from 'next-intl';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,18 +8,20 @@ import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import Link from 'next/link';
 import Image from 'next/image';
 
-// Import Swiper styles
+// import swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Local Image Imports
-import hockey1 from '../images/hockey1.jpg';
-import hockey2 from '../images/hockey2.jpg';
+import hockey1 from '../images/2025/IMG_9332.jpeg';
+import hockey2 from '../images/2025/IMG_9353.jpeg';
+import hockey3 from '../images/2025/IMG_9348.jpeg'
 
 const photos = [
   { src: hockey1, alt: 'Hockey players in action' },
   { src: hockey2, alt: 'Hockey players in action (again)' },
+  { src: hockey3, alt: 'Hockey players in action (for the third time)' },
 ];
 
 const videos = [
@@ -30,9 +32,9 @@ const videos = [
 export const newsItems = [
   { 
     slug: 'default-article', 
-    title: 'Random Article', 
+    title: 'Something happened', 
     date: 'Some date', 
-    excerpt: 'Lorem ipsum', 
+    excerpt: 'Every place, everyday, something happens. Find out why.', 
     content: 'Full article content goes here.' 
   }
 ];
@@ -42,11 +44,11 @@ export default function Multimedia() {
   
   return (
     <div className="w-full min-h-screen flex flex-col">
-      {/* Hero Section */}
+      {/* hero section */}
       <div className="relative w-full h-[60vh] md:h-[75vh] overflow-hidden">
         <div className="absolute inset-0 flex flex-col md:flex-row w-full h-full z-10">
           
-          {/* Left Side: Text */}
+          {/* left side: (sub)titles */}
           <div className="w-full md:w-1/2 flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-indigo-800 text-white p-8 md:p-12 pt-8">
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-center leading-tight mb-4">
               {t('hero.title')}
@@ -59,7 +61,7 @@ export default function Multimedia() {
             </p>
           </div>
           
-          {/* Right Side: Photo Slideshow */}
+          {/* right side: slideshow */}
           <div className="w-full md:w-1/2 h-full">
             <Swiper
               modules={[Autoplay, A11y]}
@@ -89,10 +91,10 @@ export default function Multimedia() {
         </div>
       </div>
 
-      {/* Content Sections */}
+      {/* content sections */}
       <div className="w-full max-w-6xl mx-auto px-4 py-12 space-y-16">
         
-        {/* Photos Section */}
+        {/* photos */}
         <section id="photos" className="text-center">
           <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-3">
             {t('photos.title')}
@@ -132,7 +134,7 @@ export default function Multimedia() {
           </div>
         </section>
 
-        {/* Videos Section */}
+        {/* videos */}
         <section id="videos" className="text-center">
           <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-3">
             {t('videos.title')}
