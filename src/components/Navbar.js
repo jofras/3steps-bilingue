@@ -23,8 +23,8 @@ export default function Navbar() {
   // nav items with translation keys
   const navItems = [
     { 
-      labelKey: 'programs', 
-      to: `/${locale}/programs` 
+      labelKey: 'sports', 
+      to: `/${locale}/sports` 
     },
     { 
       labelKey: 'multimedia', 
