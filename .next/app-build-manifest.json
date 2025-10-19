@@ -17,6 +17,16 @@
       "static/chunks/main-app.js",
       "static/css/app/[locale]/page.css",
       "static/chunks/app/[locale]/page.js"
+    ],
+    "/[locale]/programs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/programs/page.js"
+    ],
+    "/[locale]/partners/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/partners/page.js"
     ]
   }
 }
