@@ -182,7 +182,7 @@ export default function LandingPage() {
         </div>
 
         {/* find out more button */}
-        <div className="w-full text-center mt-12 md:mt-16 px-4">
+        <div className="w-full text-center mt-8 md:mt-10 px-4">
           <Link
             href="/programs"
             className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
