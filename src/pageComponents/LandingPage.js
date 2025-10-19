@@ -4,13 +4,15 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
-// --- Swiper Imports ---
+// swiper imports 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, A11y, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// for arrow
+import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
 // LOCAL IMAGE IMPORTS
 
@@ -179,6 +181,16 @@ export default function LandingPage() {
           ))}
         </div>
 
+        {/* find out more button */}
+        <div className="w-full text-center mt-6 md:mt-8 px-4">
+          <Link
+            href="/programs"
+            className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+          >
+            {t("intro.findOutMore")}
+          </Link>
+        </div>
+
         {/* follow us */}
         <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4">
           <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t("follow.title")}</h2>
@@ -233,6 +245,7 @@ export default function LandingPage() {
         </div>
 
         {/* partners section */}
+        {/* partners section */}
         <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4 py-8">
           <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-4">
             {t("partners.title")}
@@ -261,7 +274,7 @@ export default function LandingPage() {
           <div className="mt-10 md:mt-6">
             <Link
               href="/contact"
-              className="inline-block bg-primary text-white px-6 py-2 rounded font-bold hover:bg-blue-700 transition"
+              className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
             >
               {t("partners.button")}
             </Link>
