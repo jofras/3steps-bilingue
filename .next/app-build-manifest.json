@@ -32,6 +32,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/about/whoweare/page.js"
+    ],
+    "/[locale]/multimedia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/multimedia/page.css",
+      "static/chunks/app/[locale]/multimedia/page.js"
     ]
   }
 }
