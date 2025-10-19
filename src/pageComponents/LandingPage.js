@@ -160,7 +160,7 @@ export default function LandingPage() {
         </div>
 
         {/* sports cards */}
-        <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
+        {/* <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
           {sports.map((sport) => (
             <Link
               href={sport.path}
@@ -179,7 +179,7 @@ export default function LandingPage() {
               </span>
             </Link>
           ))}
-        </div>
+        </div> */}
 
         {/* find out more button */}
         <div className="w-full text-center mt-6 md:mt-8 px-4">

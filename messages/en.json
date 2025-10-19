@@ -74,6 +74,11 @@
                 "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
                 "role2": "Active player for Ohio University D1 Ice Hockey Team",
                 "quote": "I started playing hockey for the Lions organization when I was 5 years old. With an exception of 2 seasons, one of which I played for the EHC Kloten and one that I had to miss out because of my health, I played all those years as a Lion until the end of the 23/24 season. In 2022 I started 3 Steps Hockey and been coaching actively ever since. I founded it to share my love for sports and help participants improve at it through a well-rounded and holistic approach to training."
+            },
+            "cedric": {
+                "role1": "Floorball Lead Coach",
+                "role2": "Active Player for Kloten in the National League B",
+                "quote": "[insert]"
             }
         },
         "why3steps": {
@@ -102,7 +107,7 @@
     "programs": {
         "hero": {
             "title": "Our Programs",
-            "subtitle": "Hockey programs — for every young athlete",
+            "subtitle": "Floorball programs — for every young athlete",
             "imageAlt": "Young athletes playing sports"
         },
         "intro": {
@@ -112,7 +117,7 @@
             "skills": {
                 "shooting": "Shooting",
                 "stickhandling": "Stickhandling",
-                "skating": "Skating"
+                "skating": "Game IQ"
             },
             "paragraph2": "These three core areas symbolize our 3 steps in training. Through targeted exercises, we improve not only technique but also understanding of the game and game intelligence.",
             "paragraph3": "Our aim is to improve the players in a playful way, with enthusiasm, but also with the necessary toughness, so that they can successfully apply what they have learned in competition."

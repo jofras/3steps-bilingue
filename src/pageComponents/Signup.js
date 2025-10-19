@@ -15,8 +15,8 @@ export default function SignupPage() {
 
       <div className="bg-white rounded-lg shadow p-6">
         <iframe
-          // the google form link
-          src="https://docs.google.com/forms/d/e/1FAIpQLSf8upODTWWLeG0cc8l_jcbNZn4B1CDn-_cJLj0pRi7Z1lkROA/viewform?embedded=true"
+          // the google form link -> make unihockey form once you get started, then paste the embed link here (ask chat)
+          src="none"//"https://docs.google.com/forms/d/e/1FAIpQLSf8upODTWWLeG0cc8l_jcbNZn4B1CDn-_cJLj0pRi7Z1lkROA/viewform?embedded=true"
           width="100%"
           height="1556"
           frameBorder="0"

@@ -4,7 +4,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import shootout from "../images/2023/IMG_5638.jpeg";
+import floorball1 from "../images/random_floorball_pics/floorball1.jpg";
 import { EventSection } from '../components/EventSection';
 
 export default function Programs() {
@@ -15,7 +15,7 @@ export default function Programs() {
             {/* hero section */}
             <div className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center bg-gray-300">
                 <Image
-                    src={shootout}
+                    src={floorball1}
                     alt={t('hero.imageAlt')}
                     width={1600}
                     height={1200}

@@ -14,14 +14,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Local Image Imports
-import hockey1 from '../images/2025/IMG_9332.jpeg';
-import hockey2 from '../images/2025/IMG_9353.jpeg';
-import hockey3 from '../images/2025/IMG_9348.jpeg'
+import floorball2 from '../images/random_floorball_pics/floorball2.jpg';
+import floorball3 from '../images/random_floorball_pics/floorball3.jpg';
+import floorball1 from '../images/random_floorball_pics/floorball1.jpg';
 
 const photos = [
-  { src: hockey1, alt: 'Hockey players in action' },
-  { src: hockey2, alt: 'Hockey players in action (again)' },
-  { src: hockey3, alt: 'Hockey players in action (for the third time)' },
+  { src: floorball2, alt: 'Floorball players in action' },
+  { src: floorball3, alt: 'Floorball players in action (again)' },
+  { src: floorball1, alt: 'Floorball players in action (for the third time)' },
 ];
 
 const videos = [

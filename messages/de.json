@@ -74,6 +74,11 @@
                 "role1": "Gründer 3 Steps Athletics & Chef Trainer Eishockey",
                 "role2": "Aktiver Spieler für das Ohio University D1 Eishockey Team",
                 "quote": "Im Alter von 5 Jahren habe ich angefangen, für die Lions Eishockey zu spielen. Mit Ausnahme von 2 Saisons, von denen ich eine für den EHC Kloten gespielt habe und eine aus gesundheitlichen Gründen aussetzen musste, habe ich all diese Jahre bis zum Ende der Saison 23/24 bei den Lions gespielt. Im Jahr 2022 gründete ich 3 Steps Hockey und bin seither als Trainer tätig. Ich habe mit 3 Steps begonnen, um meine Liebe zum Sport zu teilen und die Teilnehmer durch einen ganzheitlichen Trainingsansatz zu verbessern."
+            },
+            "cedric": {
+                "role1": "Verantwortlicher Unihockey",
+                "role2": "Aktiver Spieler bei Kloten in der Nationalliga B",
+                "quote": "[insert]"
             }
         },
         "why3steps": {
@@ -102,7 +107,7 @@
     "programs": {
         "hero": {
             "title": "Unsere Programme",
-            "subtitle": "Hockeyprogramme — für jeden jungen Sportler",
+            "subtitle": "Unihockeyprogramme — für jeden jungen Sportler",
             "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
@@ -112,7 +117,7 @@
             "skills": {
                 "shooting": "Schießen",
                 "stickhandling": "Stockführung",
-                "skating": "Schlittschuhlaufen"
+                "skating": "Spielverständnis"
             },
             "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
             "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
