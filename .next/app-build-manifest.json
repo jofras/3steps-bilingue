@@ -23,10 +23,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/programs/page.js"
     ],
-    "/[locale]/partners/page": [
+    "/[locale]/about/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/partners/page.js"
+      "static/chunks/app/[locale]/about/layout.js"
+    ],
+    "/[locale]/about/whoweare/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/about/whoweare/page.js"
     ]
   }
 }

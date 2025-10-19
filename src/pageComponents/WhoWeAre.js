@@ -5,6 +5,8 @@
 import { useTranslations } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
 import kevinImage from '../images/people/kevin.jpg';
+import lukasImage from '../images/people/lukas.jpg';
+import justinImage from '../images/people/marlon.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
 
 export default function WhoWeAre() {
@@ -26,6 +28,26 @@ export default function WhoWeAre() {
                     t('kevin.role2'),
                 ]}
                 quote={t('kevin.quote')} 
+            />
+            <TeamMemberCard
+                imageSrc={lukasImage}
+                name="Lukas Rubin" 
+                age={t('ageDisplay', { age: 25 })} // pass "years old" translation here
+                roles={[
+                    t('lukas.role1'),
+                    t('lukas.role2'),
+                ]}
+                quote={t('lukas.quote')} 
+            />
+            <TeamMemberCard
+                imageSrc={justinImage}
+                name="Justin Gull" 
+                age={t('ageDisplay', { age: 20 })} // pass "years old" translation here
+                roles={[
+                    t('justin.role1'),
+                    t('justin.role2'),
+                ]}
+                quote={t('justin.quote')} 
             />
             {/* add more team members here */}
         </SectionBlock>

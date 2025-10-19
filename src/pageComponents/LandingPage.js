@@ -182,8 +182,6 @@ export default function LandingPage() {
         </div> */}
 
         {/* find out more button */}
-
-        {/* find out more button */}
         <div className="w-full text-center mt-12 md:mt-16 px-4">
           <Link
             href="/programs"
@@ -246,7 +244,6 @@ export default function LandingPage() {
           </div>
         </div>
 
-        {/* partners section */}
         {/* partners section */}
         <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4 py-8">
           <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-4">
