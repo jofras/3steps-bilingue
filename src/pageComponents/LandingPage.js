@@ -157,8 +157,8 @@ export default function LandingPage() {
           <p className="text-gray-600 text-base md:text-lg mt-3">{t("intro.paragraph")}</p>
         </div>
 
-        {/* sports cards */}
-        <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
+        {/* sports cards – not needed for hockey subpage */}
+        {/* <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
           {sports.map((sport) => (
             <Link
               href={sport.path}
@@ -177,7 +177,9 @@ export default function LandingPage() {
               </span>
             </Link>
           ))}
-        </div>
+        </div> */}
+
+        {/* find out more button */}
 
         {/* follow us */}
         <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4">
