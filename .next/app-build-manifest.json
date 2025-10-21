@@ -12,23 +12,6 @@
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
     ],
-    "/[locale]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/page.css",
-      "static/chunks/app/[locale]/page.js"
-    ],
-    "/[locale]/programs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/programs/page.js"
-    ],
-    "/[locale]/multimedia/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/multimedia/page.css",
-      "static/chunks/app/[locale]/multimedia/page.js"
-    ],
     "/[locale]/about/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -39,15 +22,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/about/whoweare/page.js"
     ],
-    "/[locale]/partners/page": [
+    "/[locale]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/partners/page.js"
+      "static/css/app/[locale]/page.css",
+      "static/chunks/app/[locale]/page.js"
     ],
-    "/[locale]/contact/page": [
+    "/[locale]/about/why-3-steps/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/contact/page.js"
+      "static/chunks/app/[locale]/about/why-3-steps/page.js"
     ]
   }
 }

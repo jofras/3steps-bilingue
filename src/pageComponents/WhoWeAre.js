@@ -4,7 +4,7 @@
 
 import { useTranslations } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
-import cedricImage from '../images/people/ludmilla.jpg';
+import cedricImage from '../images/people/cedi.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
 
 export default function WhoWeAre() {
