@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
 import kevinImage from '../images/people/kevin.jpg';
 import lukasImage from '../images/people/lukas.jpg';
-import justinImage from '../images/people/marlon.jpg';
+import justinImage from '../images/people/justin.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
 
 export default function WhoWeAre() {
