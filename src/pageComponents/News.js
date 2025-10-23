@@ -2,13 +2,14 @@
 
 "use client";
 
-import { useTranslations } from 'next-intl'; 
+import { useTranslations, useLocale } from 'next-intl'; 
 import SectionBlock from '../components/SectionBlock';
 import Link from 'next/link';
 import { newsItems } from '../data/newsItems';
 
 export default function News() {
   const t = useTranslations('multimedia.news'); 
+  const locale = useLocale();
 
   return (
     <div className="max-w-4xl mx-auto py-12 -mt-4 md:mt-4 px-4">
@@ -21,7 +22,7 @@ export default function News() {
           {newsItems.map((post, i) => (
             <div key={i} className="p-4 rounded shadow bg-background">
               <Link 
-                href={`/multimedia/news/${post.slug}`}
+                href={`${locale}/multimedia/news/${post.slug}`}
                 className="font-heading text-xl text-primary hover:underline"
               >
                 {post.title}

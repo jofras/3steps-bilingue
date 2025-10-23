@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -81,6 +81,7 @@ const followPosts = [
 // main landing page
 export default function LandingPage() {
   const t = useTranslations("home");
+  const locale = useLocale();
 
   return (
     <>
@@ -119,7 +120,7 @@ export default function LandingPage() {
                 {t("hero.mainTitle")}
               </h1>
               <Link
-                href="/signup"
+                href={`/${locale}/signup`}
                 className="mt-6 md:mt-8 bg-accent text-white px-8 py-3 md:px-12 md:py-4 md:text-xl font-bold shadow-lg hover:bg-green-600 transition-transform hover:scale-105 rounded-full"
               >
                 {t("hero.signUpButton")}
@@ -184,7 +185,7 @@ export default function LandingPage() {
         {/* find out more button */}
         <div className="w-full text-center mt-6 md:mt-8 px-4">
           <Link
-            href="/programs"
+            href={`/${locale}/programs`}
             className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
           >
             {t("intro.findOutMore")}
@@ -272,7 +273,7 @@ export default function LandingPage() {
 
           <div className="mt-10 md:mt-6">
             <Link
-              href="/contact"
+              href={`/${locale}/contact`}
               className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
             >
               {t("partners.button")}
