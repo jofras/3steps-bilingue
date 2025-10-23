@@ -1,9 +1,0 @@
-{
-  "/[locale]/multimedia/page": "app/[locale]/multimedia/page.js",
-  "/[locale]/contact/page": "app/[locale]/contact/page.js",
-  "/[locale]/partners/page": "app/[locale]/partners/page.js",
-  "/[locale]/programs/page": "app/[locale]/programs/page.js",
-  "/[locale]/about/whoweare/page": "app/[locale]/about/whoweare/page.js",
-  "/[locale]/about/why-3-steps/page": "app/[locale]/about/why-3-steps/page.js",
-  "/[locale]/about/purpose/page": "app/[locale]/about/purpose/page.js"
-}
