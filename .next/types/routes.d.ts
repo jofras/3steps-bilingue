@@ -3,27 +3,19 @@
 
 type AppRoutes = never
 type PageRoutes = never
-type LayoutRoutes = "/" | "/[locale]" | "/[locale]/about" | "/[locale]/legal"
+type LayoutRoutes = never
 type RedirectRoutes = never
 type RewriteRoutes = never
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes
 
 
 interface ParamMap {
-  "/": {}
-  "/[locale]": { "locale": string; }
-  "/[locale]/about": { "locale": string; }
-  "/[locale]/legal": { "locale": string; }
 }
 
 
 export type ParamsOf<Route extends Routes> = ParamMap[Route]
 
 interface LayoutSlotMap {
-  "/": never
-  "/[locale]": never
-  "/[locale]/about": never
-  "/[locale]/legal": never
 }
 
 
