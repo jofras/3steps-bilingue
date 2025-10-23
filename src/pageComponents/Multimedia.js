@@ -2,7 +2,7 @@
 
 "use client"; // bc of swiper
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import Link from 'next/link';
@@ -41,6 +41,7 @@ export const newsItems = [
 
 export default function Multimedia() {
   const t = useTranslations('multimedia');
+  const locale = useLocale(); 
   
   return (
     <div className="w-full min-h-screen flex flex-col">
@@ -189,7 +190,7 @@ export default function Multimedia() {
             {newsItems.map((item, i) => (
               <Link
                 key={i}
-                href={`/multimedia/news/${item.slug}`}
+                href={`${locale}/multimedia/news/${item.slug}`}
                 className="bg-white rounded-xl shadow-lg hover:shadow-2xl hover:scale-102 transition-all duration-200 p-6 text-left group"
               >
                 <div className="flex flex-col h-full">
@@ -204,7 +205,7 @@ export default function Multimedia() {
                   </p>
                   <div className="mt-4 pt-3 border-t border-gray-100">
                     <span className="text-xs text-primary font-semibold uppercase tracking-wide group-hover:text-blue-600 transition-colors">
-                      Read More →
+                      {t('news.readMore')}
                     </span>
                   </div>
                 </div>

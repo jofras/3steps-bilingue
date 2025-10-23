@@ -50,7 +50,7 @@ export default function Footer() {
             <Link href={`/${locale}/about/whoweare`} className="hover:text-primary transition-colors">
               {t('team')}
             </Link>
-            <Link href={`/${locale}/about/why-3-steps`} className="hover:text-primary transition-colors">
+            <Link href={`/${locale}/about/purpose`} className="hover:text-primary transition-colors">
               {t('mission')}
             </Link>
             <Link href={`/${locale}/partners`} className="hover:text-primary transition-colors">
