@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/jonny/3steps-bilingue/src/app/[locale]/layout\":[\"static/media/31624cd3d23a9234-s.p.woff2\",\"static/media/68180864d7f93f02-s.p.woff2\",\"static/media/bd87c7434c79841f-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"
