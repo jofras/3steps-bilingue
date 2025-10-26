@@ -18,6 +18,13 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
+  assetPrefix: undefined,
+  generateBuildId: async () => {
+    return 'build'
+  },
+  experimental: {
+    outputFileTracingRoot: undefined,
+  },
 };
 
 export default withNextIntl(nextConfig);
