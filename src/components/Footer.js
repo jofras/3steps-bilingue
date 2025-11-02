@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { Twitter, Instagram, Facebook, Linkedin } from 'lucide-react';
-import mainIcon from '../assets/main_icon_cropped.png';
+import mainIcon from '../assets/3stepslightcropped.png';
 
 export default function Footer() {
   const t = useTranslations('footer');

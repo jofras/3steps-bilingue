@@ -7,7 +7,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter, usePathname } from 'next/navigation';
-import mainIcon from '../assets/main_icon_cropped.png';
+import mainIcon from '../assets/3stepslightcropped.png';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);

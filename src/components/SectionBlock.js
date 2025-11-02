@@ -6,8 +6,13 @@ export default function SectionBlock({ title, children, bg = 'white', imageGrid,
   return (
     <section className={`w-full pt-8 pb-8 ${padding} ${bg === 'gray' ? 'bg-background' : 'bg-white'} rounded-xl`}>
       <div className="max-w-5xl mx-auto">
-        {title && (
+        {/* {title && (
           <h2 className={`text-4xl mb-8 text-primary text-center font-${titleFont}`}>
+            {title}
+          </h2>
+        )} */}
+        {title && (
+          <h2 className={`text-2xl md:text-4xl mb-8 text-primary text-center font-${titleFont} break-words`}>
             {title}
           </h2>
         )}
