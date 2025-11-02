@@ -17,16 +17,16 @@ import { ArrowRightIcon } from '@heroicons/react/20/solid';
 // LOCAL IMAGE IMPORTS
 
 // hockey
-import kidsSmiling from "../images/2025/IMG_9344.jpeg"
-import everybodySmiling from "../images/2025/IMG_9358.jpeg"
-import dominos from "../images/2025/IMG_9361.jpeg"
-import tireflip from "../images/2025_2/IMG_0386.jpeg"
-import speed from "../images/2025_2/IMG_0404.jpeg"
-import shot from "../images/2025/IMG_9340.jpeg"
-import highFive from "../images/2025/IMG_9347.jpeg"
-import attentive from "../images/2025/IMG_9332.jpeg"
-import boardBattle from "../images/2025/IMG_9354.jpeg"
-import postedUp from "../images/2025/IMG_9297.jpeg"
+import kidsSmiling from "../images/2024/IMG_9344.jpeg"
+import everybodySmiling from "../images/2024/IMG_9358.jpeg"
+import dominos from "../images/2024/IMG_9361.jpeg"
+import tireflip from "../images/2025/IMG_0386.jpeg"
+import speed from "../images/2025/IMG_0404.jpeg"
+import shot from "../images/2024/IMG_9340.jpeg"
+import highFive from "../images/2024/IMG_9347.jpeg"
+import attentive from "../images/2024/IMG_9332.jpeg"
+import boardBattle from "../images/2024/IMG_9354.jpeg"
+import postedUp from "../images/2024/IMG_9297.jpeg"
 
 // floorball
 import floorball1 from "../images/random_floorball_pics/floorball1.jpg"
@@ -235,9 +235,9 @@ export default function LandingPage() {
                         sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 25vw"
                       />
                     </div>
-                    <div className="p-3 text-left">
+                    {/* <div className="p-3 text-left">
                       <h3 className="text-sm font-semibold text-gray-700 truncate">{post.title}</h3>
-                    </div>
+                    </div> */}
                   </a>
                 </SwiperSlide>
               ))}

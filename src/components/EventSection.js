@@ -28,7 +28,7 @@ const dummyEvents = [
   },
   {
     type: 'training',
-    title: 'Stickhandling Clinic',
+    title: 'On-Ice Session',
     date: '2026-06-06',
     time: '13:00-14:00',
     place: 'Wetzikon Ice Rink',
@@ -37,7 +37,7 @@ const dummyEvents = [
   },
   {
     type: 'training',
-    title: 'Sniper School',
+    title: 'On-Ice Session',
     date: '2026-06-13',
     time: '09:15-10:15',
     place: 'Wetzikon Ice Rink',
@@ -46,7 +46,7 @@ const dummyEvents = [
   },
   {
     type: 'training',
-    title: 'Breakout Practice',
+    title: 'On-Ice Session',
     date: '2026-06-20',
     time: '10:45-11:45',
     place: 'Wetzikon Ice Rink',
@@ -55,7 +55,7 @@ const dummyEvents = [
   },
   {
     type: 'training',
-    title: 'Powerskating (Edgework)',
+    title: 'On-Ice Session',
     date: '2026-06-27',
     time: '10:45-11:45',
     place: 'Wetzikon Ice Rink',
@@ -64,7 +64,7 @@ const dummyEvents = [
   },
   {
     type: 'training',
-    title: 'Coach\'s Challenge',
+    title: 'On-Ice Session',
     date: '2026-07-04',
     time: '10:45-11:45',
     place: 'Wetzikon Ice Rink',

@@ -3,10 +3,12 @@
 
 import Link from 'next/link';
 import { usePathname, useParams } from 'next/navigation';
+import { useTranslations } from 'use-intl';
 
 export default function LegalLayout({ children }) {
   const pathname = usePathname();
-  const { locale } = useParams();
+  const params = useParams(); 
+  const locale = params.locale; 
 
   const linkClass = (path) =>
     `text-sm md:text-lg font-medium transition-colors ${
@@ -15,17 +17,19 @@ export default function LegalLayout({ children }) {
         : 'text-textdark hover:text-primary'
     }`;
 
+  const t = useTranslations('legal')
+
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 -mt-2 md:mt-2">
       <nav className="flex gap-6 justify-center mb-8">
         <Link href={`/${locale}/legal/impressum`} className={linkClass('/impressum')}>
-          Legal Notice
+          {t('impressum.title')}
         </Link>
         <Link href={`/${locale}/legal/privacy`} className={linkClass('/privacy')}>
-          Privacy Policy
+          {t('privacy.title')}
         </Link>
         <Link href={`/${locale}/legal/terms`} className={linkClass('/terms')}>
-          Terms & Conditions
+          {t('terms.headerTitle')}
         </Link>
       </nav>
       {children}
