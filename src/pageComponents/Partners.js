@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import SectionBlock from '../components/SectionBlock';
 import Image from 'next/image'; 
 import Link from 'next/link';
@@ -16,6 +16,7 @@ const partners = [
 
 export default function Partners() {
   const t = useTranslations('partners');
+  const locale = useLocale();
   
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 -mt-4 md:mt-8">
@@ -23,12 +24,14 @@ export default function Partners() {
         title={t('title')} 
         bg="white"
         cta={
-          <Link
-            href="/contact" 
-            className="bg-primary text-white px-4 py-2 rounded font-bold hover:bg-blue-700 transition"
-          >
-            {t('button')} 
-          </Link>
+          <div className="mt-10 md:mt-6">
+            <Link
+              href={`/${locale}/contact`}
+              className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+            >
+              {t("button")}
+            </Link>
+          </div>
         }
         padding="px-8 md:px-8"
       >
