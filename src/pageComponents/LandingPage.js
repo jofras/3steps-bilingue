@@ -50,31 +50,31 @@ const followPosts = [
     id: "1",
     title: "Training Day Highlights",
     img: kidsSmiling,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "2",
     title: "Evolution",
     img: dominos,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "3",
     title: "Best Camp Ever!!!",
     img: everybodySmiling,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "4",
     title: "Heating Up!",
     img: boardBattle,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "5",
     title: "Locked In",
     img: postedUp,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
 ];
 
