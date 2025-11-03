@@ -1,0 +1,39 @@
+name: Deploy Hockey Branch to Hostpoint
+
+on:
+  push:
+    branches:
+      - hockey   # only triggers when pushing to the 'hockey' branch
+
+jobs:
+  deploy:
+    name: Build and Deploy to Hostpoint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build and export static site
+        run: |
+          npm run build
+          npm run export
+
+      - name: Deploy via FTP to Hostpoint
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.HOSTPOINT_HOCKEY_FTP_SERVER }}
+          username: ${{ secrets.HOSTPOINT_HOCKEY_FTP_USER }}
+          password: ${{ secrets.HOSTPOINT_HOCKEY_FTP_PASSWORD }}
+          local-dir: ./out
+          server-dir: ~/www/3stepshockey.ch
+          protocol: ftps   # optional but more secure than plain ftp
+          dangerous-clean-slate: true  # ensures deleted files are removed remotely
