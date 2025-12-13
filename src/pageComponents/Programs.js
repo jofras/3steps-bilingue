@@ -5,6 +5,8 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import shootout from "../images/2023/IMG_5638.jpeg";
+import sboevImg from "../images/people/sboev.jpg";
+import orlovImg from "../images/people/orlov.jpg";
 import { EventSection } from '../components/EventSection';
 
 export default function Programs() {
@@ -54,6 +56,55 @@ export default function Programs() {
                 <p className="text-gray-600 text-base md:text-lg mt-3">
                     {t('intro.paragraph3')}
                 </p>
+            </div>
+
+            {/* russian coaches */}
+            <div className="w-full max-w-4xl mx-auto text-center mt-12 px-4">
+                <h2 className="font-heading text-3xl md:text-4xl font text-gray-800">
+                    {t('russians.title')}
+                </h2>
+                <p className="text-gray-600 text-base md:text-lg mt-3">
+                    {t('russians.paragraph1')}
+                </p>
+                {/* insert blocks side by side of name and image and bullets for each coach */}
+                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {/* Sergei Sboev */}
+                    <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center">
+                        <Image
+                            src={sboevImg}
+                            alt="Sergei Sboev"
+                            width={300}
+                            height={300}
+                            className="rounded-lg object-cover"
+                        />
+                        <h3 className="mt-4 text-xl font-semibold text-gray-800">
+                            Sergei Sboev
+                        </h3>
+                        <ul className="mt-3 list-disc list-inside text-gray-600 text-left">
+                            <li>{t('russians.sboev.bullet1')}</li>
+                            <li>{t('russians.sboev.bullet2')}</li>
+                        </ul>
+                    </div>
+
+                    {/* Sergei Orlov */}
+                    <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center">
+                        <Image
+                            src={orlovImg}
+                            alt="Sergei Orlov"
+                            width={300}
+                            height={300}
+                            className="rounded-lg object-cover"
+                        />
+                        <h3 className="mt-4 text-xl font-semibold text-gray-800">
+                            Sergei Orlov
+                        </h3>
+                        <ul className="mt-3 list-disc list-inside text-gray-600 text-left">
+                            <li>{t('russians.orlov.bullet1')}</li>
+                            <li>{t('russians.orlov.bullet2')}</li>
+                            <li>{t('russians.orlov.bullet3')}</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             {/* events section */}

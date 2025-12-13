@@ -131,6 +131,19 @@
             },
             "paragraph2": "These three core areas symbolize our 3 steps in training. Through targeted exercises, we improve not only technique but also understanding of the game and game intelligence.",
             "paragraph3": "Our aim is to improve the players in a playful way, with enthusiasm, but also with the necessary toughness, so that they can successfully apply what they have learned in competition."
+        },
+        "russians": {
+            "title": "Guest Coaches from Yekaterinburg, Russia",
+            "paragraph1": "For the training sessions on Ascension and Pentecost, we have invited two coaches from Yekaterinburg, Russia. Sergei Sboev and Sergei Orlov are both highly experienced coaches and have previously worked in Switzerland. Through this exchange, we hope to provide participants with new training approaches and philosophies that will ultimately help them become better players.",
+            "sboev": {
+                "bullet1": "25 years of expertise as a hockey coach",
+                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg"
+            },
+            "orlov": {
+                "bullet1": "12 years of coaching experience",
+                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg",
+                "bullet3": "10 years of professional coaching for Sputnik Nizhny"
+            }
         }
     },
     "contact": {
