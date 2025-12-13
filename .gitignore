@@ -37,3 +37,6 @@ out/
 # Temporary files (e.g., test coverage)
 /coverage
 
+websiteguide.pages
+src/.DS_Store
+src/images/.DS_Store
