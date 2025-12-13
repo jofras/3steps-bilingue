@@ -39,3 +39,7 @@ out/
 
 websiteguide.pages
 src/.DS_Store
+<<<<<<< HEAD
+=======
+src/images/.DS_Store
+>>>>>>> main
