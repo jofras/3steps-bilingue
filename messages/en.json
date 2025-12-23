@@ -116,6 +116,18 @@
             },
             "paragraph2": "These three core areas symbolize our 3 steps in training. Through targeted exercises, we improve not only technique but also understanding of the game and game intelligence.",
             "paragraph3": "Our aim is to improve the players in a playful way, with enthusiasm, but also with the necessary toughness, so that they can successfully apply what they have learned in competition."
+        },
+        "ageGroups": {
+            "title": "Age Groups",
+            "reasoning": "We divide our players into two age groups during practice to ensure training intensity, focus, and development are appropriate for each athlete’s level. This allows us to tailor drills and challenges so every player can progress effectively.",
+            "juniors": {
+                "title": "Group Juniors",
+                "description": "Years 2014 and younger"
+            },
+            "prospects": {
+                "title": "Group Prospects",
+                "description": "Years 2013 and older"
+            }
         }
     },
     "contact": {
