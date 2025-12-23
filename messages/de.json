@@ -132,6 +132,18 @@
             "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
             "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
         },
+        "ageGroups": {
+            "title": "Altersgruppen",
+            "reasoning": "Wir teilen unsere Spieler im Training in zwei Altersgruppen ein, um Intensität, Fokus und Entwicklung optimal an das jeweilige Niveau anzupassen. So können wir Übungen gezielt gestalten und sicherstellen, dass jeder Spieler bestmöglich vorankommt.",
+            "juniors": {
+            "title": "Gruppe Juniors",
+            "description": "Jahrgänge 2014 und jünger"
+            },
+            "prospects": {
+            "title": "Gruppe Prospects",
+            "description": "Jahrgänge 2013 und älter"
+            }
+        },
         "russians": {
             "title": "Gasttrainer aus Jekaterinburg (Russland)",
             "paragraph1": "Für die Trainings an Au3ahrt und Pfingsten haben wir zwei Trainer aus Jekaterinburg, Russland eingeladen. Sergei Sboev und Sergei Orlov sind beide lang erfahrene Trainer und waren zuvor bereits in der Schweiz. Durch diesen Austausch erho3en wir uns den Teilnehmern neue Trainingsansätze und Philosophien mit auf den Weg zu geben, um diese schlussendlich zu einem besseren Spieler zu machen.",
