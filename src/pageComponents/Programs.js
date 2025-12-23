@@ -69,13 +69,17 @@ export default function Programs() {
                     {t('ageGroups.reasoning')}
                 </p>
 
-                <ul className="list-disc list-inside text-gray-600 text-base md:text-lg mt-6 text-left mx-auto max-w-xl">
+                <ul className="list-disc list-inside text-gray-600 text-base pl-4 md:text-lg mt-3">
                     <li>
-                        <span className="font-semibold">{t('ageGroups.juniors.title')}:</span>{" "}
+                        <span className="font-semibold">
+                            {t('ageGroups.juniors.title')}:
+                        </span>{" "}
                         {t('ageGroups.juniors.description')}
                     </li>
                     <li className="mt-2">
-                        <span className="font-semibold">{t('ageGroups.prospects.title')}:</span>{" "}
+                        <span className="font-semibold">
+                            {t('ageGroups.prospects.title')}:
+                        </span>{" "}
                         {t('ageGroups.prospects.description')}
                     </li>
                 </ul>
