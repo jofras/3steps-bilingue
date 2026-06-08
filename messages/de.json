@@ -8,7 +8,7 @@
         "sports": "Sportarten",
         "programs": "Programme",
         "multimedia": "Multimedia",
-        "visuals": "Visuelles",
+        "visuals": "Filmmaterial",
         "news": "Nachrichten",
         "partners": "Partner",
         "contact": "Kontakt",
@@ -106,7 +106,7 @@
             "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
-            "title": "Jeden Sportler stärken",
+            "title": "Hier wachsen Talente!",
             "paragraph1": "Um den größtmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
             "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
             "skills": {
@@ -230,8 +230,8 @@
             "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
-            "title": "Jeden Sportler stärken",
-            "paragraph": "3 Steps Athletics verfolgt das Ziel möglichst vielen Menschen, insbesondere Kindern, die Möglichkeit zu bieten, den Sport auszuüben, den sie lieben und in sich darin stetig weiterzuentwickeln. Dabei vereinen wir Leidenschaft und harte Arbeit mit Kompetenz."
+            "title": "Hier wachsen Talente!",
+            "paragraph": "3 Steps Athletics verfolgt das Ziel möglichst vielen Menschen, insbesondere Kindern und Jugendlichen, die Möglichkeit zu bieten, den Sport auszuüben, den sie lieben und in sich darin stetig weiterzuentwickeln. Dabei vereinen wir Leidenschaft und harte Arbeit mit Kompetenz."
         }
     }
 }
