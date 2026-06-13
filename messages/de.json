@@ -102,7 +102,7 @@
     "programs": {
         "hero": {
             "title": "Unsere Programme",
-            "subtitle": "Hockeyprogramme — für jeden jungen Sportler",
+            "subtitle": "Eishockeyprogramme — für alle Eishockeytalente",
             "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
@@ -196,7 +196,7 @@
         },
         "photos": {
             "title": "Fotogalerie",
-            "subtitle": "Einfangen des Geistes, der Hingabe und der Freude, die unsere Sportgemeinschaft auszeichnen"
+            "subtitle": "Eindrücke voller Bewegung, Gemeinschaft und Leidenschaft für den Sport."
         },
         "videos": {
             "title": "Video-Highlights",
