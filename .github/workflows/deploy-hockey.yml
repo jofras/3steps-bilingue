@@ -3,7 +3,7 @@ name: Deploy Hockey Branch to Hostpoint
 on:
   push:
     branches:
-      - hockey   # only triggers when pushing to the 'hockey' branch
+      - hockey   # triggers when pushing to the 'hockey' branch
 
 jobs:
   deploy:
@@ -22,18 +22,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build and export static site
-        run: |
-          npm run build
-          npm run export
+      - name: Build static site
+        run: npm run build  # This automatically generates the inner 'out' folder
+
+      # === NEW STEP: PACKS AND SAVES THE OUT FOLDER FOR YOU TO DOWNLOAD ===
+      - name: Save Out Folder for Manual Download
+        uses: actions/upload-artifact@v4
+        with:
+          name: hockey-out-folder
+          path: ./out/
 
       - name: Deploy via FTP to Hostpoint
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.HOSTPOINT_HOCKEY_FTP_SERVER }}
           username: ${{ secrets.HOSTPOINT_HOCKEY_FTP_USER }}
           password: ${{ secrets.HOSTPOINT_HOCKEY_FTP_PASSWORD }}
-          local-dir: ./out
-          server-dir: ~/www/3stepshockey.ch
-          protocol: ftps   # optional but more secure than plain ftp
-          dangerous-clean-slate: true  # ensures deleted files are removed remotely
+          local-dir: ./out/
+          server-dir: ./www/3stepshockey.ch/
+          protocol: ftps   
+          dangerous-clean-slate: false  # Changed to false for safety while we test manually
