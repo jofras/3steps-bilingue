@@ -74,6 +74,21 @@
                 "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
                 "role2": "Active player for Ohio University D1 Ice Hockey Team",
                 "quote": "I started playing hockey for the Lions organization when I was 5 years old. With an exception of 2 seasons, one of which I played for the EHC Kloten and one that I had to miss out because of my health, I played all those years as a Lion until the end of the 23/24 season. In 2022 I started 3 Steps Hockey and been coaching actively ever since. I founded it to share my love for sports and help participants improve at it through a well-rounded and holistic approach to training."
+            },
+            "lukas": {
+                "role1": "On-Ice Coach",
+                "role2": "Active Player for EHC Arosa in the Swiss League",
+                "quote": "[insert]"
+            },
+            "justin": {
+                "role1": "On-Ice Coach",
+                "role2": "Active Player for EHC Winterthur in the Swiss League",
+                "quote": "[insert]"
+            },
+            "sergei": {
+                "role1": "Guest Coach",
+                "role2": "Active Coach for Ice Style in Yekaterinburg, Russia",
+                "quote": "[insert]"
             }
         },
         "why3steps": {
@@ -127,6 +142,19 @@
             "prospects": {
                 "title": "Group Prospects",
                 "description": "Years 2013 and older"
+            }
+        },
+        "russians": {
+            "title": "Guest Coaches from Yekaterinburg, Russia",
+            "paragraph1": "For the training sessions on Ascension and Pentecost, we have invited two coaches from Yekaterinburg, Russia. Sergei Sboev and Sergei Orlov are both highly experienced coaches and have previously worked in Switzerland. Through this exchange, we hope to provide participants with new training approaches and philosophies that will ultimately help them become better players.",
+            "sboev": {
+                "bullet1": "25 years of expertise as a hockey coach",
+                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg"
+            },
+            "orlov": {
+                "bullet1": "12 years of coaching experience",
+                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg",
+                "bullet3": "10 years of professional coaching for Sputnik Nizhny"
             }
         }
     },

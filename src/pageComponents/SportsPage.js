@@ -7,9 +7,9 @@ import Link from 'next/link';
 import Image from 'next/image'; 
 
 // image imports
-import hockey3 from '../images/2025/IMG_9346.jpeg';
-import floorball1 from '../images/2025/IMG_9358.jpeg';
-import floorball2 from '../images/2025/IMG_9365.jpeg';
+import hockey3 from '../images/2024/IMG_9346.jpeg';
+import floorball1 from '../images/2024/IMG_9358.jpeg';
+import floorball2 from '../images/2024/IMG_9365.jpeg';
 
 const sports = [
   // gonna have to change these paths per branch, or link to the other site's url

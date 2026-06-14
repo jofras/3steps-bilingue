@@ -50,31 +50,31 @@ const followPosts = [
     id: "1",
     title: "Training Day Highlights",
     img: kidsSmiling,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "2",
     title: "Evolution",
     img: dominos,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "3",
     title: "Best Camp Ever!!!",
     img: everybodySmiling,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "4",
     title: "Heating Up!",
     img: boardBattle,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
   {
     id: "5",
     title: "Locked In",
     img: postedUp,
-    url: "https://www.instagram.com/3stepsathletics/",
+    url: "https://www.instagram.com/3stepshockey/",
   },
 ];
 
@@ -160,8 +160,8 @@ export default function LandingPage() {
           <p className="text-gray-600 text-base md:text-lg mt-3">{t("intro.paragraph")}</p>
         </div>
 
-        {/* sports cards */}
-        <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
+        {/* sports cards – not needed for hockey subpage */}
+        {/* <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
           {sports.map((sport) => (
             <Link
               href={sport.path}
@@ -180,7 +180,7 @@ export default function LandingPage() {
               </span>
             </Link>
           ))}
-        </div>
+        </div> */}
 
         {/* find out more button */}
         <div className="w-full text-center mt-6 md:mt-8 px-4">

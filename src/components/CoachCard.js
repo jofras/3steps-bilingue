@@ -13,12 +13,12 @@ export default function CoachCard({ imageSrc, name, bullets }) {
       "
     >
       {/* image */}
-      <div className="w-full h-56 relative">
+      <div className="w-full aspect-square relative">
         <Image
           src={imageSrc}
           alt={name}
           fill
-          className="rounded-lg object-cover object-top"
+          className="rounded-lg object-cover object-[center_30%]"
           sizes="(max-width: 768px) 100vw, 300px"
         />
       </div>

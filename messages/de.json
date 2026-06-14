@@ -71,9 +71,24 @@
             "introParagraph": "Um den Sport und die junge Generation zu fördern, bieten wir unsere Programme während der Saisonpause an. Auf diese Weise helfen wir den „Stars von morgen“, ihren Traum zu verwirklichen. Wir sind ein junges Team, alle mit Coaching-Erfahrung und spielen selbst aktiv Eishockey. Deshalb wissen wir, wie wir mit den Teilnehmern umgehen müssen und was es braucht, um ein Profi zu werden. Wir freuen uns darauf, euch persönlich kennenzulernen!",
             "ageDisplay": "{age} Jahre alt",
             "kevin": {
-                "role1": "Gründer 3 Steps Athletics & Chef Trainer Eishockey",
+                "role1": "Gründer & On-Ice Coach",
                 "role2": "Aktiver Spieler für das Ohio University D1 Eishockey Team",
                 "quote": "Im Alter von 5 Jahren habe ich angefangen, für die Lions Eishockey zu spielen. Mit Ausnahme von 2 Saisons, von denen ich eine für den EHC Kloten gespielt habe und eine aus gesundheitlichen Gründen aussetzen musste, habe ich all diese Jahre bis zum Ende der Saison 23/24 bei den Lions gespielt. Im Jahr 2022 gründete ich 3 Steps Hockey und bin seither als Trainer tätig. Ich habe mit 3 Steps begonnen, um meine Liebe zum Sport zu teilen und die Teilnehmer durch einen ganzheitlichen Trainingsansatz zu verbessern."
+            },
+            "lukas": {
+                "role1": "On-Ice Coach",
+                "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
+                "quote": "[insert]"
+            },
+            "justin": {
+                "role1": "On-Ice Coach",
+                "role2": "Aktiver Spieler beim EHC Winterthur in der Swiss League",
+                "quote": "[insert]"
+            },
+            "sergei": {
+                "role1": "Guest Coach",
+                "role2": "Aktiver Trainer für Ice Style in Jekaterinburg, Russland",
+                "quote": "[insert]"
             }
         },
         "why3steps": {
@@ -127,6 +142,19 @@
             "prospects": {
             "title": "Gruppe Prospects",
             "description": "Jahrgänge 2013 und älter"
+            }
+        },
+        "russians": {
+            "title": "Gasttrainer aus Jekaterinburg (Russland)",
+            "paragraph1": "Für die Trainings an Au3ahrt und Pfingsten haben wir zwei Trainer aus Jekaterinburg, Russland eingeladen. Sergei Sboev und Sergei Orlov sind beide lang erfahrene Trainer und waren zuvor bereits in der Schweiz. Durch diesen Austausch erho3en wir uns den Teilnehmern neue Trainingsansätze und Philosophien mit auf den Weg zu geben, um diese schlussendlich zu einem besseren Spieler zu machen.",
+            "sboev": {
+                "bullet1": "25 Jahre Expertise als Hockeytrainer",
+                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)"
+            },
+            "orlov": {
+                "bullet1": "12 Jahre Trainingserfahrung",
+                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)",
+                "bullet3": "10 Jahre Coaching auf Profi-Niveau bei Sputnik Nizhny"
             }
         }
     },

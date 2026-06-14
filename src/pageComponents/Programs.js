@@ -5,6 +5,9 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import shootout from "../images/2023/IMG_5638.jpeg";
+import sboevImg from "../images/people/sboev.jpg";
+import orlovImg from "../images/people/orlov.jpg";
+import CoachCard from '../components/CoachCard';
 import { EventSection } from '../components/EventSection';
 
 export default function Programs() {
@@ -80,6 +83,38 @@ export default function Programs() {
                         {t('ageGroups.prospects.description')}
                     </li>
                 </ul>
+            </div>
+
+            {/* russian coaches */}
+            <div className="w-full max-w-4xl mx-auto text-center mt-12 px-4">
+                <h2 className="font-heading text-3xl md:text-4xl text-textdark">
+                    {t('russians.title')}
+                </h2>
+
+                <p className="text-textmid text-base md:text-lg mt-3">
+                    {t('russians.paragraph1')}
+                </p>
+
+                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <CoachCard
+                    imageSrc={sboevImg}
+                    name="Sergei Sboev"
+                    bullets={[
+                        t('russians.sboev.bullet1'),
+                        t('russians.sboev.bullet2'),
+                    ]}
+                    />
+
+                    <CoachCard
+                    imageSrc={orlovImg}
+                    name="Sergei Orlov"
+                    bullets={[
+                        t('russians.orlov.bullet1'),
+                        t('russians.orlov.bullet2'),
+                        t('russians.orlov.bullet3'),
+                    ]}
+                    />
+                </div>
             </div>
 
             {/* events section */}
