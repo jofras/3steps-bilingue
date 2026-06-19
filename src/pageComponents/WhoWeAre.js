@@ -22,7 +22,7 @@ export default function WhoWeAre() {
             <TeamMemberCard
                 imageSrc={kevinImage}
                 name="Kevin Kasper" 
-                age={t('ageDisplay', { age: 21 })} // pass "years old" translation here
+                age={t('ageDisplay', { age: 22 })} // pass "years old" translation here
                 roles={[
                     t('kevin.role1'),
                     t('kevin.role2'),
@@ -42,7 +42,7 @@ export default function WhoWeAre() {
             <TeamMemberCard
                 imageSrc={justinImage}
                 name="Justin Gull" 
-                age={t('ageDisplay', { age: 20 })} // pass "years old" translation here
+                age={t('ageDisplay', { age: 21 })} // pass "years old" translation here
                 roles={[
                     t('justin.role1'),
                     t('justin.role2'),
