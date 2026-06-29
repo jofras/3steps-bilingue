@@ -25,7 +25,7 @@ export default function WhoWeAre() {
                     t('cedric.role1'),
                     t('cedric.role2'),
                 ]}
-                quote={t('"Wenn du dich nicht bewegst, bewegt dich nichts"')} 
+                quote={t('about.whoweare.cedric.quote')} 
             />
             {/* add more team members here */}
         </SectionBlock>
