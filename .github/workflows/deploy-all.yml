@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - hockey
-      - floorball
+      - floorball-2
 
 jobs:
   deploy:
@@ -31,6 +31,6 @@ jobs:
       - name: Save Out Folder for Manual Download
         uses: actions/upload-artifact@v4
         with:
-          # This dynamically names the zip file based on the active branch (main, hockey, or floorball)
+          # This dynamically names the zip file based on the active branch (main, hockey, or floorball-2)
           name: ${{ github.ref_name }}-out-folder
           path: ./out/
