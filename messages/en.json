@@ -68,12 +68,28 @@
         },
         "whoweare": {
             "title": "Who We Are",
-            "introParagraph": "To promote sport and the younger generation, we offer our programs during the season break. In this way we help the “stars of tomorrow” to realize their dream. We are a young team, all with coaching experience and actively play the sport ourselves. That's why we know how to treat the participants and what it takes to become a professional. We look forward to getting to know you personally!",
+            "introParagraph": "To promote sport and the younger generation, we offer our programs during the season break. In this way we help the “stars of tomorrow” to realize their dream. We are a young team, all with coaching experience and actively play ice hockey ourselves. That's why we know how to treat the participants and what it takes to become a professional. We look forward to getting to know you personally!",
             "ageDisplay": "{age} years old",
-            "cedric": {
-                    "role1": "Head Coach",
-                    "role2": "Active Player Kloten Jets - National League A",
-                    "quote": "If you don't move, nothing will move you."
+            "kevin": {
+                "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
+                "role2": "Active player for Ohio University D1 Ice Hockey Team",
+                "quote": "I started playing hockey for the Lions organization when I was 5 years old. With an exception of 2 seasons, one of which I played for the EHC Kloten and one that I had to miss out because of my health, I played all those years as a Lion until the end of the 23/24 season, in which I was able to lead the team to the U20 Swiss National championship as the team captain. In the 25/26 season I was able to win again in college with the Ohio Bobcats ACHA D1 team. In 2022 I started 3 Steps Hockey and been coaching actively ever since. I founded it to share my love for sports and help participants improve at it through a well-rounded and holistic approach to training."
+            },
+            "lukas": {
+                "role1": "On-Ice Coach",
+                "role2": "Active Player for EHC Arosa in the Swiss League",
+                "quote": ""
+            },
+            "justin": {
+                "role1": "On-Ice Coach",
+                "role2": "Active Player for EHC Winterthur in the Swiss League",
+                "quote": ""
+            },
+            "sergei": {
+                "role1": "Guest Coach",
+                "role2": "Active Coach for Ice Style in Yekaterinburg, Russia",
+                "quote": ""
+            }
         },
         "why3steps": {
             "title": "Why 3 Steps?",
@@ -111,7 +127,7 @@
             "skills": {
                 "shooting": "Shooting",
                 "stickhandling": "Stickhandling",
-                "skating": "Spped"
+                "skating": "Shooting"
             },
             "paragraph2": "These three core areas symbolize our 3 steps in training. Through targeted exercises, we improve not only technique but also understanding of the game and game intelligence.",
             "paragraph3": "Our aim is to improve the players in a playful way, with enthusiasm, but also with the necessary toughness, so that they can successfully apply what they have learned in competition."
@@ -128,6 +144,19 @@
                 "description": "Years 2013 and older"
             }
     },
+            "russians": {
+            "title": "Guest Coaches from Yekaterinburg, Russia",
+            "paragraph1": "For the training sessions on Ascension and Pentecost, we have invited two coaches from Yekaterinburg, Russia. Sergei Sboev and Sergei Orlov are both highly experienced coaches and have previously worked in Switzerland. Through this exchange, we hope to provide participants with new training approaches and philosophies that will ultimately help them become better players.",
+            "sboev": {
+                "bullet1": "25 years of expertise as a hockey coach",
+                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg"
+            },
+            "orlov": {
+                "bullet1": "12 years of coaching experience",
+                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg",
+                "bullet3": "10 years of professional coaching for Sputnik Nizhny"
+            }
+        },
     "contact": {
         "title": "Contact Us",
         "formTitle": "Contact Google Form",
