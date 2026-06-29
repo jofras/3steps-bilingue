@@ -1,4 +1,4 @@
-// src/pages/Multimedia.js
+// src/pageComponents/Multimedia.js
 
 "use client";
 
@@ -14,12 +14,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const videos = [
-  // die musch denn no definiere wenn sie hesch, entweder uf youtube und denn mit embed, 
-  // oder via dfolders falls sie abeglade hesch
   { id: 'G7DeQbTzPE8', title: 'Gold Medal Game 2010' },
   { id: 'JPtZA4Bz8T0', title: 'Miracle On Ice'}
-  // { id: 'dQw4w9WgXcQ', title: 'Rick Roll' },
-  // { id: 'oHg5SJYRHA0', title: 'Rick Roll #2' }
 ];
 
 export const newsItems = [
@@ -32,195 +28,11 @@ export const newsItems = [
   }
 ];
 
-// 🛠️ Local fallback added to resolve the "photosByYear is not defined" error
 const photosByYear = { "2026": [] };
 
 export default function Multimedia() {
   const t = useTranslations('multimedia');
   const locale = useLocale();
-  
-  const availableYears = Object.keys(photosByYear).sort((a, b) => b - a);
-  const [selectedYear, setSelectedYear] = useState(availableYears[0]);
-  
-  const currentPhotos = photosByYear[selectedYear] || [];
-  
-  return (
-    <div className="w-full min-h-screen flex flex-col">
-      <div className="relative w-full h-[60vh] md:h-[75vh] overflow-hidden">
-        <div className="absolute inset-0 flex flex-col md:flex-row w-full h-full z-10">
-          
-          <div className="w-full md:w-1/2 flex flex-col items-center justify-center bg-gradient-to-br from-blue-700 to-indigo-800 text-white p-8 md:p-12 pt-8">
-            <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-center leading-tight mb-4">
-              {t('hero.title')}
-            </h1>
-            <p className="text-lg md:text-xl text-center opacity-90 max-w-md">
-              {t('hero.subtitle')}
-            </p>
-            <p className="text-sm md:text-base text-center mt-4 opacity-75 font-medium tracking-wider">
-              #3stepsathletics
-            </p>
-          </div>
-          
-          <div className="w-full md:w-1/2 h-full">
-            <Swiper
-              modules={[Autoplay, A11y]}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-              }}
-              loop={true}
-              className="w-full h-full"
-            >
-              {currentPhotos.slice(0, 4).map((photo, i) => (
-                <SwiperSlide key={i}>
-                  <div className="relative w-full h-full">
-                    <Image
-                      src={photo.src}
-                      alt={photo.alt}
-                      fill
-                      priority={i === 0}
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover object-center"
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full max-w-6xl mx-auto px-4 py-12 space-y-16">
-        
-        <section id="photos" className="text-center">
-          <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-3">
-            {t('photos.title')}
-          </h2>
-          <p className="text-gray-600 text-base md:text-lg mb-4 max-w-2xl mx-auto">
-            {t('photos.subtitle')}
-          </p>
-          
-          <div className="flex justify-center mb-8">
-            <select
-              value={selectedYear}
-              onChange={(e) => setSelectedYear(e.target.value)}
-              className="px-6 py-3 bg-white border-2 border-primary text-primary rounded-full font-semibold shadow-md hover:bg-blue-50 transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-            >
-              {availableYears.map((year) => (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              ))}
-            </select>
-          </div>
-          
-          <div className="bg-white rounded-2xl shadow-xl p-6 md:p-10">
-            <Swiper
-              key={selectedYear}
-              modules={[Navigation, A11y]}
-              spaceBetween={30}
-              slidesPerView={1}
-              navigation
-              loop={currentPhotos.length > 1}
-              className="rounded-xl photo-swiper"
-            >
-              {currentPhotos.map((photo, i) => (
-                <SwiperSlide key={i}>
-                  <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl">
-                    <Image 
-                      src={photo.src} 
-                      alt={photo.alt}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 800px"
-                      className="object-cover hover:scale-105 transition-transform duration-500" 
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </section>
-
-        <section id="videos" className="text-center">
-          <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-3">
-            {t('videos.title')}
-          </h2>
-          <p className="text-gray-600 text-base md:text-lg mb-8 max-w-2xl mx-auto">
-            {t('videos.subtitle')}
-          </p>
-          
-          <div className="bg-white rounded-2xl shadow-xl p-6 md:p-10">
-            <Swiper
-              modules={[Navigation, Pagination, A11y]}
-              spaceBetween={30}
-              slidesPerView={1}
-              navigation
-              pagination={{ 
-                clickable: true,
-                bulletClass: 'swiper-pagination-bullet',
-                bulletActiveClass: 'swiper-pagination-bullet-active'
-              }}
-              loop={true}
-              className="rounded-xl video-swiper"
-            >
-              {videos.map((video, i) => (
-                <SwiperSlide key={i} className="pb-8">
-                  <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden">
-                    <iframe
-                      src={`https://www.youtube.com/embed/${video.id}`}
-                      title={video.title}
-                      className="w-full h-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
-                  </div>
-                  <h3 className="font-body text-lg font-semibold text-gray-800 mt-4">
-                    {video.title}
-                  </h3>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </section>
-
-        <section className="text-center">
-          <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-3">
-            {t('news.title')}
-          </h2>
-          <p className="text-gray-600 text-base md:text-lg mb-8 max-w-2xl mx-auto">
-            {t('news.subtitle')}
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {newsItems.map((item, i) => (
-              <Link
-                key={i}
-                href={`${locale}/multimedia/news/${item.slug}`}
-                className="bg-white rounded-xl shadow-lg hover:shadow-2xl hover:scale-102 transition-all duration-200 p-6 text-left group"
-              >
-                <div className="flex flex-col h-full">
-                  <h3 className="font-heading text-lg text-primary mb-2 group-hover:text-blue-600 transition-colors">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-gray-500 mb-3 font-medium">
-                    {item.date}
-                  </p>
-                  <p className="text-sm text-gray-600 flex-grow leading-relaxed">
-                    {item.excerpt}
-                  </p>
-                  <div className="mt-4 pt-3 border-t border-gray-100">
-                    <span className="text-xs text-primary font-semibold uppercase tracking-wide group-hover:text-blue-600 transition-colors">
-                      {t('news.readMore')}
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
-      </div>
-    </div>
-  );
-}  const locale = useLocale();
   
   const availableYears = Object.keys(photosByYear).sort((a, b) => b - a);
   const [selectedYear, setSelectedYear] = useState(availableYears[0]);
