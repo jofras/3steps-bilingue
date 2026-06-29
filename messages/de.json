@@ -74,6 +74,7 @@
                     "role1": "Cheftrainer",
                     "role2": "Aktiver Spieler Kloten Jets - National Liga A",
                     "quote": "Wenn du dich nicht bewegst, bewegt dich nichts."
+             }
         },
         "why3steps": {
             "title": "Warum 3 Steps?",
@@ -127,7 +128,8 @@
             "title": "Gruppe Prospects",
             "description": "Jahrgänge 2013 und älter"
             }
-        },
+        }
+    },
         
     "contact": {
         "title": "Kontakt",
