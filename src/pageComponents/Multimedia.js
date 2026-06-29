@@ -9,9 +9,10 @@ import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// Comment these out temporarily to test the global CSS bundle:
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
 
 const videos = [
   { id: 'G7DeQbTzPE8', title: 'Gold Medal Game 2010' },
