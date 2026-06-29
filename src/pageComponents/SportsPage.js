@@ -12,11 +12,17 @@ import floorball1 from '../images/2024/IMG_9358.jpeg';
 import floorball2 from '../images/2024/IMG_9365.jpeg';
 
 const sports = [
-  // gonna have to change these paths per branch, or link to the other site's url
-  { name: 'Hockey', path: '/hockey', img: hockey3 },
-  { name: 'Floorball', path: '/floorball', img: floorball2 },
+  { 
+    name: 'Hockey', 
+    path: 'https://www.3stepshockey.ch', 
+    img: hockey3 
+  },
+  { 
+    name: 'Floorball', 
+    path: 'https://www.3stepsfloorball.ch', 
+    img: floorball2 
+  },
 ];
-
 export default function SportsPage() {
   const t = useTranslations('sports'); 
 
