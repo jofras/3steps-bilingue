@@ -68,13 +68,33 @@
         },
         "whoweare": {
             "title": "Wer Wir Sind",
-            "introParagraph": "Um den Sport und die junge Generation zu fördern, bieten wir unsere Programme während der Saisonpause an. Auf diese Weise helfen wir den „Stars von morgen“, ihren Traum zu verwirklichen. Wir sind ein junges Team, alle mit Coaching-Erfahrung und spielen selbst aktiv Unihockey. Deshalb wissen wir, wie wir mit den Teilnehmern umgehen müssen und was es braucht, um ein Profi zu werden. Wir freuen uns darauf, euch persönlich kennenzulernen!",
+            "introParagraph": "Um den Sport und die junge Generation zu fördern, bieten wir unsere Programme während der Saisonpause an. Auf diese Weise helfen wir den „Stars von morgen“, ihren Traum zu verwirklichen. Wir sind ein junges Team, alle mit Coaching-Erfahrung und spielen selbst aktiv Eishockey. Deshalb wissen wir, wie wir mit den Teilnehmern umgehen müssen und was es braucht, um ein Profi zu werden. Wir freuen uns darauf, euch persönlich kennenzulernen!",
             "ageDisplay": "{age} Jahre alt",
-             "cedric": {
-                    "role1": "Cheftrainer",
-                    "role2": "Aktiver Spieler Kloten Jets - National Liga A",
-                    "quote": "Wenn du dich nicht bewegst, bewegt dich nichts."
-             }
+            "kevin": {
+                "role1": "Gründer & On-Ice Coach",
+                "role2": "Aktiver Spieler Ohio University D1 Eishockey Team",
+                "quote": "Erfolg hat drei Buchstaben: TUN"
+            },
+            "cedric": {
+                "role1": "Cheftrainer Unihockey",
+                "role2": "Aktiver Spieler Kloten Jets - National Liga A",
+                "quote": "Wenn du dich nicht bewegst, bewegt dich nichts."
+            },
+            "lukas": {
+                "role1": "On-Ice Coach",
+                "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
+                "quote": ""
+            },
+            "justin": {
+                "role1": "On-Ice Coach",
+                "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
+                "quote": ""
+            },
+            "sergei": {
+                "role1": "Guest Coach",
+                "role2": "Aktiver Trainer für Ice Style in Jekaterinburg, Russland",
+                "quote": ""
+            }
         },
         "why3steps": {
             "title": "Warum 3 Steps?",
@@ -102,35 +122,47 @@
     "programs": {
         "hero": {
             "title": "Unsere Programme",
-            "subtitle": "Unihockeyprogramme — für alle Unihockeytalente",
+            "subtitle": "Eishockeyprogramme — für alle Eishockeytalente",
             "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
             "title": "Hier wachsen Talente!",
-            "paragraph1": "Um den größtmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
+            "paragraph1": "Um den grösstmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
             "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
             "skills": {
                 "shooting": "Schießen",
                 "stickhandling": "Stockführung",
-                "skating": "Schnelligkeit"
+                "skating": "Schlittschuhlaufen"
             },
             "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
             "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
         },
         "ageGroups": {
             "title": "Altersgruppen",
-            "reasoning": "Wir teilen unsere Spieler im Training in Altersgruppen ein, um Intensität, Fokus und Entwicklung optimal an das jeweilige Niveau anzupassen. So können wir Übungen gezielt gestalten und sicherstellen, dass jeder Spieler bestmöglich vorankommt.",
+            "reasoning": "Wir teilen unsere Spieler im Training in zwei Altersgruppen ein, um Intensität, Fokus und Entwicklung optimal an das jeweilige Niveau anzupassen. So können wir Übungen gezielt gestalten und sicherstellen, dass jeder Spieler bestmöglich vorankommt.",
             "juniors": {
-            "title": "Gruppe Juniors",
-            "description": "Jahrgänge 2014 und jünger"
+                "title": "Gruppe Juniors",
+                "description": "Jahrgänge 2014 und jünger"
             },
             "prospects": {
-            "title": "Gruppe Prospects",
-            "description": "Jahrgänge 2013 und älter"
+                "title": "Gruppe Prospects",
+                "description": "Jahrgänge 2013 und älter"
+            }
+        },
+        "russians": {
+            "title": "Gasttrainer aus Jekaterinburg (Russland)",
+            "paragraph1": "Für die Trainings an Auffahrt und Pfingsten haben wir zwei Trainer aus Jekaterinburg, Russland eingeladen. Sergei Sboev und Sergei Orlov sind beide lang erfahrene Trainer und waren zuvor bereits in der Schweiz. Durch diesen Austausch erhoffen wir uns den Teilnehmern neue Trainingsansätze und Philosophien mit auf den Weg zu geben, um diese schlussendlich zu einem besseren Spieler zu machen.",
+            "sboev": {
+                "bullet1": "25 Jahre Expertise als Hockeytrainer",
+                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)"
+            },
+            "orlov": {
+                "bullet1": "12 Jahre Trainingserfahrung",
+                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)",
+                "bullet3": "10 Jahre Coaching auf Profi-Niveau bei Sputnik Nizhny"
             }
         }
     },
-        
     "contact": {
         "title": "Kontakt",
         "formTitle": "Google Form Kontakt",
@@ -173,11 +205,11 @@
     "home": {
         "hero": {
             "mainTitle": "BECOME YOUR BEST",
-            "signUpButton": "Jetzt Anmelden"
+            "signUpButton": "Unsere Sportarten"
         },
         "intro": {
             "title": "MIT LEIDENSCHAFT BESSER WERDEN",
-            "paragraph": "3 Steps Floorball bietet Unihockeytrainings an um die Spieler von Morgen auf das nächste Level zu bringen. Das Ziel ist harte Arbeit mit der Liebe, die wir zum Sport teilen, zu kombinieren.",
+            "paragraph": "3 Steps Athletics bietet Trainings und Events in verschiedenen Sportarten an um dich in dem Sport den du liebst besser zu machen. Das Ziel ist harte Arbeit mit der Liebe, die wir zum Sport teilen, zu kombinieren.",
             "findOutMore": "Mehr Erfahren →"
         },
         "follow": {
