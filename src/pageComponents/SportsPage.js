@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 // image imports
 import hockey3 from '../images/2024/IMG_9346.jpeg';
-import cedigame1 from '../images/random_floorball_pics/cedigame1';
+import cedigame1 from '../images/random_floorball_pics/cedigame1.jpeg';
 import floorball2 from '../images/2024/IMG_9365.jpeg';
 
 const sports = [
