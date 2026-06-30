@@ -120,7 +120,7 @@ export default function LandingPage() {
                 {t("hero.mainTitle")}
               </h1>
               <Link
-                href={`/${locale}/signup`}
+                href={`/${locale}/sports`}
                 className="mt-6 md:mt-8 bg-accent text-white px-8 py-3 md:px-12 md:py-4 md:text-xl font-bold shadow-lg hover:bg-green-600 transition-transform hover:scale-105 rounded-full"
               >
                 {t("hero.signUpButton")}
@@ -185,7 +185,7 @@ export default function LandingPage() {
         {/* find out more button */}
         <div className="w-full text-center mt-6 md:mt-8 px-4">
           <Link
-            href={`/${locale}/programs`}
+            href={`/${locale}/sports`}
             className="inline-block bg-primary text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300 transform hover:scale-105"
           >
             {t("intro.findOutMore")}
