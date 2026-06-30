@@ -270,10 +270,9 @@
 }            "place": "Place",
             "ages": "Ages",
             "price": "Price"
-        },
         "noEvents": "No events scheduled at the moment.",
         "signupButton": "Go to Signup Page"
-    },
+
     "about": {
         "purpose": {
             "title": "Our Purpose",
@@ -500,4 +499,3 @@
             }
         }
     }
-}
