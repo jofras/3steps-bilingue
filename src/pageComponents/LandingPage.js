@@ -27,6 +27,7 @@ import highFive from "../images/2024/IMG_9347.jpeg"
 import attentive from "../images/2024/IMG_9332.jpeg"
 import boardBattle from "../images/2024/IMG_9354.jpeg"
 import postedUp from "../images/2024/IMG_9297.jpeg"
+import sboev1 from "../images/hockey/IMG_4209.JPG"
 
 // floorball
 import floorball1 from "../images/random_floorball_pics/floorball1.jpg"
@@ -81,6 +82,13 @@ const followPosts = [
     title: "Locked In",
     img: postedUp,
     url: "https://www.instagram.com/3stepshockey/",
+  },
+  { 
+    id: "6",
+    title: "Instagram Post 1",
+    type: "instagram",
+    img: sboev1,
+    url: "https://www.instagram.com/p/DZTpeU-Df8O/?img_index=1",
   },
 ];
 
@@ -166,28 +174,6 @@ export default function LandingPage() {
           <p className="text-gray-600 text-base md:text-lg mt-3">{t("intro.paragraph")}</p>
         </div>
 
-        {/* sports cards – not needed for hockey subpage */}
-        {/* <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-12 z-20 relative">
-          {sports.map((sport) => (
-            <Link
-              href={sport.path}
-              key={sport.name}
-              className="bg-white rounded-xl shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-200 w-64 flex flex-col items-center p-4 cursor-pointer"
-            >
-              <Image
-                src={sport.img}
-                alt={sport.name}
-                width={256}
-                height={128}
-                className="w-full h-32 object-cover rounded-md mb-3"
-              />
-              <span className="font-heading text-xl font-bold text-primary mb-1">
-                {sport.name}
-              </span>
-            </Link>
-          ))}
-        </div> */}
-
         {/* find out more button */}
         <div className="w-full text-center mt-6 md:mt-8 px-4">
           <Link
@@ -226,25 +212,67 @@ export default function LandingPage() {
             >
               {followPosts.map((post) => (
                 <SwiperSlide key={post.id}>
-                  <a
-                    href={post.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block rounded-lg overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 group"
-                  >
-                    <div className="relative w-full aspect-square">
-                      <Image
-                        src={post.img}
-                        alt={post.title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                        sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 25vw"
-                      />
-                    </div>
-                    {/* <div className="p-3 text-left">
-                      <h3 className="text-sm font-semibold text-gray-700 truncate">{post.title}</h3>
-                    </div> */}
-                  </a>
+                  {post.type === "instagram" ? (
+                    /* 📸 1. INSTAGRAM POST CARD DESIGN */
+                    <a
+                      href={post.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 text-left"
+                    >
+                      {/* Fake Instagram Header */}
+                      <div className="flex items-center p-2.5 space-x-2 border-b border-gray-50">
+                        <div className="w-6 h-6 rounded-full bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-600 p-[1.5px]">
+                          <div className="w-full h-full bg-white rounded-full flex items-center justify-center text-[8px] font-black text-gray-800">
+                            3S
+                          </div>
+                        </div>
+                        <span className="text-[11px] font-bold text-gray-900 leading-none tracking-tight">3stepsathletics</span>
+                      </div>
+
+                      {/* Main Photo */}
+                      <div className="relative w-full aspect-square bg-gray-50">
+                        <Image
+                          src={post.img}
+                          alt={post.title}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 25vw"
+                        />
+                      </div>
+
+                      {/* Action Icon Row mock */}
+                      <div className="px-2.5 pt-2 flex space-x-3 text-gray-700 text-xs">
+                        <span>♥</span> <span>💬</span> <span>✈</span>
+                      </div>
+
+                      {/* Caption block */}
+                      <div className="p-2.5 pt-1">
+                        <p className="text-[11px] text-gray-800 leading-tight line-clamp-2">
+                          <span className="font-bold text-gray-900 mr-1">3stepsathletics</span>
+                          {post.title}
+                        </p>
+                      </div>
+                    </a>
+                  ) : (
+                    /* 🖼️ 2. ORIGINAL SIMPLE REGULAR CARD FALLBACK */
+                    <a
+                      href={post.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block rounded-lg overflow-hidden shadow-md bg-white hover:shadow-xl transition-shadow duration-300 group"
+                    >
+                      <div className="relative w-full aspect-square">
+                        <Image
+                          src={post.img}
+                          alt={post.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 80vw, (max-width: 1024px) 40vw, 25vw"
+                        />
+                      </div>
+                    </a>
+                  )}
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -290,4 +318,3 @@ export default function LandingPage() {
     </>
   );
 }
-
