@@ -31,10 +31,13 @@ import postedUp from "../images/2024/IMG_9297.jpeg"
 // floorball
 import floorball1 from "../images/random_floorball_pics/floorball1.jpg"
 import floorball2 from "../images/random_floorball_pics/floorball2.jpg"
+import floorball3 from "../images/random_floorball_pics/floorball3.jpg"
+import cedigame1 from "../images/random_floorball_pics/cedigame1.jpeg"
+import cedigame2 from "../images/random_floorball_pics/cedigame2.jpeg"
 
 import slapshootLogo from "../images/partners/slapshoot.png"
 
-const heroImages = [shot, highFive, attentive, tireflip, floorball2];
+const heroImages = [cedigame1, floorball1, floorball3, cedigame2, floorball2];
 
 const sports = [
   { name: "Hockey", path: "/sports/hockey", img: speed },
