@@ -1,270 +1,270 @@
 {
     "navigation": {
-        "home": "Home",
-        "about": "About Us",
-        "purpose": "Our Purpose",
-        "whoweare": "Who We Are",
-        "why3steps": "Why 3 Steps",
-        "sports": "Sports",
-        "programs": "Programs",
+        "home": "Startseite",
+        "about": "Über Uns",
+        "purpose": "Unser Antrieb",
+        "whoweare": "Wer Wir Sind",
+        "why3steps": "Warum 3 Steps",
+        "sports": "Sportarten",
+        "programs": "Programme",
         "multimedia": "Multimedia",
-        "visuals": "Visuals",
-        "news": "News",
-        "partners": "Partners",
-        "contact": "Contact",
-        "signup": "Sign Up"
+        "visuals": "Filmmaterial",
+        "news": "Nachrichten",
+        "partners": "Partner",
+        "contact": "Kontakt",
+        "signup": "Anmelden"
     },
     "footer": {
-        "copyright": "© {year} 3Steps Athletics. All rights reserved.",
-        "legalNotice": "Legal Notice",
+        "copyright": "© {year} 3Steps Athletics. Alle Rechte vorbehalten.",
+        "legalNotice": "Rechtliche Hinweise",
         "team": "Team",
         "mission": "Mission",
-        "partners": "Partners",
-        "contact": "Contact"
+        "partners": "Partner",
+        "contact": "Kontakt"
     },
     "events": {
-        "title": "Upcoming Events",
+        "title": "Kommende Veranstaltungen",
         "categories": {
-            "all": "All",
+            "all": "Alle",
             "camps": "Camps",
             "trainings": "Trainings",
-            "summerLeague": "Summer League"
+            "summerLeague": "Sommerliga"
         },
         "table": {
-            "title": "Title",
-            "date": "Date",
-            "time": "Time",
-            "place": "Place",
-            "ages": "Ages",
-            "price": "Price"
+            "title": "Titel",
+            "date": "Datum",
+            "time": "Zeit",
+            "place": "Ort",
+            "ages": "Alter",
+            "price": "Preis"
         },
-        "noEvents": "No events scheduled at the moment.",
-        "signupButton": "Go to Signup Page"
+        "noEvents": "Momentan sind keine Veranstaltungen geplant.",
+        "signupButton": "Zur Anmeldeseite"
     },
     "about": {
         "purpose": {
-            "title": "Our Purpose",
+            "title": "Unser Antrieb",
             "section1": {
-                "heading": "Our Drive at 3 Steps Athletics",
-                "paragraph1": "We at 3 Steps Athletics are young, motivated and active athletes ourselves. We are driven by our passion for sport and it is precisely this enthusiasm that we want to pass on to our participants. Our aim is to get people, especially children and young people, excited about sport and help them to get better at the sport they love.",
-                "paragraph2": "The trick is to combine hard work with passion. This is how we develop not only as athletes, but also as people and achieve things that previously seemed unthinkable. We want to combine the two to create the most holistic and effective training experience possible.",
-                "paragraph3": "At a time when the digital world is increasingly influencing our lives, it is more important than ever to inspire children and young people to exercise and play sport. Today, young people are moving less than ever before. Instead of sitting in front of their cell phones for hours on end, we want to motivate them to do sport, to develop a genuine enjoyment of it and the inner will to get the best out of themselves in their discipline.",
-                "paragraph4": "Our training sessions not only promote athletic development, but they also strengthen the community. Sport unites. Nelson Mandela also summed this up:",
-                "quote": "\"Sport has the power to change the world. It has the power to inspire, it has the power to unite people in a way that little else does.\""
+                "heading": "Unsere Antrieb bei 3 Steps Athletics",
+                "paragraph1": "Wir von 3 Steps Athletics sind jung, motiviert und selbst aktive Sportler. Unsere Leidenschaft für den Sport treibt uns an und genau diese Begeisterung möchten wir an unsere Teilnehmer weitergeben. Unser Ziel ist es, Menschen, besonders Kinder und Jugendliche, für den Sport zu begeistern und ihnen zu helfen, in der Sportart, die sie lieben, besser zu werden.",
+                "paragraph2": "Die Kunst besteht darin, harte Arbeit mit Leidenschaft zu verbinden. Denn so entfalten wir uns nicht nur als Sportler, sondern auch als Menschen und erreichen Dinge, die zuvor undenkbar schienen. Wir möchten beides vereinen und so ein möglichst ganzheitliches und wirkungsvolles Trainingserlebnis schaffen.",
+                "paragraph3": "In einer Zeit, in der die digitale Welt unser Leben immer mehr beeinflusst, ist es wichtiger denn je, Kinder und Jugendliche für Bewegung und Sport zu inspirieren. Heute bewegen sich junge Menschen weniger als je zuvor. Anstatt stundenlang vor dem Handy zu sitzen, wollen wir sie dazu motivieren, Sport zu treiben, echte Freude daran zu entwickeln und den inneren Willen, in ihrer Disziplin das Beste aus sich herauszuholen.",
+                "paragraph4": "Unsere Trainings fördern nicht nur die sportliche Entwicklung, sie stärken auch den sozialen Zusammenhalt. Sport verbindet. Das brachte auch Nelson Mandela auf den Punkt:",
+                "quote": "Sport hat die Kraft, die Welt zu verändern. Er hat die Kraft zu inspirieren und die Kraft, Menschen auf eine Weise zu vereinen, wie es kaum etwas anderes vermag.\""
             },
             "section2": {
-                "heading": "What makes us special",
-                "paragraph1": "Our young age and our own active sports experience give us a direct line to the participants. We understand their perspective, speak their language and know how to motivate them. As we are active ourselves, we are able to demonstrate each exercise correctly and comprehensibly, which is crucial for the learning process. After all, children and young people not only learn by doing, but also visually by seeing.",
-                "paragraph2": "Our training concept is based on a simple but effective principle: we always ask ourselves the following questions first:",
-                "list1": "Which abilities (skills) should be trained?",
-                "list2": "How can they be learned and improved?",
-                "list3": "What effect do these skills have in games or competitions?",
-                "paragraph3": "Only when we can clearly answer these questions do we integrate an element into our program. Every exercise, every method is a conscious decision and has a specific application in the respective sport. We always ask ourselves whether this exercise would help us progress and make us a more complete player as well.",
-                "paragraph4": "Our approach is driven by constant reflection and improvement. We believe in the principle that “change is the only constant in life”, as the Greek philosopher Heraclitus once said.",
-                "paragraph5": "That's why we remain open to new ideas, test innovative training methods and constantly adapt our program to offer our participants the best service possible.",
-                "paragraph6": "Our drive: to strengthen society with the power of sport and to especially support children and young people.",
-                "closingStatement": "Young. Dynamic. Innovative. That is 3 Steps Athletics."
+                "heading": "Was uns besonders macht",
+                "paragraph1": "Unser junges Alter und unsere eigene aktive Sportlererfahrung verschaffen uns einen direkten Draht zu den Teilnehmenden. Wir verstehen ihre Perspektive, sprechen ihre Sprache und wissen, wie wir sie motivieren können. Da wir selbst aktiv sind, sind wir in der Lage, jede Übung korrekt und nachvollziehbar vorzuführen, was entscheidend für den Lernprozess ist. Denn Kinder und Jugendliche lernen nicht nur durchs Tun, sondern auch visuell durchs Sehen.",
+                "paragraph2": "Unser Trainingskonzept basiert auf einem einfachen, aber wirkungsvollen Grundsatz: Wir stellen uns immer zuerst die Fragen:",
+                "list1": "Welche Fähigkeiten (Skills) sollte man trainieren?",
+                "list2": "Wie kann man diese erlernen und verbessern?",
+                "list3": "Wie wirken sich diese Skills im Spiel oder Wettkampf aus?",
+                "paragraph3": "Nur wenn wir diese Fragen klar beantworten können, integrieren wir ein Element in unser Programm. Jede Übung, jede Methode ist eine bewusste Entscheidung und hat eine konkrete Anwendung im jeweiligen Sport. Dabei stellen wir uns stets die Frage, ob uns diese Übung selbst weiterbringen und zu einem kompletteren Spieler machen würde.",
+                "paragraph4": "Unser Ansatz ist angetrieben von stetiger Reflexion und Verbesserung. Wir glauben an das Prinzip:,, Veränderung ist die einzige Konstante im Leben\", wie einst der griechische Philosoph Heraklit sagte.",
+                "paragraph5": "Deshalb bleiben wir offen für neue Impulse, testen innovative Trainingsmethoden und passen unser Programm laufend an, um unseren Teilnehmern das Beste zu bieten.",
+                "paragraph6": "Unser Antrieb: Die Gesellschaft mit der Kraft des Sports zu stärken und vor allem Kinder und Jugendliche zu fördern.",
+                "closingStatement": "Jung. Dynamisch. Innovativ. Das ist 3 Steps Athletics."
             }
         },
         "whoweare": {
-            "title": "Who We Are",
-            "introParagraph": "To promote sport and the younger generation, we offer our programs during the season break. In this way we help the “stars of tomorrow” to realize their dream. We are a young team, all with coaching experience and actively play ice hockey ourselves. That's why we know how to treat the participants and what it takes to become a professional. We look forward to getting to know you personally!",
-            "ageDisplay": "{age} years old",
+            "title": "Wer Wir Sind",
+            "introParagraph": "Um den Sport und die junge Generation zu fördern, bieten wir unsere Programme während der Saisonpause an. Auf diese Weise helfen wir den „Stars von morgen“, ihren Traum zu verwirklichen. Wir sind ein junges Team, alle mit Coaching-Erfahrung und spielen selbst aktiv Eishockey. Deshalb wissen wir, wie wir mit den Teilnehmern umgehen müssen und was es braucht, um ein Profi zu werden. Wir freuen uns darauf, euch persönlich kennenzulernen!",
+            "ageDisplay": "{age} Jahre alt",
             "kevin": {
-                "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
-                "role2": "Active player Ohio University D1 Ice Hockey Team",
-                "quote": "Success has three letters: ACT"
+                "role1": "Gründer & Cheftrainer Eishockey",
+                "role2": "Aktiver Spieler - Ohio University ACHA D1",
+                "quote": "Erfolg hat drei Buchstaben: TUN"
             },
             "cedric": {
-                "role1": "Head Coach",
-                "role2": "Active Player Kloten Jets - National League A",
-                "quote": "If you don't move, nothing will move you."
+                    "role1": "Cheftrainer Unihockey",
+                    "role2": "Aktiver Spieler Kloten Jets - National Liga A",
+                    "quote": "Wenn du dich nicht bewegst, bewegt dich nichts."
             },
             "lukas": {
                 "role1": "On-Ice Coach",
-                "role2": "Active Player for EHC Arosa in the Swiss League",
+                "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
                 "quote": ""
             },
             "justin": {
                 "role1": "On-Ice Coach",
-                "role2": "Active Player for EHC Winterthur in the Swiss League",
+                "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
                 "quote": ""
             },
             "sergei": {
                 "role1": "Guest Coach",
-                "role2": "Active Coach for Ice Style in Yekaterinburg, Russia",
+                "role2": "Aktiver Trainer für Ice Style in Jekaterinburg, Russland",
                 "quote": ""
             }
         },
         "why3steps": {
-            "title": "Why 3 Steps?",
+            "title": "Warum 3 Steps?",
             "intro": {
                 "brand": "3 Steps",
-                "text": "stands for wholeness. Many things are often summarized with 3 things and so 3 Steps is symbolic of the fact that we try to take into account all aspects that influence people and athletes and thus their performance in sport."
+                "text": "steht für Ganzheit. Viele Dinge im Leben lassen sich symbolisch in drei zentrale Bereiche unterteilen, genau daran knüpfen wir an. Für uns steht „3 Steps“ sinnbildlich dafür, alle wesentlichen Aspekte zu berücksichtigen, die den Menschen als Athleten und damit seine sportliche Leistung, beeinflussen."
             },
             "complexity": {
-                "paragraph1": "Life is complex and is influenced by many different factors and so is sport. Just as in life, many different factors contribute to success or failure, so it is in sport. An athlete's performance is influenced by many different variables, and with 3 Steps we try to integrate all these aspects into our program.",
-                "paragraph2": "Sport can also be roughly divided into 3 categories:"
+                "paragraph1": "Das Leben ist komplex und wird von unzähligen Faktoren geprägt, genau wie der Sport. Erfolg oder Misserfolg im Leben entsteht selten durch eine einzige Ursache, sondern ist das Ergebnis vieler ineinandergreifender Elemente. Das Gleiche gilt für sportliche Leistung: Sie wird nicht durch einen einzelnen Aspekt bestimmt, sondern durch das Zusammenspiel vieler Faktoren. Deshalb verfolgen wir bei 3 Steps Athletics einen ganzheitlichen Ansatz und versuchen, all diese Elemente in unser Trainingskonzept zu integrieren.",
+                "paragraph2": "Wir unterteilen den Sport grob in drei übergeordnete Kategorien:"
             },
             "categories": {
-                "intro": "Sport can also be roughly divided into 3 categories:",
-                "ability": "Sport-specific ability",
-                "physique": "Physique",
-                "mind": "Mind",
-                "subdivision": "These categories can then be divided again into 3 further categories and then those categories again. This shows that sport is a never-ending learning and development process. You are never finished, neither as a person nor as an athlete."
+                "intro": "Wir unterteilen den Sport grob in drei übergeordnete Kategorien:",
+                "ability": "Sportartspezifisches Können",
+                "physique": "Physis",
+                "mind": "Verstand",
+                "subdivision": "Diese drei Kategorien lassen sich jeweils erneut in weitere Unterbereiche gliedern und auch diese wieder in kleinere Einheiten. Das zeigt, dass Sport ein nie endender Lern- und Entwicklungsprozess ist. Man ist nie fertig, weder als Mensch noch als Athlet."
             },
             "approach": {
-                "paragraph1": "In the midst of this complexity, it is crucial to keep a clear head and focus on the essentials. This is exactly where our training comes in:",
-                "paragraph2": "We provide structure and take a targeted yet holistic approach. Our goal is to offer training that is both comprehensive and effective, focused on what really matters and is aligned with our capabilities, considering the scope of each training."
+                "paragraph1": "Inmitten dieser Komplexität ist es entscheidend, einen klaren Kopf zu bewahren und sich auf das Wesentliche zu fokussieren. Genau hier setzt unser Training an:",
+                "paragraph2": "Wir schaffen Struktur und gehen gezielt, aber ganzheitlich vor. Unser Ziel ist es, ein Training anzubieten, das sowohl ganzheitlich als auch effektiv ist, mit Fokus auf das, was wirklich zählt und im Rahmen unserer Möglichkeiten, angepasst an den Umfang unserer Trainings."
             }
-        }
     },
-    "programs": {
+   "programs": {
         "hero": {
-            "title": "Our Programs",
-            "subtitle": "Floorball programs — for every young player",
-            "imageAlt": "Young athletes playing sports"
+            "title": "Unsere Programme",
+            "subtitle": "Eishockeyprogramme — für alle Eishockeytalente",
+            "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
-            "title": "Empowering every athlete",
-            "paragraph1": "In order to achieve the greatest possible training effect, we train very intensively during our programs, but still with joy. Each player is treated individually. The focus is on the individual and we consistently work on personal skills.",
-            "focusIntro": "We mainly focus on technical skills:",
+            "title": "Hier wachsen Talente!",
+            "paragraph1": "Um den grösstmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
+            "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
             "skills": {
-                "shooting": "Shooting",
-                "stickhandling": "Stickhandling",
-                "skating": "Skating"
+                "shooting": "Schießen",
+                "stickhandling": "Stockführung",
+                "skating": "Schlittschuhlaufen"
             },
-            "paragraph2": "These three core areas symbolize our 3 steps in training. Through targeted exercises, we improve not only technique but also understanding of the game and game intelligence.",
-            "paragraph3": "Our aim is to improve the players in a playful way, with enthusiasm, but also with the necessary toughness, so that they can successfully apply what they have learned in competition."
+            "paragraph2": "Diese drei Kernbereiche symbolisieren unsere 3 Steps im Training. Durch gezielte Übungen verbessern wir nicht nur die Technik, sondern auch das Spielverständnis und die Spielintelligenz.",
+            "paragraph3": "Unser Ziel ist es, die Spieler auf spielerische Weise zu verbessern, mit Begeisterung, aber auch mit der nötigen Härte, damit sie das Gelernte im Wettkampf erfolgreich anwenden können."
         },
         "ageGroups": {
-            "title": "Age Groups",
-            "reasoning": "We divide our players into two age groups during practice to ensure training intensity, focus, and development are appropriate for each athlete’s level. This allows us to tailor drills and challenges so every player can progress effectively.",
+            "title": "Altersgruppen",
+            "reasoning": "Wir teilen unsere Spieler im Training in zwei Altersgruppen ein, um Intensität, Fokus und Entwicklung optimal an das jeweilige Niveau anzupassen. So können wir Übungen gezielt gestalten und sicherstellen, dass jeder Spieler bestmöglich vorankommt.",
             "juniors": {
-                "title": "Group Juniors",
-                "description": "Years 2014 and younger"
+                "title": "Gruppe Juniors",
+                "description": "Jahrgänge 2014 und jünger"
             },
             "prospects": {
-                "title": "Group Prospects",
-                "description": "Years 2013 and older"
+                "title": "Gruppe Prospects",
+                "description": "Jahrgänge 2013 und älter"
             }
         },
         "russians": {
-            "title": "Guest Coaches from Yekaterinburg, Russia",
-            "paragraph1": "For the training sessions on Ascension and Pentecost, we have invited two coaches from Yekaterinburg, Russia. Sergei Sboev and Sergei Orlov are both highly experienced coaches and have previously worked in Switzerland. Through this exchange, we hope to provide participants with new training approaches and philosophies that will ultimately help them become better players.",
+            "title": "Gasttrainer aus Jekaterinburg (Russland)",
+            "paragraph1": "Für die Trainings an Auffahrt und Pfingsten haben wir zwei Trainer aus Jekaterinburg, Russland eingeladen. Sergei Sboev und Sergei Orlov sind beide lang erfahrene Trainer und waren zuvor bereits in der Schweiz. Durch diesen Austausch erhoffen wir uns den Teilnehmern neue Trainingsansätze und Philosophien mit auf den Weg zu geben, um diese schlussendlich zu einem besseren Spieler zu machen.",
             "sboev": {
-                "bullet1": "25 years of expertise as a hockey coach",
-                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg"
+                "bullet1": "25 Jahre Expertise als Hockeytrainer",
+                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)"
             },
             "orlov": {
-                "bullet1": "12 years of coaching experience",
-                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg",
-                "bullet3": "10 years of professional coaching for Sputnik Nizhny"
+                "bullet1": "12 Jahre Trainingserfahrung",
+                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)",
+                "bullet3": "10 Jahre Coaching auf Profi-Niveau bei Sputnik Nizhny"
             }
         }
     },
     "contact": {
-        "title": "Contact Us",
-        "formTitle": "Contact Google Form",
-        "loading": "Loading..."
+        "title": "Kontakt",
+        "formTitle": "Google Form Kontakt",
+        "loading": "Lädt..."
     },
     "legal": {
         "impressum": {
             "title": "Impressum",
             "contactAddress": {
-                "title": "Contact Address",
-                "phone": "Phone",
-                "authorizedPerson": "Authorized person(s) responsible",
-                "professionalTitle": "Managing Director"
+                "title": "Kontaktadresse",
+                "phone": "Telefon",
+                "authorizedPerson": "Verantwortungsberechtigte Person(en)",
+                "professionalTitle": "Geschäftsführer"
             },
             "disclaimer": {
-                "title": "Disclaimer",
-                "paragraph1": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
-                "paragraph2": "As a service provider, we are responsible for our own content on these pages in accordance with general legislation. However, as a service provider, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information in accordance with general legislation remain unaffected by this. However, liability in this respect is only possible from the time of knowledge of a specific infringement. As soon as we become aware of such infringements, we will remove this content immediately.",
-                "paragraph3": "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of an infringement. If we become aware of any legal infringements, we will remove such links immediately.",
-                "paragraph4": "The content and works provided on these pages are governed by the copyright laws of Switzerland. Duplication, processing, distribution and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately."
+                "title": "Haftungsausschluss",
+                "paragraph1": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+                "paragraph2": "Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir sind als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+                "paragraph3": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstösse überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+                "paragraph4": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem schweizerischen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung ausserhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
             }
         },
         "privacy": {
-            "title": "Privacy Policy",
-            "paragraph1": "The responsible body within the meaning of data protection laws, in particular the EU General Data Protection Regulation (GDPR), is: 3 Steps Athletics, Im Hüttengraben 6, 8700 Küsnacht, E-Mail: info@3stepsathletics.ch, WebSite: www.3stepsathletics.ch",
-            "paragraph2": "Based on Article 13 of the Swiss Federal Constitution and the federal data protection provisions (Data Protection Act, DSG), every person is entitled to protection of their privacy and protection against misuse of their personal data. The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy. We would like to point out that data transmission over the Internet (e.g., when communicating by email) may be subject to security vulnerabilities. It is not possible to completely protect data from access by third parties. By using this website, you consent to the collection, processing, and use of data as described below. Personal data, in particular name, address, or email address, is collected on a voluntary basis as far as possible. Your data will not be passed on to third parties without your consent."
+            "title": "Datenschutzerklärung",
+            "paragraph1": "Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist: 3 Steps Athletics, Im Hüttengraben 6, 8700 Küsnacht, E-Mail: info@3stepsathletics.ch, WebSite: www.3stepsathletics.ch",
+            "paragraph2": "Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und den datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Durch die Nutzung dieser Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte."
         },
         "terms": {
-            "title": "Terms & Conditions",
-            "headerTitle": "Terms & Conditions",
-            "paragraph1": "These General Terms and Conditions (GTC) of 3 Steps Athletics apply to all registrations, bookings, and services made or completed via this website or by other means. For underage participants, the consent of a parent or legal guardian is required. Participation in our events is only possible with valid health and accident insurance. For minors, the consent of a parent or legal guardian is required.",
-            "paragraph2": "The prices stated on the website are binding. By registering, you agree to pay the full amount shown. Payment is made using the payment methods offered by 3 Steps Athletics. If the payment fails, you will receive an invoice, which must be paid within 14 days by bank transfer, TWINT, or cash.",
-            "paragraph3": "Registration for our events takes place online via the registration form on our website. After submitting the form, you will automatically receive a confirmation of receipt by email. This does not yet constitute a binding commitment to participate. A binding contract is only concluded once you have received an explicit confirmation of participation from 3 Steps Athletics. The number of participants per event is limited. You are only entitled to participate once you have received the final confirmation.",
-            "paragraph4": "Cancellation of participation is possible under the following conditions: Up to 4 weeks before the start of the event: Cancellation is free of charge. Up to 2 weeks before the start of the event: 50% of the original participation fee is due. Less than 2 weeks before the start of the event: 75% of the original participation fee is due. Less than 24 hours before the start of the event: 100% of the participation fee is due. No refund will be given.",
-            "paragraph5": "3 Steps Athletics accepts no liability for injury, theft, loss, or damage to personal belongings during the event. Any claims for damages are excluded.",
-            "paragraph6": "By registering, you, or in the case of minors, their legal representative, grant 3 Steps Athletics permission to use photos and videos of the participant for advertising purposes (e.g. website, flyers, social media).",
-            "paragraph7": "These General Terms and Conditions and any disputes arising in connection with these General Terms and Conditions or for the purchase and use of the Products or otherwise, shall be governed by Swiss law. The United Nations Convention on Contracts for the International Sale of Goods is hereby excluded from application to these Terms and Conditions. Each party hereby submits to the non-exclusive jurisdiction of the courts of Zurich in respect of all disputes arising out of or in connection with this contract. The German version of these Terms and Conditions is the authoritative version for your booking."
+            "title": "AGB – Allgemeine Geschäftsbedingungen",
+            "headerTitle": "AGB",
+            "paragraph1": "Diese Allgemeinen Geschäftsbedingungen (AGB) von 3 Steps Athletics gelten für sämtliche Anmeldungen, Buchungen und Dienstleistungen, die über diese Website oder auf anderem Weg getätigt oder abgeschlossen werden. Bei minderjährigen Teilnehmenden gilt die Zustimmung des Erziehungsberechtigten oder gesetzlichen Vertreters als Voraussetzung. Die Teilnahme an unseren Veranstaltungen ist nur mit einer gültigen Kranken- und Unfallversicherung möglich. Bei Minderjährigen ist eine Einwilligung der Erziehungsberechtigten erforderlich.",
+            "paragraph2": "Die auf der Website angegebenen Preise sind verbindlich. Mit der Anmeldung verpflichten Sie sich zur vollständigen Bezahlung des ausgewiesenen Betrags. Die Zahlung erfolgt über die von 3 Steps Athletics angebotenen Zahlungsmethoden. Sollte die Zahlung fehlschlagen, erhalten Sie eine Rechnung, welche innerhalb von 14 Tagen via Banküberweisung, TWINT oder bar zu begleichen ist.",
+            "paragraph3": "Die Anmeldung für unsere Veranstaltungen erfolgt online über das Anmeldeformular auf unserer Website. Nach Absenden des Formulars erhalten Sie automatisch eine Eingangsbestätigung per E-Mail. Diese stellt noch keine verbindliche Teilnahmezusage dar. Ein verbindlicher Vertrag kommt erst zustande, sobald Sie eine ausdrückliche Teilnahmebestätigung von 3 Steps Athletics erhalten haben. Die Teilnehmerzahl pro Veranstaltung ist begrenzt. Ein Anspruch auf Teilnahme besteht erst mit Erhalt der finalen Bestätigung.",
+            "paragraph4": "Eine Stornierung der Teilnahme ist unter folgenden Bedingungen möglich: Bis 4 Wochen vor Veranstaltungsbeginn: Die Stornierung ist kostenlos. Bis 2 Wochen vor Veranstaltungsbeginn: 50% der ursprünglichen Teilnahmegebühr sind fällig. Weniger als 2 Wochen vor Veranstaltungsbeginn: 75% der ursprünglichen Teilnahmegebühr sind fällig. Weniger als 24 Stunden vor Veranstaltungsbeginn: 100% der Teilnahmegebühr sind fällig. Eine Rückerstattung erfolgt nicht.",
+            "paragraph5": "3 Steps Athletics übernimmt keine Haftung für Verletzungen, Diebstahl, Verlust oder Beschädigung persönlicher Gegenstände während der Veranstaltung. Jegliche Schadenersatzansprüche sind ausgeschlossenn.",
+            "paragraph6": "Mit der Anmeldung erteilen Sie, bzw. bei Minderjährigen der gesetzliche Vertreter, 3 Steps Athletics das Einverständnis, Foto- und Videoaufnahmen des Teilnehmenden für Werbezwecke (z. B. Website, Flyer, Social Media) zu verwenden.",
+            "paragraph7": "Diese Allgemeinen Geschäftsbedingungen und alle Streitigkeiten im Zusammenhang mit diesen Allgemeinen Geschäftsbedingungen oder für den Erwerb und die Nutzung der Produkte oder anderweitig, sind an das Schweizer Recht gebunden. Das Übereinkommen der Vereinten Nationen über Verträge über den internationalen Warenkauf wird hiermit von der Anwendung auf diese Allgemeinen Geschäftsbedingungen ausgeschlossen. Jede Partei unterwirft sich hiermit der nicht ausschließlichen Zuständigkeit der Gerichte von Zürich in Bezug auf alle Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag. Die deutsche Version dieser Allgemeinen Geschäftsbedingungen ist die massgebliche Version für Ihre Buchung."
         }
     },
     "home": {
         "hero": {
             "mainTitle": "BECOME YOUR BEST",
-            "signUpButton": "Our Sports"
+            "signUpButton": "Unsere Sportarten"
         },
         "intro": {
-            "title": "GET BETTER AT WHAT YOU LOVE",
-            "paragraph": "3 Steps Floorbal offers training to make you a better player. The goal is to combine hard work with the love we share for the sport.",
-            "findOutMore": "Find Out More →"
+            "title": "MIT LEIDENSCHAFT BESSER WERDEN",
+            "paragraph": "3 Steps Athletics bietet Trainings und Events in verschiedenen Sportarten an um dich in dem Sport den du liebst besser zu machen. Das Ziel ist harte Arbeit mit der Liebe, die wir zum Sport teilen, zu kombinieren.",
+            "findOutMore": "Mehr Erfahren →"
         },
         "follow": {
-            "title": "Follow Us",
-            "subtitle": "Get the latest from our social media – events, training tips, and behind-the-scenes."
+            "title": "Folge Uns",
+            "subtitle": "Erhalte die neuesten Informationen von unseren sozialen Medien – Events, Trainingstipps und Blicke hinter die Kulissen."
         },
         "partners": {
-            "title": "Our Partners",
-            "subtitle": "We are grateful to have you as your partners.",
-            "button": "Become a Partner"
+            "title": "Unsere Partner",
+            "subtitle": "Wir sind dankbar euch als unsere Partner zu haben.",
+            "button": "Partner werden"
         }
     },
     "multimedia": {
         "hero": {
-            "title": "Our Journey",
-            "subtitle": "Let's take a journey through time together and relive the unforgettable moments that shaped 3 Steps Athletics."
+            "title": "Unsere Reise",
+            "subtitle": "Lass uns gemeinsam zurückschauen und die unvergesslichen Momente, die 3 Steps Athletics geprägt haben, noch einmal erleben."
         },
         "photos": {
-            "title": "Photo Gallery",
-            "subtitle": "Capturing the spirit, dedication, and joy that defines our athletic community"
+            "title": "Fotogalerie",
+            "subtitle": "Eindrücke voller Bewegung, Gemeinschaft und Leidenschaft für den Sport."
         },
         "videos": {
-            "title": "Video Highlights",
-            "subtitle": "Watch our athletes in action and see the passion that drives us forward"
+            "title": "Video-Highlights",
+            "subtitle": "Sieh unsere Athleten in Aktion und erlebe die Leidenschaft, die uns antreibt"
         },
         "news": {
-            "title": "Latest News",
-            "subtitle": "Stay updated with the latest happenings and achievements at 3 Steps Athletics",
-            "readMore": "Read More →",
-            "noNews": "No news articles available at the moment."
+            "title": "Neueste Nachrichten",
+            "subtitle": "Bleib auf dem Laufenden über die neuesten Ereignisse und Erfolge bei 3 Steps Athletics",
+            "readMore": "Mehr Lesen →",
+            "noNews": "Derzeit sind keine Nachrichtenartikel verfügbar."
         }
     },
     "article": {
-        "notFound": "Post not found.",
+        "notFound": "Beitrag nicht gefunden.",
         "defaultAuthor": "3Steps Team"
     },
     "signup": {
-        "title": "Sign Up",
-        "formTitle": "Signup Google Form",
-        "loading": "Loading…"
+        "title": "Anmelden",
+        "formTitle": "Anmelde-Google-Formular",
+        "loading": "Lädt…"
     },
     "partners": {
-        "title": "Our Partners",
-        "subtitle": "We are grateful to have you as your partners.",
-        "button": "Become a Partner"
+        "title": "Unsere Partner",
+        "subtitle": "Wir sind dankbar euch als unsere Partner zu haben.",
+        "button": "Partner werden"
     },
     "sports": {
         "hero": {
-            "title": "Our Sports",
-            "subtitle": "We focus on what matters most in sports",
-            "imageAlt": "Young athletes playing sports"
+            "title": "Unsere Sportarten",
+            "subtitle": "Wir konzentrieren uns auf das, was im Sport am wichtigsten ist",
+            "imageAlt": "Junge Sportler beim Sport"
         },
         "intro": {
-            "title": "Empowering every athlete",
-            "paragraph": "3 Steps Athletics aims to give as many people as possible, especially children, the opportunity to pursue the sport they love and continuously develop their skills. In doing so, we combine passion and hard work with expertise."
+            "title": "Hier wachsen Talente!",
+            "paragraph": "3 Steps Athletics verfolgt das Ziel möglichst vielen Menschen, insbesondere Kindern und Jugendlichen, die Möglichkeit zu bieten, den Sport auszuüben, den sie lieben und in sich darin stetig weiterzuentwickeln. Dabei vereinen wir Leidenschaft und harte Arbeit mit Kompetenz."
         }
     }
+}
 }
