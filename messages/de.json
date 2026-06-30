@@ -118,7 +118,7 @@
                 "paragraph2": "Wir schaffen Struktur und gehen gezielt, aber ganzheitlich vor. Unser Ziel ist es, ein Training anzubieten, das sowohl ganzheitlich als auch effektiv ist, mit Fokus auf das, was wirklich zählt und im Rahmen unserer Möglichkeiten, angepasst an den Umfang unserer Trainings."
             }
     },
-    "programs": {
+   "programs": {
         "hero": {
             "title": "Unsere Programme",
             "subtitle": "Eishockeyprogramme — für alle Eishockeytalente",
@@ -126,7 +126,7 @@
         },
         "intro": {
             "title": "Hier wachsen Talente!",
-            "paragraph1": "Um den größtmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
+            "paragraph1": "Um den grösstmöglichen Trainingseffekt zu erzielen, trainieren wir während unserer Programme sehr intensiv, aber dennoch mit Freude. Jeder Spieler wird individuell behandelt. Der Fokus liegt auf dem Individuum und wir arbeiten konsequent an persönlichen Fähigkeiten.",
             "focusIntro": "Wir konzentrieren uns hauptsächlich auf technische Fähigkeiten:",
             "skills": {
                 "shooting": "Schießen",
@@ -140,14 +140,14 @@
             "title": "Altersgruppen",
             "reasoning": "Wir teilen unsere Spieler im Training in zwei Altersgruppen ein, um Intensität, Fokus und Entwicklung optimal an das jeweilige Niveau anzupassen. So können wir Übungen gezielt gestalten und sicherstellen, dass jeder Spieler bestmöglich vorankommt.",
             "juniors": {
-            "title": "Gruppe Juniors",
-            "description": "Jahrgänge 2014 und jünger"
+                "title": "Gruppe Juniors",
+                "description": "Jahrgänge 2014 und jünger"
             },
             "prospects": {
-            "title": "Gruppe Prospects",
-            "description": "Jahrgänge 2013 und älter"
+                "title": "Gruppe Prospects",
+                "description": "Jahrgänge 2013 und älter"
             }
-    },
+        },
         "russians": {
             "title": "Gasttrainer aus Jekaterinburg (Russland)",
             "paragraph1": "Für die Trainings an Auffahrt und Pfingsten haben wir zwei Trainer aus Jekaterinburg, Russland eingeladen. Sergei Sboev und Sergei Orlov sind beide lang erfahrene Trainer und waren zuvor bereits in der Schweiz. Durch diesen Austausch erhoffen wir uns den Teilnehmern neue Trainingsansätze und Philosophien mit auf den Weg zu geben, um diese schlussendlich zu einem besseren Spieler zu machen.",
