@@ -7,7 +7,7 @@ import SectionBlock from '../components/SectionBlock';
 import kevinImage from '../images/people/kevin_new.jpg';
 import lukasImage from '../images/people/lukas.jpg';
 import justinImage from '../images/people/justin.jpg';
-import cedricImage from '../images/people/cedric.jpg';
+import cedricImage from '../images/people/cedi.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
 
 export default function WhoWeAre() {
