@@ -72,8 +72,13 @@
             "ageDisplay": "{age} Jahre alt",
             "kevin": {
                 "role1": "Gründer & On-Ice Coach",
-                "role2": "Aktiver Spieler für das Ohio University D1 Eishockey Team",
-                "quote": "Im Alter von 5 Jahren habe ich angefangen, für die Lions Eishockey zu spielen. Mit Ausnahme von 2 Saisons, von denen ich eine für den EHC Kloten gespielt habe und eine aus gesundheitlichen Gründen aussetzen musste, habe ich all diese Jahre bis zum Ende der Saison 23/24 bei den Lions gespielt, wo ich die Mannschaft zum Schweizer Meistertitel in der U21 führen durfte. Im März 2026 habe ich einen weiteren Titel gewonnen in der ACHA mit den Ohio Bobcats im College. Im Jahr 2022 gründete ich 3 Steps Hockey und bin seither als Trainer tätig. Ich habe mit 3 Steps begonnen, um meine Liebe zum Sport zu teilen und die Spieler/-innen durch einen ganzheitlichen Trainingsansatz besser zu machen."
+                "role2": "Aktiver Spieler Ohio University D1 Eishockey Team",
+                "quote": "Erfolg hat drei Buchstaben: TUN"
+            },
+            "cedric": {
+                    "role1": "Cheftrainer",
+                    "role2": "Aktiver Spieler Kloten Jets - National Liga A",
+                    "quote": "Wenn du dich nicht bewegst, bewegt dich nichts."
             },
             "lukas": {
                 "role1": "On-Ice Coach",
