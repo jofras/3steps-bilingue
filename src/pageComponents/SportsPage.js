@@ -31,7 +31,7 @@ export default function SportsPage() {
       {/* hero section */}
       <div className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center bg-gray-300">
         <Image 
-            src={floorball2} 
+            src={cedigame1} 
             alt={t('hero.imageAlt')} 
             width={1600} 
             height={1200}
