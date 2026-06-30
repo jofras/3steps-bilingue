@@ -8,15 +8,21 @@ import Image from 'next/image';
 
 // image imports
 import hockey3 from '../images/2024/IMG_9346.jpeg';
-import floorball1 from '../images/2024/IMG_9358.jpeg';
+import cedigame1 from '../images/random_floorball_pics/cedigame1.jpeg';
 import floorball2 from '../images/2024/IMG_9365.jpeg';
 
 const sports = [
-  // gonna have to change these paths per branch, or link to the other site's url
-  { name: 'Hockey', path: '/hockey', img: hockey3 },
-  { name: 'Floorball', path: '/floorball', img: floorball2 },
+  { 
+    name: 'Hockey', 
+    path: 'https://www.3stepshockey.ch', 
+    img: hockey3 
+  },
+  { 
+    name: 'Floorball', 
+    path: 'https://www.3stepsfloorball.ch', 
+    img: cedigame1
+  },
 ];
-
 export default function SportsPage() {
   const t = useTranslations('sports'); 
 
@@ -25,7 +31,7 @@ export default function SportsPage() {
       {/* hero section */}
       <div className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center bg-gray-300">
         <Image 
-            src={floorball1} 
+            src={floorball2} 
             alt={t('hero.imageAlt')} 
             width={1600} 
             height={1200}

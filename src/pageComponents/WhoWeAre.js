@@ -7,6 +7,7 @@ import SectionBlock from '../components/SectionBlock';
 import kevinImage from '../images/people/kevin_new.jpg';
 import lukasImage from '../images/people/lukas.jpg';
 import justinImage from '../images/people/justin.jpg';
+import cedricImage from '../images/people/cedi.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
 
 export default function WhoWeAre() {
@@ -29,25 +30,15 @@ export default function WhoWeAre() {
                 ]}
                 quote={t('kevin.quote')} 
             />
-            <TeamMemberCard
-                imageSrc={lukasImage}
-                name="Lukas Rubin" 
-                age={t('ageDisplay', { age: 25 })} // pass "years old" translation here
+           <TeamMemberCard
+                imageSrc={cedricImage}
+                name="Cedric Schumacher" 
+                age={t('ageDisplay', { age: 23 })} // pass "years old" translation here
                 roles={[
-                    t('lukas.role1'),
-                    t('lukas.role2'),
+                    t('cedric.role1'),
+                    t('cedric.role2'),
                 ]}
-                quote={t('lukas.quote')} 
-            />
-            <TeamMemberCard
-                imageSrc={justinImage}
-                name="Justin Gull" 
-                age={t('ageDisplay', { age: 21 })} // pass "years old" translation here
-                roles={[
-                    t('justin.role1'),
-                    t('justin.role2'),
-                ]}
-                quote={t('justin.quote')} 
+                quote={t('cedric.quote')} 
             />
             {/* add more team members here */}
         </SectionBlock>

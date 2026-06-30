@@ -1,5 +1,3 @@
-// src/components/Navbar.js
-
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -15,17 +13,40 @@ export default function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [dropdownTimeout, setDropdownTimeout] = useState(null);
   
+  // Track state for the dynamic first nav item link
   const t = useTranslations('navigation');
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
 
-  // nav items with translation keys
+  const [firstNavItem, setFirstNavItem] = useState({ 
+    labelKey: 'programs', 
+    to: `/${locale}/programs` 
+  });
+
+  // Dynamic environment check for athletics vs. sport branches
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const isMainAthletics = !window.location.hostname.includes('hockey') && 
+                              !window.location.hostname.includes('floorball');
+      
+      if (isMainAthletics) {
+        setFirstNavItem({
+          labelKey: 'sports', // <-- Uses your translation key for Sports
+          to: `/${locale}/sports` // <-- Routes to your new subpage folder
+        });
+      } else {
+        setFirstNavItem({
+          labelKey: 'programs',
+          to: `/${locale}/programs`
+        });
+      }
+    }
+  }, [locale]);
+
+  // nav items structure with dynamic replacement injected first
   const navItems = [
-    { 
-      labelKey: 'programs', 
-      to: `/${locale}/programs` 
-    },
+    firstNavItem,
     { 
       labelKey: 'multimedia', 
       to: `/${locale}/multimedia`, 
@@ -75,7 +96,7 @@ export default function Navbar() {
   const switchLocale = (newLocale) => {
     const pathWithoutLocale = pathname.replace(`/${locale}`, '');
     router.push(`/${newLocale}${pathWithoutLocale || ''}`);
-    router.refresh(); // probably not needed anymore
+    router.refresh(); 
   };
 
   return (

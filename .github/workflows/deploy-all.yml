@@ -1,0 +1,36 @@
+name: Build Production Sites to Hostpoint
+
+on:
+  push:
+    branches:
+      - main
+      - hockey
+      - floorball
+
+jobs:
+  deploy:
+    name: Build Static Site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Save Out Folder for Manual Download
+        uses: actions/upload-artifact@v4
+        with:
+          # This dynamically names the zip file based on the active branch (main, hockey, or floorball)
+          name: ${{ github.ref_name }}-out-folder
+          path: ./out/
