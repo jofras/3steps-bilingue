@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 // image imports
 import hockey3 from '../images/2024/IMG_9346.jpeg';
-import floorball1 from '../images/2024/IMG_9358.jpeg';
+import cedigame1 from '../images/random_floorball_pics/cedigame1';
 import floorball2 from '../images/2024/IMG_9365.jpeg';
 
 const sports = [
@@ -20,7 +20,7 @@ const sports = [
   { 
     name: 'Floorball', 
     path: 'https://www.3stepsfloorball.ch', 
-    img: floorball2 
+    img: cedigame1
   },
 ];
 export default function SportsPage() {
