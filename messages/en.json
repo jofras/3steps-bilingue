@@ -488,15 +488,16 @@
         "subtitle": "We are grateful to have you as your partners.",
         "button": "Become a Partner"
     },
-    "sports": {
-        "hero": {
-            "title": "Our Sports",
-            "subtitle": "We focus on what matters most in sports",
-            "imageAlt": "Young athletes playing sports"
-        },
-        "intro": {
-            "title": "Empowering every athlete",
-            "paragraph": "3 Steps Athletics aims to give as many people as possible, especially children, the opportunity to pursue the sport they love and continuously develop their skills. In doing so, we combine passion and hard work with expertise."
+  "sports": {
+            "hero": {
+                "title": "Our Sports",
+                "subtitle": "We focus on what matters most in sports",
+                "imageAlt": "Young athletes playing sports"
+            },
+            "intro": {
+                "title": "Empowering every athlete",
+                "paragraph": "3 Steps Athletics aims to give as many people as possible, especially children, the opportunity to pursue the sport they love and continuously develop their skills. In doing so, we combine passion and hard work with expertise."
+            }
         }
     }
 }
