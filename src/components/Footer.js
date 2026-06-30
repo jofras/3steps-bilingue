@@ -38,7 +38,7 @@ export default function Footer() {
             <a href="https://facebook.com/3stepsathletics" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook className="w-5 h-5 text-primary hover:text-blue-700 transition-colors" />
             </a>
-            <a href="https://linkedin.com/3stepsathletics" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+            <a href="https://linkedin.com/3-steps-athletics" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
               <Linkedin className="w-5 h-5 text-primary hover:text-blue-500 transition-colors" />
             </a>
           </div>
@@ -63,13 +63,13 @@ export default function Footer() {
 
           {/* social media icons (desktop only) */}
           <div className="hidden md:flex justify-end gap-x-6 mt-4 md:mt-0">
-            <a href="https://instagram.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://instagram.com/3stepsathletics" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="w-5 h-5 text-primary hover:text-pink-500 transition-colors" />
             </a>
-            <a href="https://facebook.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://facebook.com/3stepsathletics" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook className="w-5 h-5 text-primary hover:text-blue-700 transition-colors" />
             </a>
-            <a href="https://linkedin.com/3stepshockey" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
+            <a href="https://linkedin.com/3-steps-athletics" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
               <Linkedin className="w-5 h-5 text-primary hover:text-blue-500 transition-colors" />
             </a>
           </div>
