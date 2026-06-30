@@ -72,8 +72,13 @@
             "ageDisplay": "{age} years old",
             "kevin": {
                 "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
-                "role2": "Active player for Ohio University D1 Ice Hockey Team",
-                "quote": "I started playing hockey for the Lions organization when I was 5 years old. With an exception of 2 seasons, one of which I played for the EHC Kloten and one that I had to miss out because of my health, I played all those years as a Lion until the end of the 23/24 season, in which I was able to lead the team to the U20 Swiss National championship as the team captain. In the 25/26 season I was able to win again in college with the Ohio Bobcats ACHA D1 team. In 2022 I started 3 Steps Hockey and been coaching actively ever since. I founded it to share my love for sports and help participants improve at it through a well-rounded and holistic approach to training."
+                "role2": "Active player Ohio University D1 Ice Hockey Team",
+                "quote": "Success has three letters: ACT"
+            },
+            "cedric": {
+                    "role1": "Head Coach",
+                    "role2": "Active Player Kloten Jets - National League A",
+                    "quote": "If you don't move, nothing will move you."
             },
             "lukas": {
                 "role1": "On-Ice Coach",
