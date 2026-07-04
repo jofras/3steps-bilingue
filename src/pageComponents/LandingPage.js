@@ -87,6 +87,7 @@ const followPosts = [
 export default function LandingPage() {
   const t = useTranslations("home");
   const locale = useLocale();
+  const tCoaches = useTranslations("programs"); // Points directly to where the strings live!
 
   return (
     <>
@@ -197,24 +198,24 @@ export default function LandingPage() {
           </Link>
         </div>
 
-        {/* guest coaches */}
+        // 2. Down in your guest coaches section, swap out the text markers to use 'tCoaches':
+{/* guest coaches */}
 <div className="w-full max-w-4xl mx-auto text-center mt-12 px-4">
     <h2 className="font-heading text-3xl md:text-4xl text-textdark">
-        {t('guestCoaches.title')}
+        {tCoaches('guestCoaches.title')}
     </h2>
 
     <p className="text-textmid text-base md:text-lg mt-3">
-        {t('guestCoaches.paragraph1')}
+        {tCoaches('guestCoaches.paragraph1')}
     </p>
 
-    {/* Centered single column layout wrapper */}
     <div className="mt-8 flex justify-center">
         <CoachCard
             imageSrc={patrikImg}
             name="Patrik Almström"
             bullets={[
-                t('guestCoaches.patrik.bullet1'),
-                t('guestCoaches.patrik.bullet2'),
+                tCoaches('guestCoaches.patrik.bullet1'),
+                tCoaches('guestCoaches.patrik.bullet2'),
             ]}
         />
     </div>

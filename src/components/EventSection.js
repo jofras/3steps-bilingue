@@ -10,62 +10,62 @@ import Link from 'next/link';
 const dummyEvents = [
   {
     type: 'camp',
-  title: 'Spring Break Camp',
-  date: '3.–6. Mai 2027',
-  time: [
-    '---MONTAG, 3. Mai 2027---',
-    'Gruppe Juniors: Montag, 3 Mai 2027 – 08:15–09:15 (Skating)',
-    'Gruppe Juniors: Montag, 3 Mai 2027 – 09:30–10:30 (Off-Ice)',
-    'Gruppe Prospects: Montag, 3 Mai 2027 – 09:30–10:30 (Skating)',
-    'Gruppe Prospects: Montag, 3 Mai 2027 – 10:45–11:45 (Off-Ice)',
-    'Gruppe Juniors: Montag, 3 Mai 2027 – 13:00–14:00 (Drills)',
-    'Gruppe Prospects: Montag, 3 Mai 2027 – 14:15–15:15 (Drills)',
+    title: 'Spring Break Camp',
+    date: '3.–6. Mai 2027',
+    time: [
+      '--- MONTAG, 3. MAI 2027 ---',
+      'Gruppe Juniors: Montag, 3 Mai 2027 – 08:15–09:15 (Skating)',
+      'Gruppe Juniors: Montag, 3 Mai 2027 – 09:30–10:30 (Off-Ice)',
+      'Gruppe Prospects: Montag, 3 Mai 2027 – 09:30–10:30 (Skating)',
+      'Gruppe Prospects: Montag, 3 Mai 2027 – 10:45–11:45 (Off-Ice)',
+      'Gruppe Juniors: Montag, 3 Mai 2027 – 13:00–14:00 (Drills)',
+      'Gruppe Prospects: Montag, 3 Mai 2027 – 14:15–15:15 (Drills)',
 
-    '---DIENSTAG, 4. Mai 2027---',
-    'Gruppe Juniors: Dienstag, 4 Mai 2027 – 08:15–09:15 (Skating)',
-    'Gruppe Juniors: Dienstag, 4 Mai 2027 – 09:30–10:30 (Off-Ice)',
-    'Gruppe Prospects: Dienstag, 4 Mai 2027 – 09:30–10:30 (Skating)',
-    'Gruppe Prospects: Dienstag, 4 Mai 2027 – 10:45–11:45 (Off-Ice)',
-    'Gruppe Juniors: Dienstag, 4 Mai 2027 – 13:00–14:00 (Drills)',
-    'Gruppe Prospects: Dienstag, 4 Mai 2027 – 14:15–15:15 (Drills)',
+      '--- DIENSTAG, 4. MAI 2027 ---',
+      'Gruppe Juniors: Dienstag, 4 Mai 2027 – 08:15–09:15 (Skating)',
+      'Gruppe Juniors: Dienstag, 4 Mai 2027 – 09:30–10:30 (Off-Ice)',
+      'Gruppe Prospects: Dienstag, 4 Mai 2027 – 09:30–10:30 (Skating)',
+      'Gruppe Prospects: Dienstag, 4 Mai 2027 – 10:45–11:45 (Off-Ice)',
+      'Gruppe Juniors: Dienstag, 4 Mai 2027 – 13:00–14:00 (Drills)',
+      'Gruppe Prospects: Dienstag, 4 Mai 2027 – 14:15–15:15 (Drills)',
 
-    '---MITTWOCH, 5. Mai 2027---',
-    'Gruppe Juniors: Mittwoch, 5 Mai 2027 – 07:00–08:00 (Skating)',
-    'Gruppe Prospects: Mittwoch, 5 Mai 2027 – 08:15–09:15 (Skating)',
-    'Gruppe Juniors: Mittwoch, 5 Mai 2027 – 09:30–10:30 (Drills)',
-    'Gruppe Juniors: Mittwoch, 5 Mai 2027 – 10:45–11:45 (Off-Ice Games)',
-    'Gruppe Prospects: Mittwoch, 5 Mai 2027 – 10:45–11:45 (Drills)',
-    'Gruppe Prospects: Mittwoch, 5 Mai 2027 – 12:00–13:00 (Off-Ice Games)',
+      '--- MITTWOCH, 5. MAI 2027 ---',
+      'Gruppe Juniors: Mittwoch, 5 Mai 2027 – 07:00–08:00 (Skating)',
+      'Gruppe Prospects: Mittwoch, 5 Mai 2027 – 08:15–09:15 (Skating)',
+      'Gruppe Juniors: Mittwoch, 5 Mai 2027 – 09:30–10:30 (Drills)',
+      'Gruppe Juniors: Mittwoch, 5 Mai 2027 – 10:45–11:45 (Off-Ice Games)',
+      'Gruppe Prospects: Mittwoch, 5 Mai 2027 – 10:45–11:45 (Drills)',
+      'Gruppe Prospects: Mittwoch, 5 Mai 2027 – 12:00–13:00 (Off-Ice Games)',
 
-    '---DONNERSTAG, 6. Mai 2027---',
-    'Gruppe Juniors: Donnerstag, 6 Mai 2027 – 08:15–09:15 (Skating)',
-    'Gruppe Juniors: Donnerstag, 6 Mai 2027 – 09:30–10:30 (Off-Ice)',
-    'Gruppe Prospects: Donnerstag, 6 Mai 2027 – 09:30–10:30 (Skating)',
-    'Gruppe Prospects: Donnerstag, 6 Mai 2027 – 10:45–11:45 (Off-Ice)',
-    'Gruppe Juniors: Donnerstag, 6 Mai 2027 – 13:00–14:00 (Drills)',
-    'Gruppe Prospects: Donnerstag, 6 Mai 2027 – 14:15–15:15 (Drills)'
-  ],
+      '--- DONNERSTAG, 6. MAI 2027 ---',
+      'Gruppe Juniors: Donnerstag, 6 Mai 2027 – 08:15–09:15 (Skating)',
+      'Gruppe Juniors: Donnerstag, 6 Mai 2027 – 09:30–10:30 (Off-Ice)',
+      'Gruppe Prospects: Donnerstag, 6 Mai 2027 – 09:30–10:30 (Skating)',
+      'Gruppe Prospects: Donnerstag, 6 Mai 2027 – 10:45–11:45 (Off-Ice)',
+      'Gruppe Juniors: Donnerstag, 6 Mai 2027 – 13:00–14:00 (Drills)',
+      'Gruppe Prospects: Donnerstag, 6 Mai 2027 – 14:15–15:15 (Drills)'
+    ],
     place: 'Kunsteisbahn Wetzikon',
-    ages: 'Juniors: 2015 and younger\\n Prospects: 2014 and older',
+    ages: 'Juniors: 2015 and younger\n Prospects: 2014 and older',
     price: 'CHF 480',
   },
   {
     type: 'training',
-  title: 'Pfingsten Trainings',
-  date: '15.–17. Mai 2027',
-  time: [
-    '--- SAMSTAG, 15. MAI 2027 ---',
-    'Gruppe Juniors: Samstag, 15 Mai 2027 – 09:30–10:30 (Focus on Skating)',
-    'Gruppe Prospects: Samstag, 15 Mai 2027 – 10:45–11:45 (Focus on Skating)',
+    title: 'Pfingsten Trainings',
+    date: '15.–17. Mai 2027',
+    time: [
+      '--- SAMSTAG, 15. MAI 2027 ---',
+      'Gruppe Juniors: Samstag, 15 Mai 2027 – 09:30–10:30 (Focus on Skating)',
+      'Gruppe Prospects: Samstag, 15 Mai 2027 – 10:45–11:45 (Focus on Skating)',
 
-    '--- SONNTAG, 16. MAI 2027 ---',
-    'Gruppe Juniors: Sonntag, 16 Mai 2027 – 09:30–10:30 (Puck Movement)',
-    'Gruppe Prospects: Sonntag, 16 Mai 2027 – 10:45–11:45 (Puck Movement)',
+      '--- SONNTAG, 16. MAI 2027 ---',
+      'Gruppe Juniors: Sonntag, 16 Mai 2027 – 09:30–10:30 (Puck Movement)',
+      'Gruppe Prospects: Sonntag, 16 Mai 2027 – 10:45–11:45 (Puck Movement)',
 
-    '--- MONTAG, 17. MAI 2027 ---',
-    'Gruppe Juniors: Montag, 17 Mai 2027 – 09:30–10:30 (Shooting Drills)',
-    'Gruppe Prospects: Montag, 17 Mai 2027 – 10:45–11:45 (Shooting Drills)'
-  ],
+      '--- MONTAG, 17. MAI 2027 ---',
+      'Gruppe Juniors: Montag, 17 Mai 2027 – 09:30–10:30 (Shooting Drills)',
+      'Gruppe Prospects: Montag, 17 Mai 2027 – 10:45–11:45 (Shooting Drills)'
+    ],
     place: 'Kunsteisbahn Wetzikon',
     ages: 'Juniors & Prospects',
     price: 'CHF 150',
@@ -228,15 +228,33 @@ export function EventSection() {
                 <th className="px-4 py-3 text-left">{t('table.price')}</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-200 text-gray-800">
+            <tbody className="divide-y divide-gray-200 text-gray-800 whitespace-pre-line">
               {filteredEvents.map((event, index) => (
-                <tr key={index} className="hover:bg-gray-50">
-                  <td className="px-4 py-3">{event.title}</td>
-                  <td className="px-4 py-3">{event.date}</td>
-                  <td className="px-4 py-3">{event.time}</td>
+                <tr key={index} className="hover:bg-gray-50 valign-top">
+                  <td className="px-4 py-3 font-medium">{event.title}</td>
+                  <td className="px-4 py-3 whitespace-nowrap">{event.date}</td>
+                  <td className="px-4 py-3 text-sm min-w-[280px]">
+                    {Array.isArray(event.time) ? (
+                      <div className="flex flex-col gap-1">
+                        {event.time.map((line, i) => {
+                          const isHeader = line.startsWith('---');
+                          return (
+                            <span 
+                              key={i} 
+                              className={isHeader ? 'font-bold text-gray-900 block mt-2 first:mt-0' : 'text-gray-600 pl-2'}
+                            >
+                              {line}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    ) : (
+                      event.time
+                    )}
+                  </td>
                   <td className="px-4 py-3">{event.place}</td>
                   <td className="px-4 py-3">{event.ages}</td>
-                  <td className="px-4 py-3">{event.price}</td>
+                  <td className="px-4 py-3 font-semibold text-primary">{event.price}</td>
                 </tr>
               ))}
             </tbody>
