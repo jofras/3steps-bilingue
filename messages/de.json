@@ -73,23 +73,19 @@
             "kevin": {
                 "role1": "Gründer & On-Ice Coach",
                 "role2": "Aktiver Spieler für das Ohio University D1 Eishockey Team",
-                "quote": "Im Alter von 5 Jahren habe ich angefangen, für die Lions Eishockey zu spielen. Mit Ausnahme von 2 Saisons, von denen ich eine für den EHC Kloten gespielt habe und eine aus gesundheitlichen Gründen aussetzen musste, habe ich all diese Jahre bis zum Ende der Saison 23/24 bei den Lions gespielt, wo ich die Mannschaft zum Schweizer Meistertitel in der U21 führen durfte. Im März 2026 habe ich einen weiteren Titel gewonnen in der ACHA mit den Ohio Bobcats im College. Im Jahr 2022 gründete ich 3 Steps Hockey und bin seither als Trainer tätig. Ich habe mit 3 Steps begonnen, um meine Liebe zum Sport zu teilen und die Spieler/-innen durch einen ganzheitlichen Trainingsansatz besser zu machen."
-            },
-            "lukas": {
-                "role1": "On-Ice Coach",
-                "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
-                "quote": ""
+                "quote": "Im Alter von 5 Jahren habe ich angefangen, für die Lions Eishockey zu spielen. Mit Ausnahme von 2 Saisons, von denen ich eine für den EHC Kloten gespielt habe und eine aus gesundheitlichen Gründen aussetzen musste, habe ich all diese Jahre bis zum Ende der Saison 23/24 bei den Lions gespielt, wo ich die Mannschaft zum Schweizer Meistertitel in der U21 führen durfte. Im März 2026 habe ich einen weiteren Titel gewonnen in der ACHA mit den Ohio Bobcats im College. \\n Im Jahr 2022 gründete ich 3 Steps Hockey und bin seither als Trainer tätig. Ich habe mit 3 Steps begonnen, um meine Liebe zum Sport zu teilen und die Spieler/-innen durch einen ganzheitlichen Trainingsansatz besser zu machen."
             },
             "justin": {
                 "role1": "On-Ice Coach",
                 "role2": "Aktiver Spieler beim EHC Arosa in der Swiss League",
-                "quote": ""
+                "quote": "Du musst nicht der Beste sein, aber du sollst dein Bestes geben"
             },
             "sergei": {
                 "role1": "Guest Coach",
                 "role2": "Aktiver Trainer für Ice Style in Jekaterinburg, Russland",
                 "quote": ""
             }
+
         },
         "why3steps": {
             "title": "Warum 3 Steps?",
@@ -137,25 +133,20 @@
             "reasoning": "Wir teilen unsere Spieler im Training in zwei Altersgruppen ein, um Intensität, Fokus und Entwicklung optimal an das jeweilige Niveau anzupassen. So können wir Übungen gezielt gestalten und sicherstellen, dass jeder Spieler bestmöglich vorankommt.",
             "juniors": {
             "title": "Gruppe Juniors",
-            "description": "Jahrgänge 2014 und jünger"
+            "description": "Jahrgänge 2015 und jünger"
             },
             "prospects": {
             "title": "Gruppe Prospects",
-            "description": "Jahrgänge 2013 und älter"
+            "description": "Jahrgänge 2014 und älter"
             }
         },
-        "russians": {
-            "title": "Gasttrainer aus Jekaterinburg (Russland)",
-            "paragraph1": "Für die Trainings an Au3ahrt und Pfingsten haben wir zwei Trainer aus Jekaterinburg, Russland eingeladen. Sergei Sboev und Sergei Orlov sind beide lang erfahrene Trainer und waren zuvor bereits in der Schweiz. Durch diesen Austausch erho3en wir uns den Teilnehmern neue Trainingsansätze und Philosophien mit auf den Weg zu geben, um diese schlussendlich zu einem besseren Spieler zu machen.",
-            "sboev": {
-                "bullet1": "25 Jahre Expertise als Hockeytrainer",
-                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)"
-            },
-            "orlov": {
-                "bullet1": "12 Jahre Trainingserfahrung",
-                "bullet2": "Coach in der IceStyle Eishockeyschule in Jekaterinburg (Russland)",
-                "bullet3": "10 Jahre Coaching auf Profi-Niveau bei Sputnik Nizhny"
-            }
+        "guestCoaches": {
+            "title": "NHL-Skills-Coach aus Stockholm, Schweden, als Gasttrainer",
+            "paragraph1": "Vom Montag, den 3. Mai, bis Donnerstag, den 6. Mai, bringst du dein Spiel beim 4-tägigen Elite-Hockey-Camp auf das nächste Level. Trainiere unter der Leitung von Patrik Alström, einem renommierten Skills-Coach aus Stockholm, Schweden, der bereits mit NHL-Spielern wie Nils Höglander von den Vancouver Canucks und Leo Carlsson von den Anaheim Ducks gearbeitet hat.\\n\\nWährend des Camps erhältst du:\\n\\n• Zwei einstündige Eistrainingseinheiten pro Tag mit Fokus auf die individuelle Weiterentwicklung deiner Fähigkeiten.\\n• Ein nahrhaftes Mittagessen an jedem Camp-Tag.\\n• Eine Off-Ice-Trainingseinheit zur Förderung von Kraft, Beweglichkeit und körperlicher Balance.\\n\\nEgal, ob du deine technischen Fähigkeiten verbessern oder auf einem höheren Niveau trainieren möchtest – dieses Camp bietet dir die einmalige Gelegenheit, von einem der besten Entwicklungscoaches im Eishockey zu lernen.\\n\\nDie Teilnehmerzahl ist auf 24 Plätze begrenzt – melde dich noch heute an und sichere dir deinen Platz!",
+            "bullet1": "NHL-Skills-Coach, der aktiv mit NHL Profispielern arbeitet.",
+            "bullet2": "Aktueller Skills-Coach von Linköping HC in der SHL, der höchsten Profiliga Schwedens.",
+            "bullet3": "Gründer von Player Advancement, seiner Marke für Spielerentwicklung und individuelles Skill-Training.",
+            "bullet4": "Zu den Spielern, die Patrik trainiert hat, gehören:\\n• Nils Höglander (Nashville Predators)\\n• Leo Carlsson (Anaheim Ducks)\\n• Nils Åman (Vancouver Canucks)\\n• Ludwig Persson (Washington Capitals)\\n• Adam Edström (New York Rangers)"
         }
     },
     "contact": {

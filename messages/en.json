@@ -72,8 +72,8 @@
             "ageDisplay": "{age} years old",
             "kevin": {
                 "role1": "Founder 3 Steps Athletics & Lead Coach Ice Hockey",
-                "role2": "Active player for Ohio University D1 Ice Hockey Team",
-                "quote": "I started playing hockey for the Lions organization when I was 5 years old. With an exception of 2 seasons, one of which I played for the EHC Kloten and one that I had to miss out because of my health, I played all those years as a Lion until the end of the 23/24 season, in which I was able to lead the team to the U20 Swiss National championship as the team captain. In the 25/26 season I was able to win again in college with the Ohio Bobcats ACHA D1 team. In 2022 I started 3 Steps Hockey and been coaching actively ever since. I founded it to share my love for sports and help participants improve at it through a well-rounded and holistic approach to training."
+                "role2": "Active player Ohio University Bobacats - ACHA D1",
+                "quote": "I started playing hockey for the Lions organization when I was 5 years old. With an exception of 2 seasons, one of which I played for the EHC Kloten and one that I had to miss out because of my health, I played all those years as a Lion until the end of the 23/24 season, in which I was able to lead the team to the U20 Swiss National championship as the team captain. In the 25/26 season I was able to win again in college with the Ohio Bobcats ACHA D1 team. \\n In 2022 I started 3 Steps Hockey and been coaching actively ever since. I founded it to share my love for sports and help participants improve at it through a well-rounded and holistic approach to training."
             },
             "lukas": {
                 "role1": "On-Ice Coach",
@@ -82,13 +82,18 @@
             },
             "justin": {
                 "role1": "On-Ice Coach",
-                "role2": "Active Player for EHC Winterthur in the Swiss League",
-                "quote": ""
+                "role2": "Active Player EHC Arosa - Swiss League",
+                "quote": "You don't have to be the best, but you have to give your best."
             },
             "sergei": {
                 "role1": "Guest Coach",
                 "role2": "Active Coach for Ice Style in Yekaterinburg, Russia",
                 "quote": ""
+            },
+           "patrik": {
+                "role1": "Gasttrainer aus Stockholm, Schweden",
+                "role2": "Aktiver Skills-Coach für NHL-Spieler",
+                "quote": "Nachdem Patrik sein ganzes Leben lang aktiv Eishockey gespielt hatte, entschied er sich im Alter von 18 Jahren, seine Trainerlaufbahn zu beginnen.\n\nNach einem Jahr als Skills-Coach des U20-Teams von Björklöven wechselte er zur Profi-Herrenmannschaft des Vereins in der HockeyAllsvenskan und arbeitet heute mit dem SHL-Team von Linköping in Schwedens höchster Eishockeyliga.\n\nDarüber hinaus gründete und entwickelte er Player Advancement, seine eigene Marke für individuelles Skill- und Spielertraining, von Grund auf.\n\nEine freundliche Botschaft aus Schweden:\n\n\"Hej, jag heter Patrik! Jag ser fram emot att träffa er alla och hjälpa er att vässa era färdigheter inför den kommande säsongen, samtidigt som jag gör er lite mer svenska på vägen. Vi ses på isen!\""
             }
         },
         "why3steps": {
@@ -117,7 +122,7 @@
     "programs": {
         "hero": {
             "title": "Our Programs",
-            "subtitle": "Hockey programs — for every young athlete",
+            "subtitle": "Hockey programs — for every young player",
             "imageAlt": "Young athletes playing sports"
         },
         "intro": {
@@ -137,26 +142,22 @@
             "reasoning": "We divide our players into two age groups during practice to ensure training intensity, focus, and development are appropriate for each athlete’s level. This allows us to tailor drills and challenges so every player can progress effectively.",
             "juniors": {
                 "title": "Group Juniors",
-                "description": "Years 2014 and younger"
+                "description": "Years 2015 and younger"
             },
             "prospects": {
                 "title": "Group Prospects",
-                "description": "Years 2013 and older"
+                "description": "Years 2014 and older"
             }
         },
-        "russians": {
-            "title": "Guest Coaches from Yekaterinburg, Russia",
-            "paragraph1": "For the training sessions on Ascension and Pentecost, we have invited two coaches from Yekaterinburg, Russia. Sergei Sboev and Sergei Orlov are both highly experienced coaches and have previously worked in Switzerland. Through this exchange, we hope to provide participants with new training approaches and philosophies that will ultimately help them become better players.",
-            "sboev": {
-                "bullet1": "25 years of expertise as a hockey coach",
-                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg"
-            },
-            "orlov": {
-                "bullet1": "12 years of coaching experience",
-                "bullet2": "Active coach at IceStyle hockey school in Yekaterinburg",
-                "bullet3": "10 years of professional coaching for Sputnik Nizhny"
+        "guestCoaches": {
+            "title": "NHL Skills Coach from Stockholm Sweden as Guest Coach",
+            "paragraph1": "From Monday, May 3 through Thursday, May 6, take your game to the next level at our 4-Day Elite Hockey Camp. Train under the guidance of Patrik Alström, a renowned skills coach from Stockholm, Sweden, who has worked with NHL players including Nils Höglander of the Vancouver Canucks and Leo Carlsson of the Anaheim Ducks.Throughout the camp, you'll receive: Two 1-hour on-ice training sessions every day focused on individual skill developmentA nutritious lunch each dayA dryland training session as a balancing for the body.Whether you're looking to improve your skills, or train at a higher level, this camp offers a unique opportunity to learn from one of the game's top development coaches.Spaces are limited to 24 spots—register today and secure your spot!",
+            "patrik": {
+                "bullet1": "NHL skills coach actively working with professional NHL players.",
+                "bullet2": "Current skills coach for Linköping HC in the SHL, Sweden's top professional league.",
+                "bullet3": "Founder of Player Advancement, his player development and skills coaching brand.",
+                "bullet4": "Notable players coached by Patrik:\\n• Nils Höglander\\n• Leo Carlsson (Anaheim Ducks)\\n• Nils Åman (Vancouver Canucks)\\n• Ludwig Persson (Washington Capitals)\\n• Adam Edström (New York Rangers)"
             }
-        }
     },
     "contact": {
         "title": "Contact Us",
@@ -213,7 +214,7 @@
         },
         "partners": {
             "title": "Our Partners",
-            "subtitle": "We are grateful to have you as your partners.",
+            "subtitle": "We are grateful to have you as our partners.",
             "button": "Become a Partner"
         }
     },

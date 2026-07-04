@@ -49,6 +49,16 @@ export default function WhoWeAre() {
                 ]}
                 quote={t('justin.quote')} 
             />
+            <TeamMemberCard
+                imageSrc={patrikImage}
+                name="Patrik Alström" 
+                age={t('ageDisplay', { age: 23 })} // pass "years old" translation here
+                roles={[
+                    t('patrik.role1'),
+                    t('patrik.role2'),
+                ]}
+                quote={t('patrik.quote')} 
+            />
             {/* add more team members here */}
         </SectionBlock>
     );

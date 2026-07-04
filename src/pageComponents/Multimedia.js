@@ -508,14 +508,16 @@ const photosByYear = {
     { src: img2025_49, alt: 'Training 2025' },
   ],
 };
-
-const videos = [
-  // die musch denn no definiere wenn sie hesch, entweder uf youtube und denn mit embed, 
+// die musch denn no definiere wenn sie hesch, entweder uf youtube und denn mit embed, 
   // oder via dfolders falls sie abeglade hesch
-  { id: 'G7DeQbTzPE8', title: 'Gold Medal Game 2010' },
-  { id: 'JPtZA4Bz8T0', title: 'Miracle On Ice'}
-  // { id: 'dQw4w9WgXcQ', title: 'Rick Roll' },
-  // { id: 'oHg5SJYRHA0', title: 'Rick Roll #2' }
+  
+const videos = [
+  { id: 'JPtZA4Bz8T0', title: 'Miracle On Ice', type: 'youtube' },
+  { 
+    id: 'DaLvdN9h8Ia', 
+    title: 'On-Ice Highlights', 
+    type: 'instagram' 
+  }
 ];
 
 export const newsItems = [
@@ -657,21 +659,35 @@ export default function Multimedia() {
               className="rounded-xl video-swiper"
             >
               {videos.map((video, i) => (
-                <SwiperSlide key={i} className="pb-8">
-                  <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden">
-                    <iframe
-                      src={`https://www.youtube.com/embed/${video.id}`}
-                      title={video.title}
-                      className="w-full h-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
-                  </div>
-                  <h3 className="font-body text-lg font-semibold text-gray-800 mt-4">
-                    {video.title}
-                  </h3>
-                </SwiperSlide>
-              ))}
+  <SwiperSlide key={i} className="pb-8">
+    {video.type === 'instagram' ? (
+      /* 📸 INSTAGRAM REEL DISPLAY (Portrait 9:16 aspect ratio scaled cleanly inside your container) */
+      <div className="relative aspect-[9/16] h-[65vh] max-w-[360px] mx-auto rounded-xl overflow-hidden shadow-md">
+        <iframe
+          src={`https://www.instagram.com/p/${video.id}/embed`}
+          className="w-full h-full"
+          frameBorder="0"
+          scrolling="no"
+          allowTransparency="true"
+        />
+      </div>
+    ) : (
+      /* 📺 STANDARD YOUTUBE DISPLAY */
+      <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden">
+        <iframe
+          src={`https://www.youtube.com/embed/${video.id}`}
+          title={video.title}
+          className="w-full h-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    )}
+    <h3 className="font-body text-lg font-semibold text-gray-800 mt-4">
+      {video.title}
+    </h3>
+  </SwiperSlide>
+))}
             </Swiper>
           </div>
         </section>

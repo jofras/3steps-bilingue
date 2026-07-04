@@ -192,6 +192,29 @@ export default function LandingPage() {
           </Link>
         </div>
 
+        {/* guest coaches */}
+<div className="w-full max-w-4xl mx-auto text-center mt-12 px-4">
+    <h2 className="font-heading text-3xl md:text-4xl text-textdark">
+        {t('guestCoaches.title')}
+    </h2>
+
+    <p className="text-textmid text-base md:text-lg mt-3">
+        {t('guestCoaches.paragraph1')}
+    </p>
+
+    {/* Centered single column layout wrapper */}
+    <div className="mt-8 flex justify-center">
+        <CoachCard
+            imageSrc={patrikImg}
+            name="Patrik Almström"
+            bullets={[
+                t('guestCoaches.patrik.bullet1'),
+                t('guestCoaches.patrik.bullet2'),
+            ]}
+        />
+    </div>
+</div>
+
         {/* follow us */}
         <div className="w-full max-w-6xl mx-auto text-center mt-16 md:mt-20 px-4">
           <h2 className="font-heading text-3xl md:text-4xl text-gray-800">{t("follow.title")}</h2>
