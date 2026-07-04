@@ -8,6 +8,7 @@ import kevinImage from '../images/people/kevin_new.jpg';
 import lukasImage from '../images/people/lukas.jpg';
 import justinImage from '../images/people/justin.jpg';
 import TeamMemberCard from "../components/TeamMemberCard";
+import patrikImage from '../images/people/patrik.jpeg';
 
 export default function WhoWeAre() {
     const t = useTranslations('about.whoweare');

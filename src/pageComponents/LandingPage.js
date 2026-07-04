@@ -32,6 +32,11 @@ import postedUp from "../images/2024/IMG_9297.jpeg"
 import floorball1 from "../images/random_floorball_pics/floorball1.jpg"
 import floorball2 from "../images/random_floorball_pics/floorball2.jpg"
 
+// Guest Coaches Section
+import CoachCard from "../components/CoachCard";
+import patrikImg from "../images/people/patrik.jpeg"
+
+// Partners Section
 import slapshootLogo from "../images/partners/slapshoot.png"
 
 const heroImages = [kidsSmiling, shot, highFive, attentive, boardBattle, everybodySmiling];

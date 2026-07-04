@@ -9,6 +9,7 @@ import sboevImg from "../images/people/sboev.jpg";
 import orlovImg from "../images/people/orlov.jpg";
 import CoachCard from '../components/CoachCard';
 import { EventSection } from '../components/EventSection';
+import patrikImg from "../images/people/patrik.jpeg";
 
 export default function Programs() {
     const t = useTranslations('programs');
