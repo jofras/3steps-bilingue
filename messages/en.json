@@ -1,6 +1,7 @@
 {
-    "navigation": {
-        "home": "Home",
+    }
+    },
+    "contact": {
         "about": "About Us",
         "purpose": "Our Purpose",
         "whoweare": "Who We Are",
@@ -259,3 +260,5 @@
         }
     }
 }
+
+
