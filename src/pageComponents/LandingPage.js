@@ -34,7 +34,7 @@ import floorball2 from "../images/random_floorball_pics/floorball2.jpg"
 
 import slapshootLogo from "../images/partners/slapshoot.png"
 
-const heroImages = [shot, highFive, attentive, tireflip, floorball2];
+const heroImages = [kidsSmiling, shot, highFive, attentive, boardBattle, everybodySmiling];
 
 const sports = [
   { name: "Hockey", path: "/sports/hockey", img: speed },
