@@ -106,17 +106,8 @@ export default function Programs() {
                 t('guestCoaches.patrik.bullet2'),
             ]}
         />
-                    <CoachCard
-                    imageSrc={orlovImg}
-                    name="Sergei Orlov"
-                    bullets={[
-                        t('guestCoaches.orlov.bullet1'),
-                        t('guestCoaches.orlov.bullet2'),
-                        t('guestCoaches.orlov.bullet3'),
-                    ]}
-                    />
-                </div>
-            </div>
+    </div>
+</div>
 
             {/* events section */}
             <EventSection />
