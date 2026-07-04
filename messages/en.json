@@ -1,7 +1,6 @@
 {
-    }
-    },
-    "contact": {
+    "navigation": {
+        "home": "Home",
         "about": "About Us",
         "purpose": "Our Purpose",
         "whoweare": "Who We Are",
@@ -154,6 +153,7 @@
                 "bullet3": "Founder of Player Advancement, his player development and skills coaching brand.",
                 "bullet4": "Notable players coached by Patrik:\\n• Nils Höglander\\n• Leo Carlsson (Anaheim Ducks)\\n• Nils Åman (Vancouver Canucks)\\n• Ludwig Persson (Washington Capitals)\\n• Adam Edström (New York Rangers)"
             }
+        }
     },
     "contact": {
         "title": "Contact Us",
@@ -260,5 +260,4 @@
         }
     }
 }
-
 
