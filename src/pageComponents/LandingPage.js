@@ -198,7 +198,6 @@ export default function LandingPage() {
           </Link>
         </div>
 
-        // 2. Down in your guest coaches section, swap out the text markers to use 'tCoaches':
 {/* guest coaches */}
 <div className="w-full max-w-4xl mx-auto text-center mt-12 px-4">
     <h2 className="font-heading text-3xl md:text-4xl text-textdark">
